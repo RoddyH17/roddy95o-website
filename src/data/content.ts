@@ -51,6 +51,18 @@ export const activity = {
   // 最近活动流 — 按时间倒序，你可以随时添加新条目
   feed: [
     {
+      date: "2026-03-08",
+      title: "Full CI/CD pipeline deployed",
+      description: "GitHub Actions → Vercel auto-deploy. Obsidian + Claude memory heatmap sync. Notion MCP integration verified.",
+      tags: ["infra", "agent"],
+    },
+    {
+      date: "2026-03-08",
+      title: "Skill library expansion",
+      description: "Poker agent skills, advanced UI/UX patterns, CI/CD DevOps — all self-learned and saved to memory.",
+      tags: ["agent", "tooling"],
+    },
+    {
       date: "2026-03-07",
       title: "Personal site v2 shipped",
       description: "Next.js 15 + Framer Motion + Lenis. Particle effects, 3D card animations, Dalí-inspired ambient background.",
