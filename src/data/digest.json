@@ -1,13 +1,13 @@
 {
-  "generated": "2026-03-08T17:51:00.000Z",
+  "generated": "2026-03-08T17:52:37.000Z",
   "date": "2026-03-08",
   "skills": {
     "modified": 11,
-    "files": ["advanced-uiux.md","devops/cicd.md","finance.md","finance/AI.md","finance/IB.md","finance/VC.md","finance/consulting.md","frontend-ui.md","frontend/advanced-uiux.md","poker-agent.md","poker/poker-agent.md"]
+    "files": ["advanced-uiux.md","devops/cicd.md","finance.md","finance/AI.md","finance/consulting.md","finance/IB.md","finance/VC.md","frontend-ui.md","frontend/advanced-uiux.md","poker-agent.md","poker/poker-agent.md"]
   },
   "commits": {
-    "count": 8,
-    "recent": ["Daily digest sync: 2026-03-08","Daily digest sync: 2026-03-08","Daily digest sync: 2026-03-08","Daily digest sync: 2026-03-08","Update heatmap sync: multi-source aggregation","Add activity entries + heatmap sync for 2026-03-08","Add CI/CD: GitHub Actions deploy + local deploy script","Initial commit: roddy95o.com personal site"]
+    "count": 9,
+    "recent": ["Daily digest: 2026-03-08","Daily digest sync: 2026-03-08","Daily digest sync: 2026-03-08","Daily digest sync: 2026-03-08","Daily digest sync: 2026-03-08","Update heatmap sync: multi-source aggregation","Add activity entries + heatmap sync for 2026-03-08","Add CI/CD: GitHub Actions deploy + local deploy script","Initial commit: roddy95o.com personal site"]
   },
   "heatmap": {
     "activeDays": 7,
@@ -15,5 +15,5 @@
     "claudeFiles": 14,
     "gitDays": 1
   },
-  "highlights": ["Updated 11 skill files across the knowledge base","Made 8 commits — active development day","Finance skill library updated","Poker agent knowledge expanded","Frontend/UI skills refined","DevOps pipeline knowledge updated"]
+  "highlights": ["Updated 11 skill files across the knowledge base","Made 9 commits — active development day","Finance skill library updated","Poker agent knowledge expanded","Frontend/UI skills refined","DevOps pipeline knowledge updated"]
 }
