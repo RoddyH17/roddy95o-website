@@ -1,0 +1,479 @@
+{
+  "generated": "2026-03-08T08:47:21.226Z",
+  "weeksBack": 12,
+  "weeks": [
+    [
+      {
+        "date": "2025-12-15",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2025-12-16",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2025-12-17",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2025-12-18",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2025-12-19",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2025-12-20",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2025-12-21",
+        "level": 0,
+        "sources": []
+      }
+    ],
+    [
+      {
+        "date": "2025-12-22",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2025-12-23",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2025-12-24",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2025-12-25",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2025-12-26",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2025-12-27",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2025-12-28",
+        "level": 0,
+        "sources": []
+      }
+    ],
+    [
+      {
+        "date": "2025-12-29",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2025-12-30",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2025-12-31",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-01",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-02",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-03",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-04",
+        "level": 0,
+        "sources": []
+      }
+    ],
+    [
+      {
+        "date": "2026-01-05",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-06",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-07",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-08",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-09",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-10",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-11",
+        "level": 0,
+        "sources": []
+      }
+    ],
+    [
+      {
+        "date": "2026-01-12",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-13",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-14",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-15",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-16",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-17",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-18",
+        "level": 0,
+        "sources": []
+      }
+    ],
+    [
+      {
+        "date": "2026-01-19",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-20",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-21",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-22",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-23",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-24",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-25",
+        "level": 0,
+        "sources": []
+      }
+    ],
+    [
+      {
+        "date": "2026-01-26",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-27",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-28",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-29",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-30",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-01-31",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-02-01",
+        "level": 0,
+        "sources": []
+      }
+    ],
+    [
+      {
+        "date": "2026-02-02",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-02-03",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-02-04",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-02-05",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-02-06",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-02-07",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-02-08",
+        "level": 0,
+        "sources": []
+      }
+    ],
+    [
+      {
+        "date": "2026-02-09",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-02-10",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-02-11",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-02-12",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-02-13",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-02-14",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-02-15",
+        "level": 0,
+        "sources": []
+      }
+    ],
+    [
+      {
+        "date": "2026-02-16",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-02-17",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-02-18",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-02-19",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-02-20",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-02-21",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-02-22",
+        "level": 0,
+        "sources": []
+      }
+    ],
+    [
+      {
+        "date": "2026-02-23",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-02-24",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-02-25",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-02-26",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-02-27",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-02-28",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-03-01",
+        "level": 3,
+        "sources": [
+          "activity-feed"
+        ]
+      }
+    ],
+    [
+      {
+        "date": "2026-03-02",
+        "level": 0,
+        "sources": []
+      },
+      {
+        "date": "2026-03-03",
+        "level": 3,
+        "sources": [
+          "activity-feed"
+        ]
+      },
+      {
+        "date": "2026-03-04",
+        "level": 3,
+        "sources": [
+          "activity-feed"
+        ]
+      },
+      {
+        "date": "2026-03-05",
+        "level": 3,
+        "sources": [
+          "activity-feed"
+        ]
+      },
+      {
+        "date": "2026-03-06",
+        "level": 3,
+        "sources": [
+          "activity-feed"
+        ]
+      },
+      {
+        "date": "2026-03-07",
+        "level": 3,
+        "sources": [
+          "claude-memory",
+          "activity-feed"
+        ],
+        "details": {
+          "skills": 2
+        }
+      },
+      {
+        "date": "2026-03-08",
+        "level": 2,
+        "sources": [
+          "claude-memory"
+        ],
+        "details": {
+          "skills": 11
+        }
+      }
+    ]
+  ],
+  "summary": {
+    "totalDays": 84,
+    "activeDays": 7,
+    "vaultsScanned": 4,
+    "obsidianFiles": 0,
+    "claudeFiles": 13,
+    "gitDays": 0
+  }
+}

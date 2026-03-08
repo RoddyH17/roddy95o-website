@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --color-background: #000000;
+  --color-foreground: #fafafa;
+  --color-muted: #a1a1aa;
+  --color-border: #27272a;
+  --color-card: #0a0a0a;
+  --color-accent: #dc2626;
+  --color-accent-purple: #7c3aed;
+  --color-accent-green: #22c55e;
+  --color-accent-blue: #3b82f6;
+}
+
+/* Lenis handles smooth scrolling */
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: rgba(220, 38, 38, 0.3);
+  color: white;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #000;
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Ripple animation */
+@keyframes ripple {
+  0% {
+    transform: scale(1);
+    opacity: 0.12;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.04;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.12;
+  }
+}
+
+.animate-ripple {
+  animation: ripple 5s ease-in-out infinite;
+}
+
+/* Card sheen effect */
+@keyframes card-sheen {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
