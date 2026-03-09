@@ -1,13 +1,8 @@
 {
-  "generated": "2026-03-08T17:52:37.916Z",
+  "generated": "2026-03-09T02:32:19.510Z",
   "weeksBack": 12,
   "weeks": [
     [
-      {
-        "date": "2025-12-15",
-        "level": 0,
-        "sources": []
-      },
       {
         "date": "2025-12-16",
         "level": 0,
@@ -37,14 +32,14 @@
         "date": "2025-12-21",
         "level": 0,
         "sources": []
-      }
-    ],
-    [
+      },
       {
         "date": "2025-12-22",
         "level": 0,
         "sources": []
-      },
+      }
+    ],
+    [
       {
         "date": "2025-12-23",
         "level": 0,
@@ -74,14 +69,14 @@
         "date": "2025-12-28",
         "level": 0,
         "sources": []
-      }
-    ],
-    [
+      },
       {
         "date": "2025-12-29",
         "level": 0,
         "sources": []
-      },
+      }
+    ],
+    [
       {
         "date": "2025-12-30",
         "level": 0,
@@ -111,14 +106,14 @@
         "date": "2026-01-04",
         "level": 0,
         "sources": []
-      }
-    ],
-    [
+      },
       {
         "date": "2026-01-05",
         "level": 0,
         "sources": []
-      },
+      }
+    ],
+    [
       {
         "date": "2026-01-06",
         "level": 0,
@@ -148,14 +143,14 @@
         "date": "2026-01-11",
         "level": 0,
         "sources": []
-      }
-    ],
-    [
+      },
       {
         "date": "2026-01-12",
         "level": 0,
         "sources": []
-      },
+      }
+    ],
+    [
       {
         "date": "2026-01-13",
         "level": 0,
@@ -185,14 +180,14 @@
         "date": "2026-01-18",
         "level": 0,
         "sources": []
-      }
-    ],
-    [
+      },
       {
         "date": "2026-01-19",
         "level": 0,
         "sources": []
-      },
+      }
+    ],
+    [
       {
         "date": "2026-01-20",
         "level": 0,
@@ -222,14 +217,14 @@
         "date": "2026-01-25",
         "level": 0,
         "sources": []
-      }
-    ],
-    [
+      },
       {
         "date": "2026-01-26",
         "level": 0,
         "sources": []
-      },
+      }
+    ],
+    [
       {
         "date": "2026-01-27",
         "level": 0,
@@ -259,14 +254,14 @@
         "date": "2026-02-01",
         "level": 0,
         "sources": []
-      }
-    ],
-    [
+      },
       {
         "date": "2026-02-02",
         "level": 0,
         "sources": []
-      },
+      }
+    ],
+    [
       {
         "date": "2026-02-03",
         "level": 0,
@@ -296,14 +291,14 @@
         "date": "2026-02-08",
         "level": 0,
         "sources": []
-      }
-    ],
-    [
+      },
       {
         "date": "2026-02-09",
         "level": 0,
         "sources": []
-      },
+      }
+    ],
+    [
       {
         "date": "2026-02-10",
         "level": 0,
@@ -333,14 +328,14 @@
         "date": "2026-02-15",
         "level": 0,
         "sources": []
-      }
-    ],
-    [
+      },
       {
         "date": "2026-02-16",
         "level": 0,
         "sources": []
-      },
+      }
+    ],
+    [
       {
         "date": "2026-02-17",
         "level": 0,
@@ -370,14 +365,14 @@
         "date": "2026-02-22",
         "level": 0,
         "sources": []
-      }
-    ],
-    [
+      },
       {
         "date": "2026-02-23",
         "level": 0,
         "sources": []
-      },
+      }
+    ],
+    [
       {
         "date": "2026-02-24",
         "level": 0,
@@ -409,14 +404,14 @@
         "sources": [
           "activity-feed"
         ]
-      }
-    ],
-    [
+      },
       {
         "date": "2026-03-02",
         "level": 0,
         "sources": []
-      },
+      }
+    ],
+    [
       {
         "date": "2026-03-03",
         "level": 3,
@@ -465,18 +460,28 @@
           "activity-feed"
         ],
         "details": {
-          "skills": 12,
-          "commits": 9
+          "skills": 13,
+          "commits": 10
+        }
+      },
+      {
+        "date": "2026-03-09",
+        "level": 2,
+        "sources": [
+          "claude-memory"
+        ],
+        "details": {
+          "skills": 4
         }
       }
     ]
   ],
   "summary": {
     "totalDays": 84,
-    "activeDays": 7,
+    "activeDays": 8,
     "vaultsScanned": 4,
     "obsidianFiles": 0,
-    "claudeFiles": 14,
+    "claudeFiles": 19,
     "gitDays": 1
   }
 }

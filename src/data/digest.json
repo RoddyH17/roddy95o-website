@@ -1,19 +1,19 @@
 {
-  "generated": "2026-03-08T17:52:37.000Z",
+  "generated": "2026-03-09T02:32:19.000Z",
   "date": "2026-03-08",
   "skills": {
-    "modified": 11,
-    "files": ["advanced-uiux.md","devops/cicd.md","finance.md","finance/AI.md","finance/consulting.md","finance/IB.md","finance/VC.md","frontend-ui.md","frontend/advanced-uiux.md","poker-agent.md","poker/poker-agent.md"]
+    "modified": 9,
+    "files": ["academic/math/matrix-analysis.md","academic/orie/stochastic-processes.md","advanced-uiux.md","devops/cicd.md","engineering/agent-infra-roadmap.md","frontend/advanced-uiux.md","macro/china-policy.md","poker-agent.md","poker/poker-agent.md"]
   },
   "commits": {
-    "count": 9,
-    "recent": ["Daily digest: 2026-03-08","Daily digest sync: 2026-03-08","Daily digest sync: 2026-03-08","Daily digest sync: 2026-03-08","Daily digest sync: 2026-03-08","Update heatmap sync: multi-source aggregation","Add activity entries + heatmap sync for 2026-03-08","Add CI/CD: GitHub Actions deploy + local deploy script","Initial commit: roddy95o.com personal site"]
+    "count": 10,
+    "recent": ["Daily digest: 2026-03-08","Daily digest: 2026-03-08","Daily digest sync: 2026-03-08","Daily digest sync: 2026-03-08","Daily digest sync: 2026-03-08","Daily digest sync: 2026-03-08","Update heatmap sync: multi-source aggregation","Add activity entries + heatmap sync for 2026-03-08","Add CI/CD: GitHub Actions deploy + local deploy script","Initial commit: roddy95o.com personal site"]
   },
   "heatmap": {
-    "activeDays": 7,
+    "activeDays": 8,
     "obsidianFiles": 0,
-    "claudeFiles": 14,
+    "claudeFiles": 19,
     "gitDays": 1
   },
-  "highlights": ["Updated 11 skill files across the knowledge base","Made 9 commits — active development day","Finance skill library updated","Poker agent knowledge expanded","Frontend/UI skills refined","DevOps pipeline knowledge updated"]
+  "highlights": ["Updated 9 skill files across the knowledge base","Made 10 commits — active development day","Poker agent knowledge expanded","Frontend/UI skills refined","DevOps pipeline knowledge updated"]
 }
