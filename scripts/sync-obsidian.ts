@@ -20,6 +20,17 @@ import { readdirSync, readFileSync, statSync, writeFileSync, existsSync } from "
 import { join, basename } from "path";
 import { execSync } from "child_process";
 
+// --- Helpers ---
+/** Format a Date to YYYY-MM-DD in local timezone (avoids UTC off-by-one) */
+function toLocalDateStr(d: Date): string {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
+const DEBUG = process.argv.includes("--debug");
+function debugLog(msg: string) {
+  if (DEBUG) console.error(`[debug] ${msg}`);
+}
+
 // --- Config ---
 const HOME = process.env.HOME || "/Users/roddy";
 const OBSIDIAN_ROOT = join(HOME, "Desktop/Obsidian");
@@ -27,7 +38,16 @@ const CLAUDE_MEMORY = join(HOME, ".claude/projects/-Users-roddy/memory");
 const WEBSITE_ROOT = join(__dirname, "..");
 const OUTPUT_PATH = join(WEBSITE_ROOT, "src/data/heatmap-data.json");
 
-const WEEKS_BACK = parseInt(process.argv.find(a => a.startsWith("--weeks="))?.split("=")[1] || "12");
+// Support both --weeks=52 and --weeks 52
+function parseWeeksArg(): number {
+  const args = process.argv.slice(2);
+  for (let i = 0; i < args.length; i++) {
+    if (args[i].startsWith("--weeks=")) return parseInt(args[i].split("=")[1]) || 12;
+    if (args[i] === "--weeks" && args[i + 1]) return parseInt(args[i + 1]) || 12;
+  }
+  return 12;
+}
+const WEEKS_BACK = parseWeeksArg();
 
 // All vault folders to scan
 const VAULT_FOLDERS = [
@@ -107,7 +127,7 @@ function findMdFiles(dir: string): string[] {
         results.push(fullPath);
       }
     }
-  } catch { /* skip */ }
+  } catch (err) { debugLog(`findMdFiles error in ${dir}: ${err}`); }
   return results;
 }
 
@@ -125,7 +145,7 @@ function getGitCommitsByDate(repoPath: string): Map<string, number> {
         commits.set(date, (commits.get(date) || 0) + 1);
       }
     }
-  } catch { /* not a git repo or no git */ }
+  } catch (err) { debugLog(`git log error: ${err}`); }
   return commits;
 }
 
@@ -163,7 +183,7 @@ function main() {
       if (!dateStr) {
         try {
           const stat = statSync(filepath);
-          dateStr = stat.mtime.toISOString().split("T")[0];
+          dateStr = toLocalDateStr(stat.mtime);
         } catch { continue; }
       }
 
@@ -190,7 +210,7 @@ function main() {
     for (const filepath of memFiles) {
       try {
         const stat = statSync(filepath);
-        const dateStr = stat.mtime.toISOString().split("T")[0];
+        const dateStr = toLocalDateStr(stat.mtime);
         if (new Date(dateStr) >= cutoff) {
           claudeFiles++;
           addActivity(dateStr, 2, "claude-memory", { skills: 1 });
@@ -230,7 +250,7 @@ function main() {
     for (let d = 0; d < 7; d++) {
       const date = new Date(today);
       date.setDate(date.getDate() - w * 7 - (6 - d));
-      const dateStr = date.toISOString().split("T")[0];
+      const dateStr = toLocalDateStr(date);
       const entry = activityMap.get(dateStr);
       week.push({
         date: dateStr,

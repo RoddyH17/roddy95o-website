@@ -29,3 +29,7 @@ yarn-error.log*
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
+
+# Generated data (rebuilt by scripts)
+src/data/digest.json
+src/data/heatmap-data.json

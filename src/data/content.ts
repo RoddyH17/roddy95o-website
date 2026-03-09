@@ -3,8 +3,17 @@
 // 改完保存即可，组件会自动引用
 // ============================================
 
+import type {
+  HeroContent,
+  PokerSectionContent,
+  ActivityContent,
+  WeeklyProgressContent,
+  ContactContent,
+  FooterContent,
+} from "@/types/content";
+
 // ---- Hero 区 ----
-export const hero = {
+export const hero: HeroContent = {
   name: "Roddy Huang",
   tagline: "Finding alpha where others see noise.",
   tags: ["Math & ORIE", "AI Agent", "Macro Quant", "Poker", "Continental"],
@@ -15,37 +24,30 @@ export const hero = {
       title: "Poker PnL",
       // 模拟数据 — 以后接真实 API
       description: "Live session tracking",
-      type: "pnl" as const,
+      type: "pnl",
     },
     {
       title: "Hand Analysis",
       description: "Real-time range & equity",
-      type: "hand" as const,
+      type: "hand",
     },
     {
       title: "Macro & Geopolitical",
       description: "Event-driven positioning",
-      type: "macro" as const,
+      type: "macro",
     },
   ],
 };
 
 // ---- Poker 区（项目展示占位）----
-export const pokerSection = {
+export const pokerSection: PokerSectionContent = {
   heading: "Poker Lab",
   subtitle: "Projects shipping soon.",
-  // 以后在这里添加项目卡片
-  projects: [] as Array<{
-    title: string;
-    description: string;
-    tags: string[];
-    status: "live" | "building" | "planned";
-    link?: string;
-  }>,
+  projects: [],
 };
 
 // ---- Activity 区（替代传统 Experience）----
-export const activity = {
+export const activity: ActivityContent = {
   heading: "Activity",
   subtitle: "What I've been building.",
   // 最近活动流 — 按时间倒序，你可以随时添加新条目
@@ -114,7 +116,7 @@ export const activity = {
 };
 
 // ---- Weekly Progress 区 ----
-export const weeklyProgress = {
+export const weeklyProgress: WeeklyProgressContent = {
   heading: "This Week",
   subtitle: "Current sprint & project progress.",
   // 当前正在进行的任务
@@ -137,28 +139,28 @@ export const weeklyProgress = {
     {
       title: "Crypto Bot",
       progress: 65,
-      status: "building" as const,
+      status: "building",
       tags: ["crypto", "trading"],
       preview: "OKX perpetual futures auto-execution. Kafka-based signal pipeline with self-aggregated candles.",
     },
     {
       title: "ML-HFT Pipeline",
       progress: 40,
-      status: "building" as const,
+      status: "building",
       tags: ["ml", "hft"],
       preview: "Orderbook microstructure feature engineering → XGBoost signal → low-latency execution.",
     },
     {
       title: "Macro Strategy Engine",
       progress: 25,
-      status: "planned" as const,
+      status: "planned",
       tags: ["macro", "quant"],
       preview: "VAR-enhanced CAPE ratio regime detection. Cross-asset allocation signals.",
     },
     {
       title: "Poker Analytics",
       progress: 10,
-      status: "planned" as const,
+      status: "planned",
       tags: ["poker", "ml"],
       preview: "GTO solver integration, hand history analysis, session PnL tracking.",
     },
@@ -166,7 +168,7 @@ export const weeklyProgress = {
 };
 
 // ---- Contact 区 ----
-export const contact = {
+export const contact: ContactContent = {
   heading: "Let's Connect",
   subtitle: "Interested in quant research, philosophy, or poker? I'm always open to a good conversation.",
   links: [
@@ -177,6 +179,6 @@ export const contact = {
 };
 
 // ---- Footer ----
-export const footer = {
+export const footer: FooterContent = {
   tech: "Built with Next.js · Tailwind CSS · Motion",
 };

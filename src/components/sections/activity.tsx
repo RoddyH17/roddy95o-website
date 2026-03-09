@@ -45,7 +45,6 @@ function Heatmap() {
     }
 
     const data: number[][] = [];
-    const feedDates = new Set(activity.feed.map((f) => f.date));
     const today = new Date("2026-03-07");
 
     for (let w = 11; w >= 0; w--) {

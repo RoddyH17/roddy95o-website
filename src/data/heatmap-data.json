@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-09T02:32:19.510Z",
+  "generated": "2026-03-09T16:00:05.300Z",
   "weeksBack": 12,
   "weeks": [
     [
@@ -437,8 +437,12 @@
         "date": "2026-03-06",
         "level": 3,
         "sources": [
+          "claude-memory",
           "activity-feed"
-        ]
+        ],
+        "details": {
+          "skills": 1
+        }
       },
       {
         "date": "2026-03-07",
@@ -448,7 +452,7 @@
           "activity-feed"
         ],
         "details": {
-          "skills": 2
+          "skills": 9
         }
       },
       {
@@ -460,8 +464,8 @@
           "activity-feed"
         ],
         "details": {
-          "skills": 13,
-          "commits": 10
+          "skills": 4,
+          "commits": 11
         }
       },
       {
@@ -471,7 +475,7 @@
           "claude-memory"
         ],
         "details": {
-          "skills": 4
+          "skills": 9
         }
       }
     ]
@@ -481,7 +485,7 @@
     "activeDays": 8,
     "vaultsScanned": 4,
     "obsidianFiles": 0,
-    "claudeFiles": 19,
+    "claudeFiles": 23,
     "gitDays": 1
   }
 }
