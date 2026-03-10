@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-10T04:04:33.005Z",
+  "generated": "2026-03-10T16:00:04.363Z",
   "weeksBack": 12,
   "weeks": [
     [
@@ -475,23 +475,30 @@
           "tasks": 181,
           "completed": 0,
           "words": 8316,
-          "skills": 14,
+          "skills": 9,
           "commits": 3
         }
       },
       {
         "date": "2026-03-10",
-        "level": 0,
-        "sources": []
+        "level": 2,
+        "sources": [
+          "claude-memory",
+          "git"
+        ],
+        "details": {
+          "skills": 9,
+          "commits": 1
+        }
       }
     ]
   ],
   "summary": {
     "totalDays": 84,
-    "activeDays": 8,
+    "activeDays": 9,
     "vaultsScanned": 4,
     "obsidianFiles": 25,
-    "claudeFiles": 28,
-    "gitDays": 2
+    "claudeFiles": 32,
+    "gitDays": 3
   }
 }

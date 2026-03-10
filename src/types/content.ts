@@ -91,3 +91,12 @@ export interface ContactContent {
 export interface FooterContent {
   tech: string;
 }
+
+export interface DigestData {
+  generated: string;
+  date: string;
+  skills: { modified: number; files: string[] };
+  commits: { count: number; recent: string[] };
+  heatmap: { activeDays: number; obsidianFiles: number; claudeFiles: number; gitDays: number };
+  highlights: string[];
+}

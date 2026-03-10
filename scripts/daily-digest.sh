@@ -28,6 +28,13 @@ done
 echo "" >> "$LOG"
 echo "=== [$DATE $TIME] Daily Digest Starting ===" >> "$LOG"
 
+# --- Branch guard ---
+BRANCH=$(git branch --show-current 2>/dev/null || echo "unknown")
+if [[ "$BRANCH" != "main" ]]; then
+  echo "  SKIP: On branch '$BRANCH', not 'main'. Aborting auto-digest." >> "$LOG"
+  exit 0
+fi
+
 # --- Error handler ---
 trap 'echo "=== [$DATE $TIME] FAILED at line $LINENO ===" >> "$LOG"' ERR
 

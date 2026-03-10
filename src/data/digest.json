@@ -1,37 +1,37 @@
 {
-  "generated": "2026-03-10T04:04:30.357Z",
+  "generated": "2026-03-10T16:00:02.185Z",
   "date": "2026-03-10",
   "skills": {
-    "modified": 10,
+    "modified": 9,
     "files": [
-      "AI-researcher-engineer.md",
+      "math-lecture-writing.md",
+      "math-task-workflow.md",
       "math4500-blueprint.md",
-      "ai-job-search.md",
       "ai-startup-openings-2026-03.md",
+      "ai-startup-research-batch2-2026-03.md",
       "interview-prep.md",
-      "cicd.md",
       "engineering-workflow.md",
       "wechat-miniprogram.md",
-      "advanced-uiux.md",
       "latex-academic.md"
     ]
   },
   "commits": {
-    "count": 3,
+    "count": 4,
     "recent": [
+      "Daily digest update",
       "Remove GitHub Actions deploy workflow, rely on Vercel Git Integration",
       "Daily digest update",
       "Daily digest update"
     ]
   },
   "heatmap": {
-    "activeDays": 8,
+    "activeDays": 9,
     "obsidianFiles": 25,
-    "claudeFiles": 28,
-    "gitDays": 2
+    "claudeFiles": 32,
+    "gitDays": 3
   },
   "highlights": [
-    "Updated 10 skill files across the knowledge base",
-    "3 commit(s) pushed to GitHub"
+    "Updated 9 skill files across the knowledge base",
+    "Made 4 commits — active development day"
   ]
 }
