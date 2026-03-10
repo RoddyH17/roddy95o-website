@@ -76,8 +76,7 @@ Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>"
   if [[ "$NO_PUSH" == "false" && "$DRY_RUN" == "false" ]]; then
     echo "→ Pushing to GitHub..."
     git push origin "$BRANCH"
-    echo "→ Deploying to Vercel..."
-    npx vercel --prod --yes
+    echo "→ Vercel will auto-deploy via Git Integration"
   else
     echo "[skipped] Push and deploy"
   fi
