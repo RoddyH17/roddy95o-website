@@ -16,8 +16,8 @@ import type {
 export const hero: HeroContent = {
   name: "Roddy Huang",
   tagline: "Finding alpha where others see noise.",
-  tags: ["Math & ORIE", "AI Agent", "Macro Quant", "Poker", "Continental"],
-  currently: "Building Agentic Trading Infra · Macro Strategy Pipeline",
+  tags: ["Math & ORIE", "AI Agent", "Macro Quant", "Poker", "Product", "Continental"],
+  currently: "PM Sprint 1: Frameworks & PRD · Agentic Trading Infra · Macro Strategy Pipeline",
   // Demo 面板（Hero 区内嵌的实时演示窗口）
   demos: [
     {
@@ -51,6 +51,18 @@ export const activity: ActivityContent = {
   subtitle: "What I've been building.",
   // 最近活动流 — 按时间倒序，你可以随时添加新条目
   feed: [
+    {
+      date: "2026-03-10",
+      title: "PM Skills Blueprint launched",
+      description: "AI Agent × Quant × Crypto PM skill framework. Industry research across 3 domains, 4-sprint learning plan, Obsidian tracking system.",
+      tags: ["career", "research"],
+    },
+    {
+      date: "2026-03-10",
+      title: "Industry cross-sector research",
+      description: "Deep dive: AI Agent ($5.25B→$53B CAGR 46%), DeFi ($130B+ TVL), Crypto Quant (55% hedge funds in crypto). MCP+A2A protocol convergence.",
+      tags: ["research", "macro"],
+    },
     {
       date: "2026-03-10",
       title: "Math 4500 vision OCR pipeline",
@@ -132,17 +144,17 @@ export const weeklyProgress: WeeklyProgressContent = {
   subtitle: "Current sprint & project progress.",
   // 当前正在进行的任务
   currentTask: {
-    title: "Math 4500 Vision OCR Pipeline",
-    type: "ml",
-    startedAt: "2026-03-08",
-    estimatedDays: 5,
-    completedPercent: 70,
+    title: "PM Sprint 1: Frameworks & PRD Writing",
+    type: "research",
+    startedAt: "2026-03-10",
+    estimatedDays: 14,
+    completedPercent: 5,
     subtasks: [
-      { label: "OpenCV preprocessing pipeline", done: true },
-      { label: "Multi-backend OCR (pix2text/TrOCR)", done: true },
-      { label: "Vision LLM integration (GPT-4o/Claude)", done: true },
-      { label: "LaTeX post-processing & validation", done: false },
-      { label: "Batch processing for full lecture sets", done: false },
+      { label: "Read Inspired (Marty Cagan) core chapters", done: false },
+      { label: "Read The Mom Test + interview design", done: false },
+      { label: "RICE/JTBD/NSM frameworks practiced", done: false },
+      { label: "Write PRD for okx_bot", done: false },
+      { label: "Write PRFAQ for AI DeFi Trading Agent", done: false },
     ],
   },
   // 本周项目进度概览
@@ -162,11 +174,18 @@ export const weeklyProgress: WeeklyProgressContent = {
       preview: "Portfolio dashboard, daily auto-deploy via Vercel CLI, Obsidian heatmap sync, Claude digest.",
     },
     {
+      title: "PM Skill Building",
+      progress: 5,
+      status: "building",
+      tags: ["career", "product"],
+      preview: "8-week sprint: PM frameworks → AI Agent PM → Crypto PM → Portfolio projects. Targeting AI×Quant×Crypto PM roles.",
+    },
+    {
       title: "Job Search System",
-      progress: 60,
+      progress: 65,
       status: "building",
       tags: ["career", "agent"],
-      preview: "Obsidian-based pipeline. 27 company profiles, daily briefs, weekly reviews. Dataview dashboard.",
+      preview: "Obsidian pipeline. 27 companies, 19 applications tracked, daily briefs. Now expanded to PM roles.",
     },
     {
       title: "Crypto Bot",
