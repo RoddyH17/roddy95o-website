@@ -42,11 +42,7 @@ trap 'echo "=== [$DATE $TIME] FAILED at line $LINENO ===" >> "$LOG"' ERR
 echo "  Generating digest..." >> "$LOG"
 npx tsx scripts/generate-digest.ts >> "$LOG" 2>&1
 
-# 2. Build
-echo "  Building..." >> "$LOG"
-npm run build >> "$LOG" 2>&1
-
-# 3. Commit + push if changes exist
+# 2. Commit + push if changes exist
 PUSHED="No"
 if [[ -n $(git status --porcelain) ]]; then
   git add -A
@@ -58,9 +54,18 @@ EOF
 )" >> "$LOG" 2>&1
   git push origin main >> "$LOG" 2>&1
   PUSHED="Yes"
-  echo "  Pushed to GitHub — auto-deploy triggered" >> "$LOG"
+  echo "  Pushed to GitHub" >> "$LOG"
 else
   echo "  No changes to push" >> "$LOG"
+fi
+
+# 3. Deploy to Vercel directly (bypass webhook dependency)
+echo "  Deploying to Vercel..." >> "$LOG"
+if command -v vercel &>/dev/null; then
+  vercel --prod --yes >> "$LOG" 2>&1
+  echo "  Vercel deploy complete" >> "$LOG"
+else
+  echo "  WARN: vercel CLI not found, skipping deploy" >> "$LOG"
 fi
 
 # 4. macOS notification
