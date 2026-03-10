@@ -21,20 +21,19 @@ export const hero: HeroContent = {
   // Demo 面板（Hero 区内嵌的实时演示窗口）
   demos: [
     {
-      title: "Poker PnL",
-      // 模拟数据 — 以后接真实 API
-      description: "Live session tracking",
-      type: "pnl",
+      title: "Portfolio Allocation",
+      description: "Live weights",
+      type: "portfolio",
     },
     {
-      title: "Hand Analysis",
-      description: "Real-time range & equity",
-      type: "hand",
+      title: "Strategy Performance",
+      description: "MTD returns",
+      type: "performance",
     },
     {
-      title: "Macro & Geopolitical",
-      description: "Event-driven positioning",
-      type: "macro",
+      title: "Risk Dashboard",
+      description: "Real-time metrics",
+      type: "risk",
     },
   ],
 };
@@ -133,48 +132,48 @@ export const weeklyProgress: WeeklyProgressContent = {
   subtitle: "Current sprint & project progress.",
   // 当前正在进行的任务
   currentTask: {
-    title: "Agentic Trading Infra",
-    type: "infra",
-    startedAt: "2026-03-03",
-    estimatedDays: 7,
-    completedPercent: 45,
+    title: "Math 4500 Vision OCR Pipeline",
+    type: "ml",
+    startedAt: "2026-03-08",
+    estimatedDays: 5,
+    completedPercent: 70,
     subtasks: [
-      { label: "OKX WebSocket connector", done: true },
-      { label: "Kafka message pipeline", done: true },
-      { label: "Signal generation engine", done: false },
-      { label: "Freqtrade execution bridge", done: false },
-      { label: "Backtesting harness", done: false },
+      { label: "OpenCV preprocessing pipeline", done: true },
+      { label: "Multi-backend OCR (pix2text/TrOCR)", done: true },
+      { label: "Vision LLM integration (GPT-4o/Claude)", done: true },
+      { label: "LaTeX post-processing & validation", done: false },
+      { label: "Batch processing for full lecture sets", done: false },
     ],
   },
   // 本周项目进度概览
   projects: [
     {
+      title: "Image Agent",
+      progress: 70,
+      status: "building",
+      tags: ["ml", "tooling"],
+      preview: "Handwritten math → LaTeX. Multi-backend OCR with OpenCV preprocessing + Vision LLM verification.",
+    },
+    {
+      title: "Personal Site v2",
+      progress: 90,
+      status: "building",
+      tags: ["web", "infra"],
+      preview: "Portfolio dashboard, daily auto-deploy via Vercel CLI, Obsidian heatmap sync, Claude digest.",
+    },
+    {
+      title: "Job Search System",
+      progress: 60,
+      status: "building",
+      tags: ["career", "agent"],
+      preview: "Obsidian-based pipeline. 27 company profiles, daily briefs, weekly reviews. Dataview dashboard.",
+    },
+    {
       title: "Crypto Bot",
       progress: 65,
       status: "building",
       tags: ["crypto", "trading"],
-      preview: "OKX perpetual futures auto-execution. Kafka-based signal pipeline with self-aggregated candles.",
-    },
-    {
-      title: "ML-HFT Pipeline",
-      progress: 40,
-      status: "building",
-      tags: ["ml", "hft"],
-      preview: "Orderbook microstructure feature engineering → XGBoost signal → low-latency execution.",
-    },
-    {
-      title: "Macro Strategy Engine",
-      progress: 25,
-      status: "planned",
-      tags: ["macro", "quant"],
-      preview: "VAR-enhanced CAPE ratio regime detection. Cross-asset allocation signals.",
-    },
-    {
-      title: "Poker Analytics",
-      progress: 10,
-      status: "planned",
-      tags: ["poker", "ml"],
-      preview: "GTO solver integration, hand history analysis, session PnL tracking.",
+      preview: "OKX perpetual futures. Kafka signal pipeline with self-aggregated candles. Freqtrade execution.",
     },
   ],
 };

@@ -1,6 +1,6 @@
 // Shared type definitions for content data
 
-export type DemoType = "pnl" | "hand" | "macro";
+export type DemoType = "portfolio" | "performance" | "risk";
 
 export interface Demo {
   title: string;
