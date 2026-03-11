@@ -1,25 +1,34 @@
 {
-  "generated": "2026-03-10T16:00:02.185Z",
-  "date": "2026-03-10",
+  "generated": "2026-03-11T04:06:04.817Z",
+  "date": "2026-03-11",
   "skills": {
-    "modified": 9,
+    "modified": 17,
     "files": [
       "math-lecture-writing.md",
       "math-task-workflow.md",
       "math4500-blueprint.md",
-      "ai-startup-openings-2026-03.md",
       "ai-startup-research-batch2-2026-03.md",
-      "interview-prep.md",
+      "pm-soul.md",
+      "ai-ml-engineering.md",
+      "data-engineering.md",
       "engineering-workflow.md",
-      "wechat-miniprogram.md",
-      "latex-academic.md"
+      "hft-systems.md",
+      "software-engineering.md",
+      "backtesting-frameworks.md",
+      "macro-quant.md",
+      "onchain-analytics.md",
+      "portfolio-optimization.md",
+      "prediction-markets.md",
+      "regime-volatility.md",
+      "timeseries-dl.md"
     ]
   },
   "commits": {
-    "count": 4,
+    "count": 5,
     "recent": [
-      "Daily digest update",
-      "Remove GitHub Actions deploy workflow, rely on Vercel Git Integration",
+      "Add PM skill sprint to weekly progress + activity feed",
+      "Redesign Hero to portfolio dashboard, update This Week progress",
+      "Fix daily auto-deploy: add vercel CLI deploy, update activity feed",
       "Daily digest update",
       "Daily digest update"
     ]
@@ -27,11 +36,12 @@
   "heatmap": {
     "activeDays": 9,
     "obsidianFiles": 25,
-    "claudeFiles": 32,
+    "claudeFiles": 44,
     "gitDays": 3
   },
   "highlights": [
-    "Updated 9 skill files across the knowledge base",
-    "Made 4 commits — active development day"
+    "Updated 17 skill files across the knowledge base",
+    "Made 5 commits — active development day",
+    "Macro policy analysis updated"
   ]
 }
