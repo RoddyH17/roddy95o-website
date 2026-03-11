@@ -22,8 +22,10 @@ export interface Project {
   title: string;
   description: string;
   tags: string[];
-  status: ProjectStatus;
+  status?: ProjectStatus;
   link?: string;
+  github?: string;
+  metrics?: Record<string, string>;
 }
 
 export interface PokerSectionContent {

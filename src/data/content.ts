@@ -40,9 +40,38 @@ export const hero: HeroContent = {
 
 // ---- Poker 区（项目展示占位）----
 export const pokerSection: PokerSectionContent = {
-  heading: "Poker Lab",
-  subtitle: "Projects shipping soon.",
-  projects: [],
+  heading: "Research",
+  subtitle: "Quant research & trading systems.",
+  projects: [
+    {
+      title: "Icarus Straddle Strategy",
+      description: "Long-short skew-based straddle strategy. IV skew signal + 21-day momentum + VIX overlay hedge + delta neutralization. Backtest: 82% win rate, Sharpe 1.89.",
+      tags: ["options", "vol", "HFT"],
+      github: "https://github.com/RoddyH17/options-research",
+      metrics: { "Win Rate": "82%", "Sharpe": "1.89" },
+    },
+    {
+      title: "VAR-Enhanced CAPE",
+      description: "Extended Shiller-CAPE with VAR on earning yields + capital index. Stabilizes long-run equity return forecasts against macro regime shifts. 40% RMSE reduction vs baseline.",
+      tags: ["macro", "VAR", "forecasting"],
+      github: "https://github.com/RoddyH17/cape-var",
+      metrics: { "RMSE ↓": "40%", "Horizon": "10yr" },
+    },
+    {
+      title: "Volatility Forecasting",
+      description: "EGARCH(2,3,2) vs LSTM/Transformer for BTC-USD 1-min intraday vol. EGARCH comparable to DL on short horizon; Transformer shows edge at ms-level orderbook data.",
+      tags: ["GARCH", "LSTM", "Transformer"],
+      github: "https://github.com/RoddyH17/vol-forecasting",
+      metrics: { "Models": "5", "Data": "BTC 1-min" },
+    },
+    {
+      title: "Statistical Arbitrage — OU Process",
+      description: "Intraday pairs trading with Engle-Granger cointegration + block-bootstrap p-value correction. OU process MLE for spread mean-reversion parameter estimation.",
+      tags: ["stat-arb", "OU", "cointegration"],
+      github: "https://github.com/RoddyH17/stat-arb-ou",
+      metrics: { "Bootstrap": "999 reps", "Pairs": "LOB data" },
+    },
+  ],
 };
 
 // ---- Activity 区（替代传统 Experience）----
@@ -51,6 +80,12 @@ export const activity: ActivityContent = {
   subtitle: "What I've been building.",
   // 最近活动流 — 按时间倒序，你可以随时添加新条目
   feed: [
+    {
+      date: "2026-03-11",
+      title: "4 research projects reforged & published",
+      description: "Stat Arb (OU + block-bootstrap), Vol Forecasting (EGARCH vs DL), Icarus Straddle Strategy, VAR-CAPE — all architected, git-initialized, pushed to GitHub.",
+      tags: ["research", "quant", "infra"],
+    },
     {
       date: "2026-03-10",
       title: "PM Skills Blueprint launched",
@@ -159,6 +194,13 @@ export const weeklyProgress: WeeklyProgressContent = {
   },
   // 本周项目进度概览
   projects: [
+    {
+      title: "Research Portfolio",
+      progress: 75,
+      status: "building",
+      tags: ["quant", "research"],
+      preview: "4 projects live on GitHub: Icarus straddle (82% WR, SR 1.89), VAR-CAPE (40% RMSE↓), EGARCH vs DL, OU stat-arb. Architecture complete; data integration ongoing.",
+    },
     {
       title: "Image Agent",
       progress: 70,
