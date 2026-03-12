@@ -1,43 +1,28 @@
 {
-  "generated": "2026-03-11T16:00:06.535Z",
-  "date": "2026-03-11",
+  "generated": "2026-03-12T06:11:49.126Z",
+  "date": "2026-03-12",
   "skills": {
-    "modified": 13,
+    "modified": 2,
     "files": [
-      "pm-soul.md",
-      "ai-ml-engineering.md",
-      "data-engineering.md",
-      "hft-systems.md",
-      "software-engineering.md",
-      "backtesting-frameworks.md",
-      "macro-quant.md",
-      "market-microstructure.md",
-      "onchain-analytics.md",
-      "portfolio-optimization.md",
-      "prediction-markets.md",
-      "regime-volatility.md",
-      "timeseries-dl.md"
+      "mcp-ai-architecture.md",
+      "market-microstructure.md"
     ]
   },
   "commits": {
-    "count": 5,
+    "count": 2,
     "recent": [
-      "Daily digest update",
-      "Add PM skill sprint to weekly progress + activity feed",
-      "Redesign Hero to portfolio dashboard, update This Week progress",
-      "Fix daily auto-deploy: add vercel CLI deploy, update activity feed",
+      "feat: Add research projects section — Icarus straddle, VAR-CAPE, vol forecasting, stat-arb",
       "Daily digest update"
     ]
   },
   "heatmap": {
-    "activeDays": 10,
-    "obsidianFiles": 25,
-    "claudeFiles": 45,
-    "gitDays": 4
+    "activeDays": 0,
+    "obsidianFiles": 0,
+    "claudeFiles": 0,
+    "gitDays": 0
   },
   "highlights": [
-    "Updated 13 skill files across the knowledge base",
-    "Made 5 commits — active development day",
-    "Macro policy analysis updated"
+    "Updated 2 skill files across the knowledge base",
+    "2 commit(s) pushed to GitHub"
   ]
 }
