@@ -71,6 +71,13 @@ export const pokerSection: PokerSectionContent = {
       github: "https://github.com/RoddyH17/stat-arb-ou",
       metrics: { "Bootstrap": "999 reps", "Pairs": "LOB data" },
     },
+    {
+      title: "ML-HFT: LOB Signal Pipeline",
+      description: "Vectorized + Numba JIT microstructure signals from SGX A50 futures LOB data. OBI / Depth Ratio / Rise Ratio → XGBoost walk-forward classification. 10–50× speedup over notebook baseline.",
+      tags: ["HFT", "Numba", "XGBoost"],
+      github: "https://github.com/RoddyH17/ml-hft",
+      metrics: { "Speedup": "50×", "Signals": "OBI+DR+RR+WAP" },
+    },
   ],
 };
 
@@ -80,6 +87,12 @@ export const activity: ActivityContent = {
   subtitle: "What I've been building.",
   // 最近活动流 — 按时间倒序，你可以随时添加新条目
   feed: [
+    {
+      date: "2026-03-12",
+      title: "ML-HFT restructured: Numba JIT + src/ module",
+      description: "Refactored 4 flat notebooks → src/orderbook.py + signals.py + models.py + pipeline.py. Numba @njit for OBI/DR/RR (~100-500× speedup). XGBoost walk-forward evaluation. Pushed to github.com/RoddyH17/ml-hft.",
+      tags: ["hft", "ml", "infra"],
+    },
     {
       date: "2026-03-11",
       title: "4 research projects reforged & published",
