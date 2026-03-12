@@ -73,10 +73,10 @@ export const pokerSection: PokerSectionContent = {
     },
     {
       title: "ML-HFT: LOB Signal Pipeline",
-      description: "Vectorized + Numba JIT microstructure signals from SGX A50 futures LOB data. OBI / Depth Ratio / Rise Ratio → XGBoost walk-forward classification. 10–50× speedup over notebook baseline.",
+      description: "Numba JIT microstructure signals from SGX A50 futures LOB data. OBI / Depth Ratio / Rise Ratio → XGBoost walk-forward. AUC 0.83 at 60s horizon, 100–500× speedup via @njit.",
       tags: ["HFT", "Numba", "XGBoost"],
       github: "https://github.com/RoddyH17/ml-hft",
-      metrics: { "Speedup": "50×", "Signals": "OBI+DR+RR+WAP" },
+      metrics: { "AUC": "0.83", "Speedup": "500×" },
     },
   ],
 };
