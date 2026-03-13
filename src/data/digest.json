@@ -1,19 +1,17 @@
 {
-  "generated": "2026-03-13T16:03:54.997Z",
+  "generated": "2026-03-13T19:08:45.173Z",
   "date": "2026-03-13",
   "skills": {
-    "modified": 3,
+    "modified": 2,
     "files": [
       "advanced-stats-sports.md",
-      "ai-startup-openings-2026-03.md",
-      "ghostty-terminal.md"
+      "ai-startup-openings-2026-03.md"
     ]
   },
   "commits": {
-    "count": 3,
+    "count": 2,
     "recent": [
       "Daily digest update",
-      "Update ML-HFT metrics: AUC 0.83, 500x speedup",
       "Daily digest update"
     ]
   },
@@ -24,7 +22,7 @@
     "gitDays": 6
   },
   "highlights": [
-    "Updated 3 skill files across the knowledge base",
-    "3 commit(s) pushed to GitHub"
+    "Updated 2 skill files across the knowledge base",
+    "2 commit(s) pushed to GitHub"
   ]
 }
