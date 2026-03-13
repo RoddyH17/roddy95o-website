@@ -1,28 +1,31 @@
 {
-  "generated": "2026-03-12T16:04:54.487Z",
-  "date": "2026-03-12",
+  "generated": "2026-03-13T04:00:05.293Z",
+  "date": "2026-03-13",
   "skills": {
-    "modified": 1,
+    "modified": 3,
     "files": [
-      "mcp-ai-architecture.md"
+      "advanced-stats-sports.md",
+      "ai-startup-openings-2026-03.md",
+      "ghostty-terminal.md"
     ]
   },
   "commits": {
-    "count": 3,
+    "count": 4,
     "recent": [
-      "Add ML-HFT project card and activity feed entry",
+      "Update ML-HFT metrics: AUC 0.83, 500x speedup",
       "Daily digest update",
-      "feat: Add research projects section — Icarus straddle, VAR-CAPE, vol forecasting, stat-arb"
+      "Add ML-HFT project card and activity feed entry",
+      "Daily digest update"
     ]
   },
   "heatmap": {
-    "activeDays": 0,
-    "obsidianFiles": 0,
-    "claudeFiles": 0,
-    "gitDays": 0
+    "activeDays": 11,
+    "obsidianFiles": 25,
+    "claudeFiles": 50,
+    "gitDays": 5
   },
   "highlights": [
-    "Updated 1 skill files across the knowledge base",
-    "3 commit(s) pushed to GitHub"
+    "Updated 3 skill files across the knowledge base",
+    "Made 4 commits — active development day"
   ]
 }

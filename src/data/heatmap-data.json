@@ -1,13 +1,8 @@
 {
-  "generated": "2026-03-12T16:07:51.162Z",
+  "generated": "2026-03-13T04:00:06.220Z",
   "weeksBack": 12,
   "weeks": [
     [
-      {
-        "date": "2025-12-19",
-        "level": 0,
-        "sources": []
-      },
       {
         "date": "2025-12-20",
         "level": 0,
@@ -37,14 +32,14 @@
         "date": "2025-12-25",
         "level": 0,
         "sources": []
-      }
-    ],
-    [
+      },
       {
         "date": "2025-12-26",
         "level": 0,
         "sources": []
-      },
+      }
+    ],
+    [
       {
         "date": "2025-12-27",
         "level": 0,
@@ -74,14 +69,14 @@
         "date": "2026-01-01",
         "level": 0,
         "sources": []
-      }
-    ],
-    [
+      },
       {
         "date": "2026-01-02",
         "level": 0,
         "sources": []
-      },
+      }
+    ],
+    [
       {
         "date": "2026-01-03",
         "level": 0,
@@ -111,14 +106,14 @@
         "date": "2026-01-08",
         "level": 0,
         "sources": []
-      }
-    ],
-    [
+      },
       {
         "date": "2026-01-09",
         "level": 0,
         "sources": []
-      },
+      }
+    ],
+    [
       {
         "date": "2026-01-10",
         "level": 0,
@@ -148,14 +143,14 @@
         "date": "2026-01-15",
         "level": 0,
         "sources": []
-      }
-    ],
-    [
+      },
       {
         "date": "2026-01-16",
         "level": 0,
         "sources": []
-      },
+      }
+    ],
+    [
       {
         "date": "2026-01-17",
         "level": 0,
@@ -185,14 +180,14 @@
         "date": "2026-01-22",
         "level": 0,
         "sources": []
-      }
-    ],
-    [
+      },
       {
         "date": "2026-01-23",
         "level": 0,
         "sources": []
-      },
+      }
+    ],
+    [
       {
         "date": "2026-01-24",
         "level": 0,
@@ -222,14 +217,14 @@
         "date": "2026-01-29",
         "level": 0,
         "sources": []
-      }
-    ],
-    [
+      },
       {
         "date": "2026-01-30",
         "level": 0,
         "sources": []
-      },
+      }
+    ],
+    [
       {
         "date": "2026-01-31",
         "level": 0,
@@ -259,14 +254,14 @@
         "date": "2026-02-05",
         "level": 0,
         "sources": []
-      }
-    ],
-    [
+      },
       {
         "date": "2026-02-06",
         "level": 0,
         "sources": []
-      },
+      }
+    ],
+    [
       {
         "date": "2026-02-07",
         "level": 0,
@@ -296,14 +291,14 @@
         "date": "2026-02-12",
         "level": 0,
         "sources": []
-      }
-    ],
-    [
+      },
       {
         "date": "2026-02-13",
         "level": 0,
         "sources": []
-      },
+      }
+    ],
+    [
       {
         "date": "2026-02-14",
         "level": 0,
@@ -333,14 +328,14 @@
         "date": "2026-02-19",
         "level": 0,
         "sources": []
-      }
-    ],
-    [
+      },
       {
         "date": "2026-02-20",
         "level": 0,
         "sources": []
-      },
+      }
+    ],
+    [
       {
         "date": "2026-02-21",
         "level": 0,
@@ -370,14 +365,14 @@
         "date": "2026-02-26",
         "level": 0,
         "sources": []
-      }
-    ],
-    [
+      },
       {
         "date": "2026-02-27",
         "level": 0,
         "sources": []
-      },
+      }
+    ],
+    [
       {
         "date": "2026-02-28",
         "level": 0,
@@ -415,9 +410,7 @@
         "sources": [
           "activity-feed"
         ]
-      }
-    ],
-    [
+      },
       {
         "date": "2026-03-06",
         "level": 3,
@@ -428,7 +421,9 @@
         "details": {
           "skills": 1
         }
-      },
+      }
+    ],
+    [
       {
         "date": "2026-03-07",
         "level": 3,
@@ -466,7 +461,7 @@
           "tasks": 181,
           "completed": 0,
           "words": 8316,
-          "skills": 9,
+          "skills": 8,
           "commits": 3
         }
       },
@@ -479,7 +474,7 @@
           "activity-feed"
         ],
         "details": {
-          "skills": 19,
+          "skills": 18,
           "commits": 5
         }
       },
@@ -492,7 +487,7 @@
           "activity-feed"
         ],
         "details": {
-          "skills": 4,
+          "skills": 3,
           "commits": 3
         }
       },
@@ -505,9 +500,14 @@
           "activity-feed"
         ],
         "details": {
-          "skills": 2,
-          "commits": 2
+          "skills": 7,
+          "commits": 4
         }
+      },
+      {
+        "date": "2026-03-13",
+        "level": 0,
+        "sources": []
       }
     ]
   ],
@@ -516,7 +516,7 @@
     "activeDays": 11,
     "vaultsScanned": 4,
     "obsidianFiles": 25,
-    "claudeFiles": 48,
+    "claudeFiles": 50,
     "gitDays": 5
   }
 }
