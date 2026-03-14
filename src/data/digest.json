@@ -1,16 +1,14 @@
 {
-  "generated": "2026-03-13T19:08:45.173Z",
-  "date": "2026-03-13",
+  "generated": "2026-03-14T04:00:02.539Z",
+  "date": "2026-03-14",
   "skills": {
-    "modified": 2,
-    "files": [
-      "advanced-stats-sports.md",
-      "ai-startup-openings-2026-03.md"
-    ]
+    "modified": 0,
+    "files": []
   },
   "commits": {
-    "count": 2,
+    "count": 3,
     "recent": [
+      "Daily digest update",
       "Daily digest update",
       "Daily digest update"
     ]
@@ -22,7 +20,6 @@
     "gitDays": 6
   },
   "highlights": [
-    "Updated 2 skill files across the knowledge base",
-    "2 commit(s) pushed to GitHub"
+    "3 commit(s) pushed to GitHub"
   ]
 }
