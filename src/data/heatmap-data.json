@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-18T04:00:04.481Z",
+  "generated": "2026-03-18T14:41:08.570Z",
   "weeksBack": 12,
   "weeks": [
     [
@@ -533,17 +533,22 @@
       },
       {
         "date": "2026-03-18",
-        "level": 0,
-        "sources": []
+        "level": 2,
+        "sources": [
+          "git"
+        ],
+        "details": {
+          "commits": 1
+        }
       }
     ]
   ],
   "summary": {
     "totalDays": 84,
-    "activeDays": 16,
+    "activeDays": 17,
     "vaultsScanned": 4,
     "obsidianFiles": 25,
     "claudeFiles": 51,
-    "gitDays": 10
+    "gitDays": 11
   }
 }
