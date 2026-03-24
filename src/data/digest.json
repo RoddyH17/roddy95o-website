@@ -1,23 +1,27 @@
 {
-  "generated": "2026-03-23T21:09:00.059Z",
-  "date": "2026-03-23",
+  "generated": "2026-03-24T06:07:26.463Z",
+  "date": "2026-03-24",
   "skills": {
-    "modified": 0,
-    "files": []
+    "modified": 1,
+    "files": [
+      "claude-code-new-features.md"
+    ]
   },
   "commits": {
-    "count": 1,
+    "count": 2,
     "recent": [
+      "Daily digest update",
       "Daily digest update"
     ]
   },
   "heatmap": {
-    "activeDays": 0,
-    "obsidianFiles": 0,
-    "claudeFiles": 0,
-    "gitDays": 0
+    "activeDays": 22,
+    "obsidianFiles": 25,
+    "claudeFiles": 53,
+    "gitDays": 16
   },
   "highlights": [
-    "1 commit(s) pushed to GitHub"
+    "Updated 1 skill files across the knowledge base",
+    "2 commit(s) pushed to GitHub"
   ]
 }
