@@ -10,6 +10,7 @@ import type {
   WeeklyProgressContent,
   ContactContent,
   FooterContent,
+  LabSectionContent,
 } from "@/types/content";
 
 // ---- Hero 区 ----
@@ -43,6 +44,70 @@ export const pokerSection: PokerSectionContent = {
   heading: "Research",
   subtitle: "Coming soon — curating what to show next.",
   projects: [],
+};
+
+// ---- Lab 区（扑克/交易工具 & 实战项目）----
+export const labSection: LabSectionContent = {
+  heading: "Lab",
+  subtitle: "Poker tools, trading programs & experiments.",
+  projects: [
+    {
+      title: "Poker Range Trainer",
+      description:
+        "GTO preflop range explorer with position-aware charts. Interactive drill mode for NL Hold'em 6-max.",
+      tags: ["poker", "tool", "GTO"],
+      status: "building",
+      github: "https://github.com/RoddyH17/poker-range-trainer",
+      icon: "🃏",
+      preview: "Train preflop decisions against GTO solutions",
+    },
+    {
+      title: "OKX Trading Bot",
+      description:
+        "Perpetual futures execution engine. OKX WebSocket → Kafka → Freqtrade pipeline with self-aggregated candles.",
+      tags: ["crypto", "trading", "bot"],
+      status: "building",
+      github: "https://github.com/RoddyH17/okx-bot",
+      icon: "🤖",
+      preview: "Live trading on OKX perpetual contracts",
+    },
+    {
+      title: "Hand History Analyzer",
+      description:
+        "Import PokerStars / GGPoker hand histories. Auto-tag leaks, calculate VPIP/PFR/3Bet, generate session reports.",
+      tags: ["poker", "analytics"],
+      status: "coming-soon",
+      icon: "📈",
+      preview: "Automated leak-finding from hand histories",
+    },
+    {
+      title: "Vol Surface Visualizer",
+      description:
+        "3D implied volatility surface with real-time options chain data. Interactive term structure & skew dynamics.",
+      tags: ["options", "viz"],
+      status: "coming-soon",
+      icon: "📊",
+      preview: "Interactive IV surface exploration",
+    },
+    {
+      title: "Macro Dashboard",
+      description:
+        "Cross-asset regime detection. VAR-CAPE signals, yield curve monitor, sentiment indices.",
+      tags: ["macro", "dashboard"],
+      status: "coming-soon",
+      icon: "🌐",
+      preview: "Real-time macro regime signals",
+    },
+    {
+      title: "Poker Equity Calculator",
+      description:
+        "Monte Carlo equity calculator with range vs range support. Hand equity, fold equity, ICM calculations for tournaments.",
+      tags: ["poker", "math", "tool"],
+      status: "coming-soon",
+      icon: "🎰",
+      preview: "Fast equity calculations for multi-way pots",
+    },
+  ],
 };
 
 // ---- Activity 区（替代传统 Experience）----
