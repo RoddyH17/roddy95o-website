@@ -94,6 +94,26 @@ export interface FooterContent {
   tech: string;
 }
 
+// ---- Lab Section ----
+export type LabProjectStatus = "live" | "building" | "coming-soon";
+
+export interface LabProject {
+  title: string;
+  description: string;
+  tags: string[];
+  status: LabProjectStatus;
+  link?: string;
+  github?: string;
+  icon: string;
+  preview?: string;
+}
+
+export interface LabSectionContent {
+  heading: string;
+  subtitle: string;
+  projects: LabProject[];
+}
+
 export interface DigestData {
   generated: string;
   date: string;
