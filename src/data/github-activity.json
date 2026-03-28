@@ -1,0 +1,92 @@
+{
+  "generated": "2026-03-28T15:38:22.803Z",
+  "user": "RoddyH17",
+  "totalEvents": 10,
+  "repos": [
+    "roddy95o-website",
+    "ncaa-prediction",
+    "ml-hft"
+  ],
+  "feed": [
+    {
+      "date": "2026-03-28",
+      "type": "pr-opened",
+      "repo": "roddy95o-website",
+      "title": "Opened PR #4: Bankroll tracker, research projects, hero cleanup",
+      "description": "",
+      "url": "https://github.com/RoddyH17/roddy95o-website/pull/4"
+    },
+    {
+      "date": "2026-03-28",
+      "type": "create-branch",
+      "repo": "roddy95o-website",
+      "title": "Created branch RoddyH17/yeosu-v2 in roddy95o-website",
+      "description": "",
+      "url": "https://github.com/RoddyH17/roddy95o-website"
+    },
+    {
+      "date": "2026-03-28",
+      "type": "pr-opened",
+      "repo": "roddy95o-website",
+      "title": "Opened PR #3: Update weekly digest and heatmap sync data",
+      "description": "",
+      "url": "https://github.com/RoddyH17/roddy95o-website/pull/3"
+    },
+    {
+      "date": "2026-03-28",
+      "type": "create-branch",
+      "repo": "roddy95o-website",
+      "title": "Created branch RoddyH17/yeosu-v1 in roddy95o-website",
+      "description": "",
+      "url": "https://github.com/RoddyH17/roddy95o-website"
+    },
+    {
+      "date": "2026-03-28",
+      "type": "pr-opened",
+      "repo": "roddy95o-website",
+      "title": "Opened PR #2: UI/UX optimization: smooth transitions and poker/trading section",
+      "description": "",
+      "url": "https://github.com/RoddyH17/roddy95o-website/pull/2"
+    },
+    {
+      "date": "2026-03-28",
+      "type": "create-branch",
+      "repo": "roddy95o-website",
+      "title": "Created branch RoddyH17/uiux-optimization in roddy95o-website",
+      "description": "",
+      "url": "https://github.com/RoddyH17/roddy95o-website"
+    },
+    {
+      "date": "2026-03-28",
+      "type": "pr-opened",
+      "repo": "roddy95o-website",
+      "title": "Opened PR #1: Fix CSP dev mode, weekly digest, remove research",
+      "description": "",
+      "url": "https://github.com/RoddyH17/roddy95o-website/pull/1"
+    },
+    {
+      "date": "2026-03-28",
+      "type": "create-branch",
+      "repo": "roddy95o-website",
+      "title": "Created branch RoddyH17/fix-vercel-sync in roddy95o-website",
+      "description": "",
+      "url": "https://github.com/RoddyH17/roddy95o-website"
+    },
+    {
+      "date": "2026-03-20",
+      "type": "create-branch",
+      "repo": "ncaa-prediction",
+      "title": "Created branch master in ncaa-prediction",
+      "description": "",
+      "url": "https://github.com/RoddyH17/ncaa-prediction"
+    },
+    {
+      "date": "2026-03-12",
+      "type": "create-branch",
+      "repo": "ml-hft",
+      "title": "Created branch master in ml-hft",
+      "description": "",
+      "url": "https://github.com/RoddyH17/ml-hft"
+    }
+  ]
+}

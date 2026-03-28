@@ -2,7 +2,6 @@ import { Hero } from "@/components/sections/hero";
 import { Poker } from "@/components/sections/poker";
 import { Lab } from "@/components/sections/lab";
 import { Progress } from "@/components/sections/progress";
-import { Digest } from "@/components/sections/digest";
 import { Activity } from "@/components/sections/activity";
 import { Contact } from "@/components/sections/contact";
 import { Nav } from "@/components/sections/nav";
@@ -18,7 +17,6 @@ export default function Home() {
       <Poker />
       <Lab />
       <Progress />
-      <Digest />
       <Activity />
       <Contact />
       <Footer />
