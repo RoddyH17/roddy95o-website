@@ -21,7 +21,7 @@ const categoryConfig: Record<string, { icon: string; color: string; barColor: st
 
 function getCategoryFromFile(file: string): string {
   for (const key of Object.keys(categoryConfig)) {
-    if (key !== "default" && file.toLowerCase().startsWith(key)) return key;
+    if (key !== "default" && file.toLowerCase().includes(key)) return key;
   }
   // Try to infer from content
   if (file.includes("options") || file.includes("vol") || file.includes("straddle")) return "finance";
@@ -135,7 +135,8 @@ function SkillCategories({ files }: { files: string[] }) {
 export function Digest() {
   if (!digestData) return null;
 
-  const { date, skills, commits, heatmap, highlights, generated } = digestData;
+  const { date, skills, memory, commits, heatmap, highlights, generated, window } = digestData;
+  const totalMemoryFiles = (skills?.modified ?? 0) + (memory?.modified ?? 0);
 
   return (
     <section id="digest" className="relative px-4 py-24 md:py-32">
@@ -148,19 +149,24 @@ export function Digest() {
             <span className="rounded-full border border-green-500/30 bg-green-500/10 px-2.5 py-0.5 text-xs font-medium text-green-400">
               {timeAgo(generated)}
             </span>
+            {window && (
+              <span className="rounded-full border border-blue-500/30 bg-blue-500/10 px-2.5 py-0.5 text-xs font-medium text-blue-400">
+                {window} window
+              </span>
+            )}
           </div>
           <p className="mt-2 text-neutral-500">
-            What I learned and built — auto-synced daily.
+            What I learned and built — auto-synced weekly across all Claude projects.
           </p>
         </SectionReveal>
 
         {/* Stats Bar */}
         <StaggerContainer className="mb-8 grid grid-cols-2 gap-3 md:grid-cols-4" staggerDelay={0.06}>
           {[
-            { label: "Skills Updated", value: skills.modified, color: "text-violet-400", border: "border-violet-500/20" },
+            { label: "Memory Updated", value: totalMemoryFiles, color: "text-violet-400", border: "border-violet-500/20" },
             { label: "Git Commits", value: commits.count, color: "text-green-400", border: "border-green-500/20" },
             { label: "Active Days", value: heatmap.activeDays, color: "text-yellow-400", border: "border-yellow-500/20" },
-            { label: "Memory Files", value: heatmap.claudeFiles, color: "text-blue-400", border: "border-blue-500/20" },
+            { label: "Projects Active", value: memory?.projects?.length ?? 0, color: "text-blue-400", border: "border-blue-500/20" },
           ].map((stat) => (
             <StaggerItem key={stat.label}>
               <div className={`rounded-xl border ${stat.border} bg-zinc-950/50 p-4 text-center`}>

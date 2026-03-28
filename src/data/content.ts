@@ -39,47 +39,11 @@ export const hero: HeroContent = {
   ],
 };
 
-// ---- Poker 区（项目展示占位）----
+// ---- Research 区（暂时清空，之后再决定放什么）----
 export const pokerSection: PokerSectionContent = {
   heading: "Research",
-  subtitle: "Quant research & trading systems.",
-  projects: [
-    {
-      title: "Icarus Straddle Strategy",
-      description: "Long-short skew-based straddle strategy. IV skew signal + 21-day momentum + VIX overlay hedge + delta neutralization. Backtest: 82% win rate, Sharpe 1.89.",
-      tags: ["options", "vol", "HFT"],
-      github: "https://github.com/RoddyH17/options-research",
-      metrics: { "Win Rate": "82%", "Sharpe": "1.89" },
-    },
-    {
-      title: "VAR-Enhanced CAPE",
-      description: "Extended Shiller-CAPE with VAR on earning yields + capital index. Stabilizes long-run equity return forecasts against macro regime shifts. 40% RMSE reduction vs baseline.",
-      tags: ["macro", "VAR", "forecasting"],
-      github: "https://github.com/RoddyH17/cape-var",
-      metrics: { "RMSE ↓": "40%", "Horizon": "10yr" },
-    },
-    {
-      title: "Volatility Forecasting",
-      description: "EGARCH(2,3,2) vs LSTM/Transformer for BTC-USD 1-min intraday vol. EGARCH comparable to DL on short horizon; Transformer shows edge at ms-level orderbook data.",
-      tags: ["GARCH", "LSTM", "Transformer"],
-      github: "https://github.com/RoddyH17/vol-forecasting",
-      metrics: { "Models": "5", "Data": "BTC 1-min" },
-    },
-    {
-      title: "Statistical Arbitrage — OU Process",
-      description: "Intraday pairs trading with Engle-Granger cointegration + block-bootstrap p-value correction. OU process MLE for spread mean-reversion parameter estimation.",
-      tags: ["stat-arb", "OU", "cointegration"],
-      github: "https://github.com/RoddyH17/stat-arb-ou",
-      metrics: { "Bootstrap": "999 reps", "Pairs": "LOB data" },
-    },
-    {
-      title: "ML-HFT: LOB Signal Pipeline",
-      description: "Numba JIT microstructure signals from SGX A50 futures LOB data. OBI / Depth Ratio / Rise Ratio → XGBoost walk-forward. AUC 0.83 at 60s horizon, 100–500× speedup via @njit.",
-      tags: ["HFT", "Numba", "XGBoost"],
-      github: "https://github.com/RoddyH17/ml-hft",
-      metrics: { "AUC": "0.83", "Speedup": "500×" },
-    },
-  ],
+  subtitle: "Coming soon — curating what to show next.",
+  projects: [],
 };
 
 // ---- Lab 区（扑克/交易工具 & 实战项目）----

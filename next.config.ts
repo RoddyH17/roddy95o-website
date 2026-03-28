@@ -8,7 +8,7 @@ const ContentSecurityPolicy = `
   style-src 'self' 'unsafe-inline';
   img-src 'self' data: blob: https://images.unsplash.com https://assets.aceternity.com;
   font-src 'self' data:;
-  connect-src 'self' https://vitals.vercel-insights.com${isDev ? " ws://localhost:3000 ws://localhost:3001" : ""};
+  connect-src 'self' https://vitals.vercel-insights.com${isDev ? " ws://localhost:* http://localhost:*" : ""};
   frame-ancestors 'none';
   base-uri 'self';
   form-action 'self';

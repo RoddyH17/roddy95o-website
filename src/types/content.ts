@@ -117,7 +117,9 @@ export interface LabSectionContent {
 export interface DigestData {
   generated: string;
   date: string;
+  window?: string;
   skills: { modified: number; files: string[] };
+  memory?: { modified: number; files: string[]; projects: string[] };
   commits: { count: number; recent: string[] };
   heatmap: { activeDays: number; obsidianFiles: number; claudeFiles: number; gitDays: number };
   highlights: string[];
