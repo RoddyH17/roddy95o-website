@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "motion/react";
 import { useMemo } from "react";
+import { SectionReveal } from "@/components/ui/section-reveal";
 import githubData from "@/data/github-activity.json";
 import heatmapData from "@/data/heatmap-data.json";
 
@@ -101,13 +102,7 @@ export function Activity() {
   return (
     <section id="activity" className="relative px-4 py-24 md:py-32">
       <div className="mx-auto max-w-5xl">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="mb-12"
-        >
+        <SectionReveal className="mb-12">
           <div className="flex items-center gap-3">
             <h2 className="text-3xl font-bold text-neutral-200 md:text-4xl">
               Activity
@@ -127,35 +122,31 @@ export function Activity() {
               @{activity.user}
             </a>
           </p>
-        </motion.div>
+        </SectionReveal>
 
         {/* Heatmap */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.1 }}
-          className="mb-12 overflow-x-auto rounded-xl border border-white/[0.06] bg-zinc-950/50 p-6"
-        >
-          <div className="mb-3 flex items-center justify-between">
-            <span className="font-mono text-xs text-neutral-500">
-              {activity.repos.length} repos · {activity.totalEvents} events
-            </span>
-            <div className="flex items-center gap-1.5">
-              <span className="text-[10px] text-neutral-600">Less</span>
-              {[0, 1, 2, 3, 4].map((l) => (
-                <div
-                  key={l}
-                  className={`h-[10px] w-[10px] rounded-[2px] ${
-                    ["bg-zinc-900", "bg-green-900/40", "bg-green-700/50", "bg-green-500/60", "bg-green-400/70"][l]
-                  }`}
-                />
-              ))}
-              <span className="text-[10px] text-neutral-600">More</span>
+        <SectionReveal delay={0.1} className="mb-12">
+          <div className="overflow-x-auto rounded-xl border border-white/[0.06] bg-zinc-950/50 p-6">
+            <div className="mb-3 flex items-center justify-between">
+              <span className="font-mono text-xs text-neutral-500">
+                {activity.repos.length} repos · {activity.totalEvents} events
+              </span>
+              <div className="flex items-center gap-1.5">
+                <span className="text-[10px] text-neutral-600">Less</span>
+                {[0, 1, 2, 3, 4].map((l) => (
+                  <div
+                    key={l}
+                    className={`h-[10px] w-[10px] rounded-[2px] ${
+                      ["bg-zinc-900", "bg-green-900/40", "bg-green-700/50", "bg-green-500/60", "bg-green-400/70"][l]
+                    }`}
+                  />
+                ))}
+                <span className="text-[10px] text-neutral-600">More</span>
+              </div>
             </div>
+            <Heatmap />
           </div>
-          <Heatmap />
-        </motion.div>
+        </SectionReveal>
 
         {/* Activity feed */}
         <div className="relative">
@@ -165,10 +156,10 @@ export function Activity() {
             {activity.feed.map((item, i) => (
               <motion.div
                 key={i}
-                initial={{ opacity: 0, x: -10 }}
-                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, x: -20, filter: "blur(6px)" }}
+                whileInView={{ opacity: 1, x: 0, filter: "blur(0px)" }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: i * 0.05 }}
+                transition={{ duration: 0.5, delay: i * 0.04, ease: [0.25, 0.46, 0.45, 0.94] }}
                 className="flex gap-4"
               >
                 <div className="relative mt-1.5 flex-shrink-0">

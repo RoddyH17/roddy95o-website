@@ -1,19 +1,26 @@
 // Shared type definitions for content data
 
-export type DemoType = "portfolio" | "performance" | "risk";
+export interface BankrollAccount {
+  label: string;
+  amount: number;
+  color: string;
+  detail?: string;
+}
 
-export interface Demo {
-  title: string;
-  description: string;
-  type: DemoType;
+export interface BankrollCategory {
+  name: string;
+  icon: string;
+  accounts: BankrollAccount[];
 }
 
 export interface HeroContent {
   name: string;
   tagline: string;
   tags: string[];
-  currently: string;
-  demos: Demo[];
+  bankroll: {
+    total: number;
+    categories: BankrollCategory[];
+  };
 }
 
 export type ProjectStatus = "live" | "building" | "planned";
@@ -92,6 +99,26 @@ export interface ContactContent {
 
 export interface FooterContent {
   tech: string;
+}
+
+// ---- Lab Section ----
+export type LabProjectStatus = "live" | "building" | "coming-soon";
+
+export interface LabProject {
+  title: string;
+  description: string;
+  tags: string[];
+  status: LabProjectStatus;
+  link?: string;
+  github?: string;
+  icon: string;
+  preview?: string;
+}
+
+export interface LabSectionContent {
+  heading: string;
+  subtitle: string;
+  projects: LabProject[];
 }
 
 export interface DigestData {

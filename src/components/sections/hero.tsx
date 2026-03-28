@@ -3,7 +3,7 @@ import { Spotlight } from "@/components/ui/spotlight";
 import { ParticlesBg } from "@/components/ui/particles-bg";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { CardSVG, spadePath, diamondPath } from "@/components/ui/card-svg";
-import { demoComponents } from "@/components/ui/hero-demos";
+import { BankrollTracker } from "@/components/ui/hero-demos";
 import { motion } from "motion/react";
 import { cn } from "@/lib/utils";
 import { hero } from "@/data/content";
@@ -80,45 +80,15 @@ export function Hero() {
               </span>
             ))}
           </motion.div>
-
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.3, duration: 0.8 }}
-            className="mt-4 font-mono text-[11px] text-neutral-600"
-          >
-            {hero.currently}
-          </motion.p>
         </div>
 
-        {/* Demo panels */}
+        {/* Bankroll PnL Tracker */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.5, duration: 0.8 }}
-          className="grid grid-cols-1 gap-4 md:grid-cols-3"
         >
-          {hero.demos.map((demo, i) => {
-            const DemoComponent = demoComponents[demo.type];
-            return (
-              <motion.div
-                key={demo.title}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 1.7 + i * 0.15, duration: 0.6 }}
-                className="rounded-xl border border-white/[0.06] bg-black/60 p-4 backdrop-blur-md"
-              >
-                <div className="mb-3 flex items-center justify-between">
-                  <h3 className="text-xs font-medium text-neutral-400">{demo.title}</h3>
-                  <div className="flex items-center gap-1">
-                    <div className="h-1.5 w-1.5 animate-pulse rounded-full bg-green-500" />
-                    <span className="text-[9px] text-neutral-600">{demo.description}</span>
-                  </div>
-                </div>
-                <DemoComponent />
-              </motion.div>
-            );
-          })}
+          <BankrollTracker />
         </motion.div>
 
         {/* Scroll indicator */}

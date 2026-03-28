@@ -1,69 +1,45 @@
 "use client";
 import { cn } from "@/lib/utils";
+import { hero } from "@/data/content";
+import type { BankrollCategory } from "@/types/content";
 
-/* ── Portfolio Allocation ── */
-const allocations = [
-  { name: "Crypto", weight: 35, color: "bg-amber-400" },
-  { name: "Macro Equity", weight: 25, color: "bg-blue-400" },
-  { name: "Options Vol", weight: 20, color: "bg-violet-400" },
-  { name: "Cash / MM", weight: 20, color: "bg-neutral-500" },
-];
+function formatMoney(n: number) {
+  return n >= 1000 ? `$${(n / 1000).toFixed(n % 1000 === 0 ? 0 : 1)}k` : `$${n}`;
+}
 
-export function PortfolioDemo() {
+function CategoryCard({ cat }: { cat: BankrollCategory }) {
+  const subtotal = cat.accounts.reduce((s, a) => s + a.amount, 0);
   return (
     <div className="space-y-3">
-      {/* Horizontal stacked bar */}
-      <div className="flex h-3 w-full overflow-hidden rounded-full">
-        {allocations.map((a) => (
-          <div key={a.name} className={cn("h-full", a.color)} style={{ width: `${a.weight}%` }} />
+      <div className="flex items-center justify-between">
+        <div className="flex items-center gap-1.5">
+          <span className="text-sm">{cat.icon}</span>
+          <span className="text-xs font-medium text-neutral-300">{cat.name}</span>
+        </div>
+        <span className="font-mono text-sm font-bold text-neutral-200">{formatMoney(subtotal)}</span>
+      </div>
+
+      {/* Stacked bar */}
+      <div className="flex h-2 w-full overflow-hidden rounded-full bg-zinc-800/60">
+        {cat.accounts.map((a) => (
+          <div
+            key={a.label}
+            className={cn("h-full transition-all", a.color)}
+            style={{ width: `${(a.amount / subtotal) * 100}%` }}
+          />
         ))}
       </div>
-      {/* Legend */}
-      <div className="grid grid-cols-2 gap-x-4 gap-y-1.5">
-        {allocations.map((a) => (
-          <div key={a.name} className="flex items-center justify-between text-[10px]">
+
+      {/* Account breakdown */}
+      <div className="space-y-1">
+        {cat.accounts.map((a) => (
+          <div key={a.label} className="flex items-center justify-between text-[10px]">
             <div className="flex items-center gap-1.5">
-              <span className={cn("inline-block h-2 w-2 rounded-sm", a.color)} />
-              <span className="text-neutral-400">{a.name}</span>
+              <span className={cn("inline-block h-1.5 w-1.5 rounded-full", a.color)} />
+              <span className="text-neutral-500">{a.label}</span>
+              {a.detail && <span className="text-neutral-700">· {a.detail}</span>}
             </div>
-            <span className="font-mono text-neutral-300">{a.weight}%</span>
-          </div>
-        ))}
-      </div>
-      <div className="flex items-center justify-between pt-1 text-[10px] text-neutral-600">
-        <span>AUM: $50K (paper)</span>
-        <span>Rebal: Weekly</span>
-      </div>
-    </div>
-  );
-}
-
-/* ── Strategy Performance ── */
-const strategies = [
-  { name: "BTC Momentum", ret: "+12.4%", color: "text-green-400", bar: 62 },
-  { name: "CAPE Regime", ret: "+5.1%", color: "text-green-400", bar: 25 },
-  { name: "Vol Arb", ret: "-2.3%", color: "text-red-400", bar: 12 },
-  { name: "Event Macro", ret: "+8.7%", color: "text-green-400", bar: 44 },
-];
-
-export function PerformanceDemo() {
-  return (
-    <div className="space-y-2">
-      <div className="flex items-baseline justify-between">
-        <span className="font-mono text-lg font-bold text-green-400">+6.2%</span>
-        <span className="font-mono text-[10px] text-green-400/60">MTD Composite</span>
-      </div>
-      <div className="space-y-1.5">
-        {strategies.map((s) => (
-          <div key={s.name} className="flex items-center gap-2 text-[10px]">
-            <span className="w-20 truncate text-neutral-500">{s.name}</span>
-            <div className="h-1 flex-1 overflow-hidden rounded-full bg-zinc-800">
-              <div
-                className={cn("h-full rounded-full", s.ret.startsWith("+") ? "bg-green-500/70" : "bg-red-500/70")}
-                style={{ width: `${s.bar}%` }}
-              />
-            </div>
-            <span className={cn("w-12 text-right font-mono", s.color)}>{s.ret}</span>
+            <span className="font-mono text-neutral-400">{formatMoney(a.amount)}</span>
           </div>
         ))}
       </div>
@@ -71,33 +47,65 @@ export function PerformanceDemo() {
   );
 }
 
-/* ── Risk Dashboard ── */
-const metrics = [
-  { label: "Sharpe", value: "1.42", good: true },
-  { label: "Max DD", value: "-8.3%", good: false },
-  { label: "Win Rate", value: "61%", good: true },
-  { label: "Kelly f*", value: "0.18", good: true },
-  { label: "VaR 95%", value: "-3.2%", good: false },
-  { label: "Sortino", value: "1.87", good: true },
-];
-
-export function RiskDemo() {
+export function BankrollTracker() {
+  const { bankroll } = hero;
   return (
-    <div className="grid grid-cols-3 gap-2">
-      {metrics.map((m) => (
-        <div key={m.label} className="rounded-lg bg-zinc-900/60 p-2 text-center">
-          <div className="text-[9px] text-neutral-600">{m.label}</div>
-          <div className={cn("font-mono text-sm font-semibold", m.good ? "text-green-400" : "text-red-400")}>
-            {m.value}
+    <div className="rounded-xl border border-white/[0.06] bg-black/60 p-5 backdrop-blur-md">
+      {/* Header */}
+      <div className="mb-5 flex items-center justify-between">
+        <div>
+          <h3 className="text-xs font-medium text-neutral-500">Bankroll Challenge</h3>
+          <div className="mt-1 flex items-baseline gap-2">
+            <span className="font-mono text-2xl font-bold text-neutral-100">
+              {formatMoney(bankroll.total)}
+            </span>
+            <div className="flex items-center gap-1">
+              <div className="h-1.5 w-1.5 animate-pulse rounded-full bg-green-500" />
+              <span className="text-[9px] text-neutral-600">Live tracking</span>
+            </div>
           </div>
         </div>
-      ))}
+        <div className="text-right">
+          <div className="font-mono text-[10px] text-neutral-600">PnL Tracker</div>
+          <div className="font-mono text-xs text-green-400/80">Active</div>
+        </div>
+      </div>
+
+      {/* Category grid */}
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+        {bankroll.categories.map((cat) => (
+          <div
+            key={cat.name}
+            className="rounded-lg border border-white/[0.04] bg-zinc-950/40 p-3"
+          >
+            <CategoryCard cat={cat} />
+          </div>
+        ))}
+      </div>
+
+      {/* Allocation bar across all categories */}
+      <div className="mt-4 flex h-1.5 w-full overflow-hidden rounded-full bg-zinc-800/40">
+        {bankroll.categories.map((cat) => {
+          return cat.accounts.map((a) => (
+            <div
+              key={`${cat.name}-${a.label}`}
+              className={cn("h-full", a.color)}
+              style={{ width: `${(a.amount / bankroll.total) * 100}%`, opacity: 0.7 }}
+            />
+          ));
+        })}
+      </div>
+      <div className="mt-2 flex justify-between text-[9px] text-neutral-700">
+        {bankroll.categories.map((cat) => {
+          const subtotal = cat.accounts.reduce((s, a) => s + a.amount, 0);
+          const pct = ((subtotal / bankroll.total) * 100).toFixed(0);
+          return (
+            <span key={cat.name}>
+              {cat.name} {pct}%
+            </span>
+          );
+        })}
+      </div>
     </div>
   );
 }
-
-export const demoComponents: Record<string, () => React.JSX.Element> = {
-  portfolio: PortfolioDemo,
-  performance: PerformanceDemo,
-  risk: RiskDemo,
-};

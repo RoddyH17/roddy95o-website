@@ -1,8 +1,10 @@
 "use client";
 import { FloatingDock } from "@/components/ui/floating-dock";
+import { useActiveSection } from "@/hooks/use-active-section";
 import {
   IconHome,
   IconCards,
+  IconFlask,
   IconChartBar,
   IconActivity,
   IconMail,
@@ -15,9 +17,14 @@ const navItems = [
     href: "#home",
   },
   {
-    title: "Poker Lab",
+    title: "Research",
     icon: <IconCards className="h-full w-full text-neutral-400" />,
     href: "#poker",
+  },
+  {
+    title: "Lab",
+    icon: <IconFlask className="h-full w-full text-neutral-400" />,
+    href: "#lab",
   },
   {
     title: "This Week",
@@ -37,9 +44,11 @@ const navItems = [
 ];
 
 export function Nav() {
+  const activeSection = useActiveSection();
+
   return (
     <div className="fixed bottom-6 left-0 right-0 z-50 flex justify-center">
-      <FloatingDock items={navItems} />
+      <FloatingDock items={navItems} activeSection={activeSection} />
     </div>
   );
 }

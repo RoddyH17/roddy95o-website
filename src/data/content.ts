@@ -9,39 +9,141 @@ import type {
   WeeklyProgressContent,
   ContactContent,
   FooterContent,
+  LabSectionContent,
 } from "@/types/content";
 
 // ---- Hero 区 ----
 export const hero: HeroContent = {
   name: "Roddy Huang",
   tagline: "Finding alpha where others see noise.",
-  tags: ["Math & ORIE", "AI Agent", "Macro Quant", "Poker", "Product", "Continental"],
-  currently: "PM Sprint 1: Frameworks & PRD · Agentic Trading Infra · Macro Strategy Pipeline",
-  // Demo 面板（Hero 区内嵌的实时演示窗口）
-  demos: [
+  tags: ["Poker", "Math", "Quant", "Agent Philosophy"],
+  bankroll: {
+    total: 53000,
+    categories: [
+      {
+        name: "Poker",
+        icon: "🃏",
+        accounts: [
+          { label: "Cash Game", amount: 10000, color: "bg-green-500" },
+          { label: "Tournament", amount: 25000, color: "bg-emerald-400" },
+        ],
+      },
+      {
+        name: "Trading",
+        icon: "📈",
+        accounts: [
+          { label: "A-Shares", amount: 10000, color: "bg-blue-400", detail: "CN equities" },
+          { label: "US Equities", amount: 5000, color: "bg-sky-400", detail: "US market" },
+        ],
+      },
+      {
+        name: "Daily Expense",
+        icon: "💳",
+        accounts: [
+          { label: "Living", amount: 3000, color: "bg-amber-400", detail: "Car, rent, lifestyle" },
+        ],
+      },
+    ],
+  },
+};
+
+// ---- Research 区 ----
+export const pokerSection: PokerSectionContent = {
+  heading: "Research",
+  subtitle: "Quantitative research & prediction systems.",
+  projects: [
     {
-      title: "Portfolio Allocation",
-      description: "Live weights",
-      type: "portfolio",
+      title: "Vol Forecasting: EGARCH vs Deep Learning",
+      description:
+        "Comparing EGARCH(2,3,2) with LSTM/Transformer on 1-min BTC-USD intraday data. EGARCH performs comparably to DL models — faster, interpretable, captures leverage effect. Student-t distribution for crypto fat tails.",
+      tags: ["volatility", "EGARCH", "deep-learning", "crypto"],
+      status: "live",
+      github: "https://github.com/RoddyH17/vol_forecasting",
+      metrics: { "Models": "EGARCH vs LSTM vs Transformer", "Data": "BTC-USD 1-min", "Finding": "EGARCH ≈ DL" },
     },
     {
-      title: "Strategy Performance",
-      description: "MTD returns",
-      type: "performance",
+      title: "Options Research: IV Surface & Straddle Strategy",
+      description:
+        "NVDA IV surface modeling (RBF interpolation) + Icarus Trading Group internship straddle strategy. Skew-based long-short straddle with VIX overlay hedge and continuous delta hedging.",
+      tags: ["options", "IV-surface", "straddle", "skew"],
+      status: "live",
+      github: "https://github.com/RoddyH17/options_research",
+      metrics: { "Win Rate": "82%", "Sharpe": "1.89", "Hedge": "VIX overlay + delta" },
     },
     {
-      title: "Risk Dashboard",
-      description: "Real-time metrics",
-      type: "risk",
+      title: "NCAA March Madness Prediction",
+      description:
+        "Probabilistic tournament prediction combining mixture models, gradient boosting, and sequence models. 12 years of Kaggle data + KenPom/Barttorvik ratings. Targeting Kaggle competition & Kalshi live trading.",
+      tags: ["NCAA", "prediction", "ensemble", "Kalshi"],
+      status: "building",
+      github: "https://github.com/RoddyH17/ncaa_prediction",
+      metrics: { "Data": "12yr Kaggle + KenPom", "Models": "XGB + DL ensemble", "Target": "Kalshi trading" },
     },
   ],
 };
 
-// ---- Research 区（暂时清空，之后再决定放什么）----
-export const pokerSection: PokerSectionContent = {
-  heading: "Research",
-  subtitle: "Coming soon — curating what to show next.",
-  projects: [],
+// ---- Lab 区（扑克/交易工具 & 实战项目）----
+export const labSection: LabSectionContent = {
+  heading: "Lab",
+  subtitle: "Poker tools, trading programs & experiments.",
+  projects: [
+    {
+      title: "Poker Range Trainer",
+      description:
+        "GTO preflop range explorer with position-aware charts. Interactive drill mode for NL Hold'em 6-max.",
+      tags: ["poker", "tool", "GTO"],
+      status: "building",
+      github: "https://github.com/RoddyH17/poker-range-trainer",
+      icon: "🃏",
+      preview: "Train preflop decisions against GTO solutions",
+    },
+    {
+      title: "OKX Trading Bot",
+      description:
+        "Perpetual futures execution engine. OKX WebSocket → Kafka → Freqtrade pipeline with self-aggregated candles.",
+      tags: ["crypto", "trading", "bot"],
+      status: "building",
+      github: "https://github.com/RoddyH17/okx-bot",
+      icon: "🤖",
+      preview: "Live trading on OKX perpetual contracts",
+    },
+    {
+      title: "Hand History Analyzer",
+      description:
+        "Import PokerStars / GGPoker hand histories. Auto-tag leaks, calculate VPIP/PFR/3Bet, generate session reports.",
+      tags: ["poker", "analytics"],
+      status: "coming-soon",
+      icon: "📈",
+      preview: "Automated leak-finding from hand histories",
+    },
+    {
+      title: "Vol Surface Visualizer",
+      description:
+        "3D implied volatility surface with real-time options chain data. Interactive term structure & skew dynamics.",
+      tags: ["options", "viz"],
+      status: "coming-soon",
+      icon: "📊",
+      preview: "Interactive IV surface exploration",
+    },
+    {
+      title: "Macro Dashboard",
+      description:
+        "Cross-asset regime detection. VAR-CAPE signals, yield curve monitor, sentiment indices.",
+      tags: ["macro", "dashboard"],
+      status: "coming-soon",
+      icon: "🌐",
+      preview: "Real-time macro regime signals",
+    },
+    {
+      title: "Poker Equity Calculator",
+      description:
+        "Monte Carlo equity calculator with range vs range support. Hand equity, fold equity, ICM calculations for tournaments.",
+      tags: ["poker", "math", "tool"],
+      status: "coming-soon",
+      icon: "🎰",
+      preview: "Fast equity calculations for multi-way pots",
+    },
+  ],
 };
 
 // ---- Weekly Progress 区 ----

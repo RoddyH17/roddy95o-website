@@ -1,5 +1,6 @@
 import { Hero } from "@/components/sections/hero";
 import { Poker } from "@/components/sections/poker";
+import { Lab } from "@/components/sections/lab";
 import { Progress } from "@/components/sections/progress";
 import { Activity } from "@/components/sections/activity";
 import { Contact } from "@/components/sections/contact";
@@ -14,6 +15,7 @@ export default function Home() {
       <Nav />
       <Hero />
       <Poker />
+      <Lab />
       <Progress />
       <Activity />
       <Contact />
