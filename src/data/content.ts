@@ -53,31 +53,25 @@ export const pokerSection: PokerSectionContent = {
   subtitle: "Quantitative research & prediction systems.",
   projects: [
     {
-      title: "Vol Forecasting: EGARCH vs Deep Learning",
-      description:
-        "Comparing EGARCH(2,3,2) with LSTM/Transformer on 1-min BTC-USD intraday data. EGARCH performs comparably to DL models — faster, interpretable, captures leverage effect. Student-t distribution for crypto fat tails.",
-      tags: ["volatility", "EGARCH", "deep-learning", "crypto"],
+      title: "Vol Forecasting",
+      description: "EGARCH(2,3,2) vs LSTM/Transformer on BTC-USD 1-min data — EGARCH matches DL performance.",
+      tags: ["volatility", "crypto"],
       status: "live",
-      github: "https://github.com/RoddyH17/vol_forecasting",
-      metrics: { "Models": "EGARCH vs LSTM vs Transformer", "Data": "BTC-USD 1-min", "Finding": "EGARCH ≈ DL" },
+      github: "https://github.com/RoddyH17/vol-forecasting",
     },
     {
-      title: "Options Research: IV Surface & Straddle Strategy",
-      description:
-        "NVDA IV surface modeling (RBF interpolation) + Icarus Trading Group internship straddle strategy. Skew-based long-short straddle with VIX overlay hedge and continuous delta hedging.",
-      tags: ["options", "IV-surface", "straddle", "skew"],
+      title: "ML-HFT",
+      description: "Orderbook microstructure feature engineering + XGBoost signal generation for BTC/ETH.",
+      tags: ["HFT", "ML"],
       status: "live",
-      github: "https://github.com/RoddyH17/options_research",
-      metrics: { "Win Rate": "82%", "Sharpe": "1.89", "Hedge": "VIX overlay + delta" },
+      github: "https://github.com/RoddyH17/ml-hft",
     },
     {
-      title: "NCAA March Madness Prediction",
-      description:
-        "Probabilistic tournament prediction combining mixture models, gradient boosting, and sequence models. 12 years of Kaggle data + KenPom/Barttorvik ratings. Targeting Kaggle competition & Kalshi live trading.",
-      tags: ["NCAA", "prediction", "ensemble", "Kalshi"],
+      title: "NCAA Prediction",
+      description: "Probabilistic March Madness prediction with ensemble models, targeting Kalshi live trading.",
+      tags: ["NCAA", "prediction"],
       status: "building",
-      github: "https://github.com/RoddyH17/ncaa_prediction",
-      metrics: { "Data": "12yr Kaggle + KenPom", "Models": "XGB + DL ensemble", "Target": "Kalshi trading" },
+      github: "https://github.com/RoddyH17/ncaa-prediction",
     },
   ],
 };
