@@ -34,7 +34,7 @@ function debugLog(msg: string) {
 // --- Config ---
 const HOME = process.env.HOME || "/Users/roddy";
 const OBSIDIAN_ROOT = join(HOME, "Desktop/Obsidian");
-const CLAUDE_MEMORY = join(HOME, ".claude/projects/-Users-roddy/memory");
+const CLAUDE_PROJECTS_DIR = join(HOME, ".claude/projects");
 const WEBSITE_ROOT = join(__dirname, "..");
 const OUTPUT_PATH = join(WEBSITE_ROOT, "src/data/heatmap-data.json");
 
@@ -203,20 +203,28 @@ function main() {
     }
   }
 
-  // --- Source 2: Claude memory files (modification dates) ---
+  // --- Source 2: Claude memory files across ALL project directories ---
   let claudeFiles = 0;
-  if (existsSync(CLAUDE_MEMORY)) {
-    const memFiles = findMdFiles(CLAUDE_MEMORY);
-    for (const filepath of memFiles) {
-      try {
-        const stat = statSync(filepath);
-        const dateStr = toLocalDateStr(stat.mtime);
-        if (new Date(dateStr) >= cutoff) {
-          claudeFiles++;
-          addActivity(dateStr, 2, "claude-memory", { skills: 1 });
+  if (existsSync(CLAUDE_PROJECTS_DIR)) {
+    try {
+      const projectDirs = readdirSync(CLAUDE_PROJECTS_DIR, { withFileTypes: true });
+      for (const projEntry of projectDirs) {
+        if (!projEntry.isDirectory()) continue;
+        const memoryDir = join(CLAUDE_PROJECTS_DIR, projEntry.name, "memory");
+        if (!existsSync(memoryDir)) continue;
+        const memFiles = findMdFiles(memoryDir);
+        for (const filepath of memFiles) {
+          try {
+            const stat = statSync(filepath);
+            const dateStr = toLocalDateStr(stat.mtime);
+            if (new Date(dateStr) >= cutoff) {
+              claudeFiles++;
+              addActivity(dateStr, 2, "claude-memory", { skills: 1 });
+            }
+          } catch { /* skip */ }
         }
-      } catch { /* skip */ }
-    }
+      }
+    } catch { /* skip */ }
   }
 
   // --- Source 3: Git commits from website repo ---
