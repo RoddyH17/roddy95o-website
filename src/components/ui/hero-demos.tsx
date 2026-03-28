@@ -71,12 +71,12 @@ export function BankrollTracker() {
         </div>
       </div>
 
-      {/* Category grid */}
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+      {/* Category grid — vertical stack for more height */}
+      <div className="grid grid-cols-1 gap-4">
         {bankroll.categories.map((cat) => (
           <div
             key={cat.name}
-            className="rounded-lg border border-white/[0.04] bg-zinc-950/40 p-3"
+            className="rounded-lg border border-white/[0.04] bg-zinc-950/40 p-4"
           >
             <CategoryCard cat={cat} />
           </div>
