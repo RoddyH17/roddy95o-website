@@ -4,7 +4,6 @@ import {
   IconHome,
   IconCards,
   IconChartBar,
-  IconBrain,
   IconActivity,
   IconMail,
 } from "@tabler/icons-react";
@@ -24,11 +23,6 @@ const navItems = [
     title: "This Week",
     icon: <IconChartBar className="h-full w-full text-neutral-400" />,
     href: "#progress",
-  },
-  {
-    title: "Digest",
-    icon: <IconBrain className="h-full w-full text-neutral-400" />,
-    href: "#digest",
   },
   {
     title: "Activity",

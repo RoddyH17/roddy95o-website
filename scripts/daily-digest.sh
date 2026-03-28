@@ -38,7 +38,10 @@ fi
 # --- Error handler ---
 trap 'echo "=== [$DATE $TIME] FAILED at line $LINENO ===" >> "$LOG"' ERR
 
-# 1. Generate digest JSON (safe TS serialization)
+# 1. Sync GitHub activity + heatmap
+echo "  Syncing GitHub activity..." >> "$LOG"
+npx tsx scripts/sync-github-activity.ts >> "$LOG" 2>&1 || echo "  WARN: GitHub sync failed" >> "$LOG"
+
 echo "  Generating digest..." >> "$LOG"
 npx tsx scripts/generate-digest.ts >> "$LOG" 2>&1
 
