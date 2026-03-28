@@ -1,12 +1,14 @@
 import type { NextConfig } from "next";
 
+const isDev = process.env.NODE_ENV === "development";
+
 const ContentSecurityPolicy = `
   default-src 'self';
-  script-src 'self' 'unsafe-inline';
+  script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""};
   style-src 'self' 'unsafe-inline';
   img-src 'self' data: blob: https://images.unsplash.com https://assets.aceternity.com;
   font-src 'self' data:;
-  connect-src 'self' https://vitals.vercel-insights.com;
+  connect-src 'self' https://vitals.vercel-insights.com${isDev ? " ws://localhost:* http://localhost:*" : ""};
   frame-ancestors 'none';
   base-uri 'self';
   form-action 'self';

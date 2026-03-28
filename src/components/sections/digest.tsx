@@ -10,12 +10,13 @@ const categoryIcons: Record<string, string> = {
   poker: "🃏",
   frontend: "🎨",
   devops: "⚙️",
+  macro: "📊",
   default: "📄",
 };
 
 function getCategoryIcon(file: string): string {
   for (const [key, icon] of Object.entries(categoryIcons)) {
-    if (file.startsWith(key)) return icon;
+    if (key !== "default" && file.includes(key)) return icon;
   }
   return categoryIcons.default;
 }
@@ -32,7 +33,8 @@ function timeAgo(dateStr: string): string {
 export function Digest() {
   if (!digestData) return null;
 
-  const { date, skills, commits, heatmap, highlights, generated } = digestData;
+  const { date, skills, memory, commits, heatmap, highlights, generated, window } = digestData;
+  const totalMemoryFiles = (skills?.modified ?? 0) + (memory?.modified ?? 0);
 
   return (
     <section id="digest" className="relative px-4 py-24 md:py-32">
@@ -51,9 +53,14 @@ export function Digest() {
             <span className="rounded-full border border-green-500/30 bg-green-500/10 px-2.5 py-0.5 text-xs font-medium text-green-400">
               {timeAgo(generated)}
             </span>
+            {window && (
+              <span className="rounded-full border border-blue-500/30 bg-blue-500/10 px-2.5 py-0.5 text-xs font-medium text-blue-400">
+                {window} window
+              </span>
+            )}
           </div>
           <p className="mt-2 text-neutral-500">
-            What I learned and built — auto-synced daily.
+            What I learned and built — auto-synced weekly across all Claude projects.
           </p>
         </motion.div>
 
@@ -66,10 +73,10 @@ export function Digest() {
           className="mb-8 grid grid-cols-2 gap-3 md:grid-cols-4"
         >
           {[
-            { label: "Skills Updated", value: skills.modified, color: "text-violet-400", border: "border-violet-500/20" },
+            { label: "Memory Updated", value: totalMemoryFiles, color: "text-violet-400", border: "border-violet-500/20" },
             { label: "Git Commits", value: commits.count, color: "text-green-400", border: "border-green-500/20" },
             { label: "Active Days", value: heatmap.activeDays, color: "text-yellow-400", border: "border-yellow-500/20" },
-            { label: "Memory Files", value: heatmap.claudeFiles, color: "text-blue-400", border: "border-blue-500/20" },
+            { label: "Projects Active", value: memory?.projects?.length ?? 0, color: "text-blue-400", border: "border-blue-500/20" },
           ].map((stat, i) => (
             <motion.div
               key={stat.label}
@@ -117,7 +124,7 @@ export function Digest() {
             </ul>
           </motion.div>
 
-          {/* Skills Modified */}
+          {/* Skills & Memory Modified */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -129,12 +136,13 @@ export function Digest() {
               <span className="inline-flex h-5 w-5 items-center justify-center rounded bg-violet-500/20 text-[10px]">
                 📚
               </span>
-              Skills Learned
+              Claude Memory
             </h3>
             <div className="space-y-2">
+              {/* Show skill files */}
               {skills.files.map((file, i) => (
                 <motion.div
-                  key={file}
+                  key={`skill-${file}`}
                   initial={{ opacity: 0, x: -10 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
@@ -145,6 +153,23 @@ export function Digest() {
                   <span className="font-mono text-xs text-neutral-400">{file}</span>
                 </motion.div>
               ))}
+              {/* Show memory files */}
+              {memory?.files?.map((file, i) => (
+                <motion.div
+                  key={`mem-${file}`}
+                  initial={{ opacity: 0, x: -10 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: 0.35 + (skills.files.length + i) * 0.04 }}
+                  className="flex items-center gap-2 rounded-lg bg-zinc-900/50 px-3 py-1.5"
+                >
+                  <span className="text-xs">{getCategoryIcon(file)}</span>
+                  <span className="font-mono text-xs text-neutral-400">{file}</span>
+                </motion.div>
+              ))}
+              {totalMemoryFiles === 0 && (
+                <p className="text-xs text-neutral-600">No memory files updated this week</p>
+              )}
             </div>
           </motion.div>
 

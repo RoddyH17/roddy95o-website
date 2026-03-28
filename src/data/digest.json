@@ -1,24 +1,36 @@
 {
-  "generated": "2026-03-27T18:43:02.464Z",
+  "generated": "2026-03-28T03:19:22.596Z",
   "date": "2026-03-27",
+  "window": "7d",
   "skills": {
-    "modified": 0,
-    "files": []
+    "modified": 1,
+    "files": [
+      "global/skills/engineering/claude-code-new-features.md"
+    ]
+  },
+  "memory": {
+    "modified": 1,
+    "files": [
+      "global/MEMORY.md"
+    ],
+    "projects": [
+      "global"
+    ]
   },
   "commits": {
-    "count": 2,
+    "count": 15,
     "recent": [
-      "Daily digest update",
-      "Daily digest update"
+      "Daily digest update (x15)"
     ]
   },
   "heatmap": {
-    "activeDays": 26,
+    "activeDays": 27,
     "obsidianFiles": 25,
     "claudeFiles": 53,
-    "gitDays": 20
+    "gitDays": 21
   },
   "highlights": [
-    "2 commit(s) pushed to GitHub"
+    "2 Claude memory files updated this week",
+    "15 commits this week — heavy development"
   ]
 }
