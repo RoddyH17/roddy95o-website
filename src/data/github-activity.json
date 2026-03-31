@@ -1,13 +1,44 @@
 {
-  "generated": "2026-03-28T15:38:22.803Z",
+  "generated": "2026-03-31T09:06:36.966Z",
   "user": "RoddyH17",
-  "totalEvents": 10,
+  "totalEvents": 13,
   "repos": [
     "roddy95o-website",
-    "ncaa-prediction",
-    "ml-hft"
+    "ncaa-prediction"
   ],
   "feed": [
+    {
+      "date": "2026-03-28",
+      "type": "pr-opened",
+      "repo": "roddy95o-website",
+      "title": "Opened PR #6: Taller bankroll layout, fix research links",
+      "description": "",
+      "url": "https://github.com/RoddyH17/roddy95o-website/pull/6"
+    },
+    {
+      "date": "2026-03-28",
+      "type": "create-branch",
+      "repo": "roddy95o-website",
+      "title": "Created branch RoddyH17/yeosu-v3 in roddy95o-website",
+      "description": "",
+      "url": "https://github.com/RoddyH17/roddy95o-website"
+    },
+    {
+      "date": "2026-03-28",
+      "type": "pr-opened",
+      "repo": "roddy95o-website",
+      "title": "Opened PR #5: Remove Digest, add live GitHub activity sync",
+      "description": "",
+      "url": "https://github.com/RoddyH17/roddy95o-website/pull/5"
+    },
+    {
+      "date": "2026-03-28",
+      "type": "create-branch",
+      "repo": "roddy95o-website",
+      "title": "Created branch RoddyH17/nairobi-v1 in roddy95o-website",
+      "description": "",
+      "url": "https://github.com/RoddyH17/roddy95o-website"
+    },
     {
       "date": "2026-03-28",
       "type": "pr-opened",
@@ -79,14 +110,6 @@
       "title": "Created branch master in ncaa-prediction",
       "description": "",
       "url": "https://github.com/RoddyH17/ncaa-prediction"
-    },
-    {
-      "date": "2026-03-12",
-      "type": "create-branch",
-      "repo": "ml-hft",
-      "title": "Created branch master in ml-hft",
-      "description": "",
-      "url": "https://github.com/RoddyH17/ml-hft"
     }
   ]
 }
