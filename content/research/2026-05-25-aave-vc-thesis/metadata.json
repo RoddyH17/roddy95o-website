@@ -1,0 +1,53 @@
+{
+  "slug": "2026-05-25-aave-vc-thesis",
+  "title": "Aave 投资命题 — DeFi 借贷赛道的范式转移 + 单名深度",
+  "subtitle": "VC 视角的 sector + single-name 综合研究",
+  "author": "Roddy Huang",
+  "date_published": "2026-05-25",
+  "type": "single-name-thesis",
+  "sector": "lending",
+  "primary_subject": "AAVE",
+  "comparables": ["MORPHO", "SPARK", "COMPOUND"],
+  "investment_recommendation": {
+    "single_name_aave_token": "PASS / UNDERWEIGHT",
+    "sector_exposure": "SELECTIVE OVERWEIGHT — but NOT via AAVE token"
+  },
+  "time_horizon_years": "3-5",
+  "data_sources": [
+    "DefiLlama API (free tier)",
+    "Dune Analytics REST API (free tier — executeQueryById on public queries)",
+    "CoinGecko API (free tier)"
+  ],
+  "methodology_framework": {
+    "macro": "Porter's 5 Forces → 3-question collapse (TAM / concentration / margin)",
+    "single_name": "Value Capture Bridge 5-layer audit + Gordon model reverse-engineering"
+  },
+  "tools_used": [
+    "web3-vc Claude Code plugin v0.2.0",
+    "/web3-vc:sector lending (Phase A)",
+    "/web3-vc:fundamental aave (single-name)"
+  ],
+  "files": {
+    "thesis_markdown": "thesis.md",
+    "thesis_pdf": "thesis.pdf",
+    "sql_queries": "sql/",
+    "raw_data": "data/"
+  },
+  "data_disclosure": {
+    "phase_a_completed": true,
+    "phase_b_dune_completed": "partial — see sql/README.md for status",
+    "engineering_audits_run": [
+      "Morpho TVL definition reconciliation (parent vs morpho-blue slug)",
+      "Cross-check Aave Supply TVL vs DefiLlama UI",
+      "Holders Revenue lifetime vs 30d divergence (Aave)"
+    ]
+  },
+  "falsifiable_predictions": [
+    "Aave V4 not on mainnet by 2026-12-31 (60% probability)",
+    "Morpho TVL growth > Aave TVL growth over 12 months (70% probability)",
+    "AAVE 12m return < SPX 12m return (60% probability)",
+    "MORPHO 12m return > AAVE 12m return (65% probability)",
+    "At least 1 MetaMorpho curator raises >$20m within 12 months (55% probability)"
+  ],
+  "disclaimer": "Research framework demonstration, not investment advice. All conclusions depend on stated assumptions; independent verification required."
+}
