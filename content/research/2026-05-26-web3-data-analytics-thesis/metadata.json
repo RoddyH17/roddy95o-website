@@ -1,0 +1,120 @@
+{
+  "slug": "2026-05-26-web3-data-analytics-thesis",
+  "title": "Web3 Data Analytics 投资命题 v1 — 为什么 Chainalysis 是合规之王、Allium 是新 Stripe、Dune 在转身",
+  "author": "Roddy Huang",
+  "date_published": "2026-05-26",
+  "version": "1.0",
+  "type": "sector-thesis + investable-vehicle thesis",
+  "sector": "web3-data-analytics + infrastructure",
+  "data_integrity_score": "8.2 / 10",
+  "previous_thesis_template": "Aave/Morpho v4 (2026-05-25)",
+
+  "investment_recommendation": {
+    "summary_three_tier": {
+      "Strong_Buy_L2_Enterprise_Infra": {
+        "rationale": "Visa/Stripe already paying; AI/MCP creates demand for clean schema delivery; early Series A valuations reasonable",
+        "candidates": ["Allium (Series B next)", "Goldsky (Series A extension)"],
+        "ev_range_3yr": "3-8x",
+        "portfolio_pct": "4-6%"
+      },
+      "Buy_L1_Compliance": {
+        "rationale": "Chainalysis $250M ARR + government moats; markdown opens entry; Alterya $150M proves acquisition path",
+        "candidates": ["Chainalysis pre-IPO secondary", "early compliance startup as acquisition target"],
+        "ev_range_3yr": "1.5-3x",
+        "portfolio_pct": "2-3%"
+      },
+      "Speculative_L3_Trading_Pivot": {
+        "rationale": "Forced pivot — pure data SaaS caps at $50M ARR, only path to multi-billion is execution attach",
+        "candidates": ["ARKM token", "Nansen secondary if accessible"],
+        "ev_range_3yr": "-70% to +5x",
+        "portfolio_pct": "1-2%"
+      },
+      "Pass_L4_Discretionary_SaaS": {
+        "rationale": "Dune $13M ARR / $1b stale mark; Nansen $9M ARR; Messari struggling. Subscription model under AI/MCP threat",
+        "candidates": [],
+        "ev_range_3yr": "-30% to +1.5x",
+        "portfolio_pct": "0%"
+      }
+    },
+    "total_sector_exposure": "7-11% of fund"
+  },
+
+  "time_horizon_years": "3-5",
+
+  "data_sources": [
+    "3 parallel research agents (VC data strategies / Web3 analytics platforms / Dune business deep-dive)",
+    "DefiLlama API (TVL benchmarks for revenue cross-check)",
+    "Crunchbase + Tracxn + Sacra + CB Insights (funding history)",
+    "Sources: Chainalysis, Dune, Nansen blogs + public news",
+    "Self-built Dune Orchestrator (orchestrator/ in web3-vc plugin)",
+    "VC public reports: a16z State of Crypto, Electric Capital Developer Report, Dragonfly State of Airdrops, OurNetwork, Pantera Blockchain Letter"
+  ],
+
+  "methodology_framework": {
+    "structure": "10-section structure inherited from Aave/Morpho thesis v4",
+    "tier_framework": "Project / Product / Market level data scope explicit",
+    "ev_format": "Range + probability source labels (data/analogy/subjective)",
+    "scenario_analysis": "Bull/Base/Bear with prob × outcome math",
+    "stress_test": "AI/MCP timeline + 6 macro trends + 3 reverse-direction questions"
+  },
+
+  "tools_used": [
+    "web3-vc plugin v0.2.0",
+    "Self-built Dune Orchestrator (5 modules, ~600 lines) — production-grade query layer consolidating 14 ad-hoc /tmp/ scripts",
+    "3 parallel general-purpose research agents",
+    "matplotlib 3.9.4 + Arial Unicode MS (CJK font)",
+    "pandoc + XeLaTeX — Chinese PDF generation",
+    "DefiLlama API + WebSearch + WebFetch"
+  ],
+
+  "new_infrastructure_built": {
+    "dune_orchestrator_path": "~/web3-vc/plugins/web3-vc/connectors/dune/orchestrator/",
+    "modules": [
+      "client.DuneClient (REST API with smart cache-first / poll / failure detection)",
+      "client.DuneMCP (HTTP MCP fallback for searchDuneQueries)",
+      "cache.QueryCache (file-based TTL cache at ~/.cache/web3-vc/dune/)",
+      "schema.SchemaWatcher (drift detection)",
+      "reconcile.CrossSourceReconciler (3-tier口径 automation)",
+      "batch.BatchExecutor (parallel-ish query runs with caching)"
+    ],
+    "smoke_test_results": "6/6 tests passed; 2 queries cached; Morpho/Aave ratio 55.4%/43.3%/35.7% matches v4 thesis",
+    "lines_of_code": "~600 (replaces ~14 ad-hoc scripts totaling ~800 lines)"
+  },
+
+  "files": {
+    "thesis_markdown": "thesis.md",
+    "thesis_pdf": "thesis.pdf (20 pages, 1.3MB)",
+    "media_kit": "data_media/ (substack.pdf 18p + twitter.pdf 4p + media-kit.pdf 22p combined)",
+    "charts": "charts/ (5 PNG: universe-map / arr-vs-funding / ai-mcp-timeline / vc-tool-matrix / value-capture-stack)",
+    "scripts": "scripts/01-make-charts.py",
+    "data": "data/ (planned for Dune query exports)",
+    "orchestrator_source": "~/web3-vc/plugins/web3-vc/connectors/dune/orchestrator/"
+  },
+
+  "key_findings": {
+    "demand_validation": "8/8 top crypto VCs use Dune + DefiLlama; only a16z has portfolio investments in the stack",
+    "supply_gap": "Allium/Goldsky/Chainalysis (Enterprise infra + compliance) capture multi-billion outcomes; discretionary SaaS caps at $50M ARR",
+    "paradigm_shift": "SQL-Dashboard era ending. Flipside killed SQL Studio (2025-07), Dune shipped MCP (2026-03), Nansen launched mobile trading agent",
+    "alpha_layer": "Layer 2 (Enterprise Warehouse) — Allium + Goldsky are 'Stripe of blockchain data pipes'",
+    "talent_gap": "5 of 8 VCs have named data scientists; hires from data analytics → VC rarer than expected"
+  },
+
+  "falsifiable_predictions_v1": [
+    "Allium 12mo Series B > $40m (65%, 【数据】)",
+    "Goldsky 12mo acquired or large Series B (50%, 【类比】 — Graph deprecation)",
+    "Chainalysis 12mo IPO or announcement (55%, 【数据】 — markdown opens entry)",
+    "Nansen large layoff (>20%) or acquisition (40%, 【类比】 — Messari pattern)",
+    "Dune ARR 12mo > $25M (35%, 【主观】 — Sim/Echo ramp dependent)",
+    "At least 2 small data startups acquired Chainalysis-style $50-200M (70%, 【数据】)",
+    "One of Nansen/Glassnode/Messari announces token issuance (45%, 【类比】)"
+  ],
+
+  "known_unknowns_v1": [
+    "No founder interviews conducted (Roddy capability limitation)",
+    "Most ARR figures are third-party estimates (companies don't disclose)",
+    "Cap table data missing for private companies (Allium/Goldsky valuation precision limited)",
+    "Token Terminal API requires paid access (couldn't cross-validate fees data)"
+  ],
+
+  "disclaimer": "Research framework demonstration, not investment advice. Author holds no data analytics company equity or tokens. All conclusions contingent on data snapshot 2026-05-26; independent verification required."
+}

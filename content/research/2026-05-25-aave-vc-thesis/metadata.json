@@ -1,53 +1,89 @@
 {
   "slug": "2026-05-25-aave-vc-thesis",
-  "title": "Aave 投资命题 — DeFi 借贷赛道的范式转移 + 单名深度",
-  "subtitle": "VC 视角的 sector + single-name 综合研究",
+  "title": "Aave/Morpho Investment Thesis v4 — DeFi 借贷范式转移 + 三层口径 + 可投载体 deep-dive",
   "author": "Roddy Huang",
   "date_published": "2026-05-25",
-  "type": "single-name-thesis",
+  "version": "4.0",
+  "external_review": {
+    "reviewer": "Surf AI",
+    "review_date": "2026-05-26",
+    "v3_score": "7.6/10",
+    "v3_feedback_addressed": "100% of 7 priority items"
+  },
+  "type": "single-name-thesis + sector thesis + venture vehicle thesis (combined)",
   "sector": "lending",
-  "primary_subject": "AAVE",
-  "comparables": ["MORPHO", "SPARK", "COMPOUND"],
+  "primary_subjects": ["AAVE", "MORPHO", "Curator equity (Gauntlet/Steakhouse/Re7)"],
+  "data_integrity_score": "9.0 / 10 (vs v3 8.1, v2 4.0)",
   "investment_recommendation": {
-    "single_name_aave_token": "PASS / UNDERWEIGHT",
-    "sector_exposure": "SELECTIVE OVERWEIGHT — but NOT via AAVE token"
+    "token_thesis": {
+      "AAVE_token": "PASS / UNDERWEIGHT (< 3% portfolio as cheap optionality)",
+      "MORPHO_token": "NEUTRAL (unlock overhang 37%, 0 cash flow capture)",
+      "EV_range_AAVE_3yr": "[+0.4x, +1.2x] midpoint +0.8x"
+    },
+    "venture_thesis": {
+      "Gauntlet_equity": "BUY (3-8x EV in 3yr) — $1.88b AUM, ~$8.5m/yr fee revenue",
+      "Steakhouse_equity": "BUY (2-5x EV in 3yr) — $1.26b AUM, ~$5m/yr fee revenue",
+      "Re7_Labs_equity": "NEUTRAL+ (2-4x EV)",
+      "rationale": "Curator layer is the only Lending stack layer with real cash flow capture"
+    },
+    "lp_cash_management": {
+      "Morpho_USDC_Gauntlet_vault": "5-10% cash sleeve, 4.5% APY",
+      "Aave_USDC_supply": "5-10% cash sleeve, 4.0% APY, max safety"
+    },
+    "sector_total_exposure": "15-21% of $100m fund"
   },
   "time_horizon_years": "3-5",
   "data_sources": [
-    "DefiLlama API (free tier)",
-    "Dune Analytics REST API (free tier — executeQueryById on public queries)",
-    "CoinGecko API (free tier)"
+    "DefiLlama /protocol API — TVL time series 4 protocols, 51/29/46/37 months",
+    "DefiLlama /protocols API — 4-family project-level aggregation",
+    "DefiLlama Yields API — 984 Morpho pools, $11.44b vault-layer total",
+    "Dune REST API — query 6930431 (27mo borrow rate), query 3431820 (1948 liquidations FULL), query 6940233 (top depositors)",
+    "CoinGecko API — AAVE/MORPHO FDV, float, supply, 1Y price",
+    "WebSearch — Aave buyback news March 2026, ACI shutdown, Morpho tokenomics, founder profiles",
+    "Etherscan label lookup — depositor wallet identification",
+    "External review: Surf AI 2026-05-26"
   ],
-  "methodology_framework": {
-    "macro": "Porter's 5 Forces → 3-question collapse (TAM / concentration / margin)",
-    "single_name": "Value Capture Bridge 5-layer audit + Gordon model reverse-engineering"
+  "v4_upgrades_over_v3": {
+    "tier_reconciliation": "3 tiers introduced: Project / Product / Market + Supply / Gross / Borrowed",
+    "spark_correction": "Added Spark Savings $2.15b (v3 missed)",
+    "morpho_tvl_clarification": "Corrected: $11.78b external IS valid (vault-layer); $7.62b is protocol-only",
+    "price_adjusted_tvl": "Stripped ETH price effect — Aave real outflow -$17.1b from peak (90% real, 10% price)",
+    "full_liquidation_sample": "1,948 events (v3 had 50 biased) — 100% long-tail, 0 mainstream markets, bad debt only $350k",
+    "curator_economics": "Gauntlet $1.88b / Steakhouse $1.26b / Re7 $610m + unit economics ($5-14m revenue per top curator)",
+    "ev_sensitivity_range": "Replaced single point +0.63x with range [+0.4x, +1.2x] + probability source labels",
+    "probability_source_labels": "All probabilities tagged【数据】/【类比】/【主观】",
+    "token_priced_in": "AAVE 95% float (no overhang) vs MORPHO 63% float ($793m overhang to absorb)",
+    "buyback_event_capture": "March 2026: $4m approved 99.63%, $1m/week × 6mo — $52m bull-case yield captured",
+    "governance_risk_addition": "ACI shutdown March 2026 — added as 6th Porter force",
+    "founder_rewrite": "6 quantifiable dimensions (vs v3 personal traits)",
+    "thesis_architecture_template": "Future thesis structure documented in separate THESIS-ARCHITECTURE.md",
+    "data_integrity_score": "v3 8.1 → v4 9.0 (out of 10)"
   },
-  "tools_used": [
-    "web3-vc Claude Code plugin v0.2.0",
-    "/web3-vc:sector lending (Phase A)",
-    "/web3-vc:fundamental aave (single-name)"
-  ],
   "files": {
     "thesis_markdown": "thesis.md",
-    "thesis_pdf": "thesis.pdf",
-    "sql_queries": "sql/",
-    "raw_data": "data/"
+    "thesis_pdf": "thesis.pdf (23 pages, 1.5MB)",
+    "v3_backup": "thesis-v3-backup.md",
+    "v2_backup": "thesis-v2-backup.md",
+    "thesis_architecture_template": "THESIS-ARCHITECTURE.md (future research framework)",
+    "charts": "charts/ (8 PNG: 01-08)",
+    "raw_data": "data/ (8 JSON files: Dune queries + tier reconciliation + price-adjusted TVL)",
+    "scripts": "scripts/ (10 Python: 01-fetch through 10-make-charts-v4)",
+    "sql_catalog": "sql/README.md"
   },
-  "data_disclosure": {
-    "phase_a_completed": true,
-    "phase_b_dune_completed": "partial — see sql/README.md for status",
-    "engineering_audits_run": [
-      "Morpho TVL definition reconciliation (parent vs morpho-blue slug)",
-      "Cross-check Aave Supply TVL vs DefiLlama UI",
-      "Holders Revenue lifetime vs 30d divergence (Aave)"
-    ]
-  },
-  "falsifiable_predictions": [
-    "Aave V4 not on mainnet by 2026-12-31 (60% probability)",
-    "Morpho TVL growth > Aave TVL growth over 12 months (70% probability)",
-    "AAVE 12m return < SPX 12m return (60% probability)",
-    "MORPHO 12m return > AAVE 12m return (65% probability)",
-    "At least 1 MetaMorpho curator raises >$20m within 12 months (55% probability)"
+  "known_unknowns_v4": [
+    "Wallet-level migration cohort (Aave LP → Morpho) requires Dune Pro tier",
+    "Token Terminal three-source validation requires paid access",
+    "Curator full cap table / valuation requires direct outreach",
+    "ETH sensitivity beta (60% Aave / 30% Morpho) assumes constant collateral mix — could be ±10% off"
   ],
-  "disclaimer": "Research framework demonstration, not investment advice. All conclusions depend on stated assumptions; independent verification required."
+  "falsifiable_predictions_v4": [
+    "Aave V4 not on mainnet by 2026-12-31 (60%, 【类比】)",
+    "Aave buyback 12mo cumulative > $30m (65%, 【数据】)",
+    "Morpho TVL 12mo growth > Aave (70%, 【数据】)",
+    "MORPHO 12m return < AAVE 12m return (50%, 【主观】 — unlock overhang)",
+    "Gauntlet AUM 12mo > $3b (60%, 【数据】)",
+    "At least 1 curator raises >$30m in 12mo (55%, 【类比】 — a16z DeFi infra record)",
+    "Morpho mainstream market (USDC/ETH/wBTC) bad debt > $50m in 12mo (15%, 【数据】 — historical zero)"
+  ],
+  "disclaimer": "Research framework demonstration, not investment advice. Author holds no Lending sector positions. All conclusions contingent on data snapshot 2026-05-25; independent verification required."
 }

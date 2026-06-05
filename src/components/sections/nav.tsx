@@ -8,6 +8,7 @@ import {
   IconChartBar,
   IconActivity,
   IconMail,
+  IconTargetArrow,
 } from "@tabler/icons-react";
 
 const navItems = [
@@ -30,6 +31,11 @@ const navItems = [
     title: "This Week",
     icon: <IconChartBar className="h-full w-full text-neutral-400" />,
     href: "#progress",
+  },
+  {
+    title: "KOL Winrate",
+    icon: <IconTargetArrow className="h-full w-full text-neutral-400" />,
+    href: "/kol-winrate",
   },
   {
     title: "Activity",
