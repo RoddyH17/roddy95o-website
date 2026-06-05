@@ -1,0 +1,536 @@
+{
+  "meta": {
+    "generated": "2026-06-05",
+    "scope": "Crypto KOL tracking — 综合市场影响力 trader/analyst 的 actions, style, sentiment + 综合 KOL Index",
+    "kol_count": 20,
+    "index_formula": "KOL Index = Influence(30%) + Activity(20%) + Conviction(20%) + Tenure(15%) + Specialty(15%)",
+    "sentiment_legend": {
+      "+1 to +0.5": "强 bullish",
+      "+0.5 to 0": "温和 bullish / 等待",
+      "0 to -0.5": "温和 bearish / 谨慎",
+      "-0.5 to -1": "强 bearish / 反共识"
+    }
+  },
+  "kols": [
+    {
+      "handle": "CryptoHayes",
+      "display_name": "Arthur Hayes",
+      "bio": "Co-Founder BitMEX & CIO Maelstrom",
+      "verified": true,
+      "language": "EN",
+      "followed": false,
+      "category": "Macro Trader",
+      "category_color": "purple",
+      "kol_index": 95,
+      "metrics": {
+        "engagement_avg": 1100,
+        "activity_score": 9,
+        "conviction_score": 10,
+        "tenure_years": 10
+      },
+      "sentiment_score": 0.3,
+      "sentiment_label": "Pivoting to privacy (ZEC), bearish on alt-L1",
+      "voice": "Macro thesis → position calls → long-form essay 论证",
+      "style_tags": ["macro", "position-calls", "essays", "BTC", "ZEC"],
+      "recent_actions": [
+        "2026-06-04: Dumped entire $HYPE + $NEAR position",
+        "2026-05-06: $ZEC target 10% of BTC ($10k)",
+        "Pumping $HYPE = $150 earlier (then reversed)"
+      ]
+    },
+    {
+      "handle": "cobie",
+      "display_name": "Cobie",
+      "bio": "@echodotxyz @coinbase @uponlytv",
+      "verified": true,
+      "language": "EN",
+      "followed": false,
+      "category": "Cycle Vibe",
+      "category_color": "blue",
+      "kol_index": 91,
+      "metrics": {
+        "engagement_avg": 5000,
+        "activity_score": 8,
+        "conviction_score": 6,
+        "tenure_years": 8
+      },
+      "sentiment_score": -0.3,
+      "sentiment_label": "Bear mood signaling (LoL reinstall)",
+      "voice": "Meme barometer + market mood signaling, presence 即信号",
+      "style_tags": ["meme", "cycle-vibe", "meta-commentary"],
+      "recent_actions": [
+        "':)' single emoji post (6,600 likes — pure presence)",
+        "'If market gets any worse I am reinstalling League of Legends'",
+        "OpenClaw 50k invoices to Fortune500 viral take (25,000 likes)"
+      ]
+    },
+    {
+      "handle": "hosseeb",
+      "display_name": "Haseeb",
+      "bio": "Managing partner @dragonfly_xyz",
+      "verified": true,
+      "language": "EN",
+      "followed": false,
+      "category": "VC Thesis",
+      "category_color": "indigo",
+      "kol_index": 89,
+      "metrics": {
+        "engagement_avg": 1300,
+        "activity_score": 7,
+        "conviction_score": 8,
+        "tenure_years": 9
+      },
+      "sentiment_score": 0.2,
+      "sentiment_label": "Recovery vibe ('things quietly got better')",
+      "voice": "Web2 类比 + cycle pattern recognition + 长 essay",
+      "style_tags": ["VC", "analogies", "cycle-pattern", "AI-x-crypto"],
+      "recent_actions": [
+        "'Ethereum is the Microsoft of crypto' (1,300 likes)",
+        "'OK guys, someone explain the $NEAR pump?'",
+        "'Vibe investing is having a renaissance'"
+      ]
+    },
+    {
+      "handle": "ki_young_ju",
+      "display_name": "Ki Young Ju",
+      "bio": "Founder @cryptoquant_com",
+      "verified": true,
+      "language": "EN",
+      "followed": false,
+      "category": "Onchain Data",
+      "category_color": "cyan",
+      "kol_index": 87,
+      "metrics": {
+        "engagement_avg": 600,
+        "activity_score": 9,
+        "conviction_score": 7,
+        "tenure_years": 7
+      },
+      "sentiment_score": 0.1,
+      "sentiment_label": "Data-driven, neutral lean (whales accumulating)",
+      "voice": "Onchain data → interpretive macro insight",
+      "style_tags": ["onchain", "BTC", "whale-flow", "ETF"],
+      "recent_actions": [
+        "'Whales accumulated 270k BTC in 30 days, largest since 2013'",
+        "'BlackRock IBIT weekly inflows $983M'",
+        "'US gov has seized 198k BTC and lost 0 BTC'"
+      ]
+    },
+    {
+      "handle": "HsakaTrades",
+      "display_name": "Hsaka",
+      "bio": "I trade, I drink your milkshake",
+      "verified": true,
+      "language": "EN",
+      "followed": false,
+      "category": "Active Trader",
+      "category_color": "rose",
+      "kol_index": 84,
+      "metrics": {
+        "engagement_avg": 600,
+        "activity_score": 10,
+        "conviction_score": 8,
+        "tenure_years": 6
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "Daily orderflow + regulatory signals (neutral)",
+      "voice": "Sharp short observation + market structure micro + 反 VC groupthink",
+      "style_tags": ["trader", "orderflow", "liquidations", "regulatory"],
+      "recent_actions": [
+        "'CRV liquidations coming in hot' (real-time alert)",
+        "'SEC told spot ETH ETF issuers to submit S-1 by Friday'",
+        "'allowing vpn for deposits but not airdrop / jail bucco'"
+      ]
+    },
+    {
+      "handle": "DCinvestor",
+      "display_name": "DCinvestor",
+      "bio": "fan of crypto, ethereum, NFT-based art, AI",
+      "verified": true,
+      "language": "EN",
+      "followed": false,
+      "category": "Cycle Veteran (ETH)",
+      "category_color": "emerald",
+      "kol_index": 83,
+      "metrics": {
+        "engagement_avg": 700,
+        "activity_score": 8,
+        "conviction_score": 7,
+        "tenure_years": 9
+      },
+      "sentiment_score": 0.4,
+      "sentiment_label": "ETH-bull defense + macro doom",
+      "voice": "Macro doom + ETH-aligned bull + 4 年周期框架",
+      "style_tags": ["ETH-maxi", "cycle", "macro-doom", "NFT"],
+      "recent_actions": [
+        "'crypto is not over. this happens every 4 years'",
+        "'Could be an ETH comeback due to quantum'",
+        "'really feels like they are looting everything they possibly can' (5,000 likes)"
+      ]
+    },
+    {
+      "handle": "DefiIgnas",
+      "display_name": "Ignas | DeFi",
+      "bio": "DeFi blog + Co-founder @PinkBrains_io",
+      "verified": true,
+      "language": "EN",
+      "followed": false,
+      "category": "Protocol Analyst",
+      "category_color": "amber",
+      "kol_index": 79,
+      "metrics": {
+        "engagement_avg": 200,
+        "activity_score": 10,
+        "conviction_score": 7,
+        "tenure_years": 5
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "Pro-MegaETH coverage, mixed protocol takes",
+      "voice": "Protocol 对比 + 数据出处 + 跨协议 pattern recognition",
+      "style_tags": ["DeFi", "tokenomics", "protocol-comparison", "MegaETH"],
+      "recent_actions": [
+        "'Zcash $405M annualized fees > ETH $329M > SOL $323M'",
+        "Heavy MegaETH coverage (KPI-locked unlock, degen apps)",
+        "'Sui is the new Sol, but not by price'"
+      ]
+    },
+    {
+      "handle": "santiagoroel",
+      "display_name": "Santiago R Santos",
+      "bio": "founder @inversion_cap | ex-ParaFi",
+      "verified": true,
+      "language": "EN",
+      "followed": false,
+      "category": "First Principles",
+      "category_color": "teal",
+      "kol_index": 78,
+      "metrics": {
+        "engagement_avg": 600,
+        "activity_score": 7,
+        "conviction_score": 8,
+        "tenure_years": 7
+      },
+      "sentiment_score": 0.2,
+      "sentiment_label": "Long-term builder mindset + emergency alpha alerts",
+      "voice": "Business fundamentals + 财务定义严密 + 紧急 alpha alert",
+      "style_tags": ["VC", "fundamentals", "moats", "emergency-alpha"],
+      "recent_actions": [
+        "'If you have WETH on Aave V3 Core, withdraw now' (1,300 likes alert)",
+        "'There are no moats / Just persistence and speed'",
+        "'Working capital is the most underestimated force in business'"
+      ]
+    },
+    {
+      "handle": "jon_charb",
+      "display_name": "Jon Charbonneau",
+      "bio": "Co-Founder & GP @dba_xyz",
+      "verified": true,
+      "language": "EN",
+      "followed": false,
+      "category": "Architecture Critic",
+      "category_color": "orange",
+      "kol_index": 76,
+      "metrics": {
+        "engagement_avg": 200,
+        "activity_score": 8,
+        "conviction_score": 9,
+        "tenure_years": 5
+      },
+      "sentiment_score": 0.3,
+      "sentiment_label": "Hyperliquid bull, FDV-driven valuation bear",
+      "voice": "Infra critique + tokenomics math 严密性",
+      "style_tags": ["infra", "tokenomics", "HL-bull", "FDV-critique"],
+      "recent_actions": [
+        "'Most people still using FDV to value HYPE'",
+        "'Coinbase should just build perps using Hyperliquid underneath'",
+        "'BTC-backed credit markets will soon emerge'"
+      ]
+    },
+    {
+      "handle": "0xfoobar",
+      "display_name": "foobar/",
+      "bio": "Founder @CircuitAI",
+      "verified": true,
+      "language": "EN",
+      "followed": false,
+      "category": "Tech Depth",
+      "category_color": "violet",
+      "kol_index": 75,
+      "metrics": {
+        "engagement_avg": 800,
+        "activity_score": 6,
+        "conviction_score": 7,
+        "tenure_years": 6
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "Technical analysis, quantum + security focus",
+      "voice": "First principles + 跨行业类比 + security 视角",
+      "style_tags": ["security", "quantum", "AI", "formal-verification"],
+      "recent_actions": [
+        "Google quantum AI breakthrough commentary (5,900 likes)",
+        "'hacks moving from onchain to offchain components'",
+        "'Formal verification or bust for most'"
+      ]
+    },
+    {
+      "handle": "DefiSquared",
+      "display_name": "DeFi^2",
+      "bio": "#1 Bybit trader 2023 & 2024",
+      "verified": true,
+      "language": "EN",
+      "followed": false,
+      "category": "Whale-Trader",
+      "category_color": "fuchsia",
+      "kol_index": 74,
+      "metrics": {
+        "engagement_avg": 400,
+        "activity_score": 8,
+        "conviction_score": 8,
+        "tenure_years": 5
+      },
+      "sentiment_score": 0.3,
+      "sentiment_label": "AI agent infra bull, governance alerts",
+      "voice": "Token unlock + governance + 鲸鱼地址 + AI agents",
+      "style_tags": ["whale", "AI-agents", "tokenomics", "Virtuals"],
+      "recent_actions": [
+        "'WLFI unlocking 27 billion investor tokens'",
+        "'AI agent infrastructure is still not priced in' (876 likes)",
+        "'Largest active seller of Virtual has run out of coins'"
+      ]
+    },
+    {
+      "handle": "smyyguy",
+      "display_name": "Dan Smith",
+      "bio": "product @blockworks",
+      "verified": true,
+      "language": "EN",
+      "followed": false,
+      "category": "Systematic Data",
+      "category_color": "lime",
+      "kol_index": 71,
+      "metrics": {
+        "engagement_avg": 50,
+        "activity_score": 10,
+        "conviction_score": 6,
+        "tenure_years": 4
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "Neutral methodology — tracks what Blockworks decides matters",
+      "voice": "Blockworks data product 视角 + 跨协议 metric tracking",
+      "style_tags": ["data", "Blockworks", "systematic", "methodology"],
+      "recent_actions": [
+        "'NEW: Now tracking @BNBCHAIN with $18.5b'",
+        "'Geodnet has crossed 90% weekly burn rate' (93.2%)",
+        "'NEW: Now tracking Jito, largest staking on Solana'"
+      ]
+    },
+    {
+      "handle": "0xKevin00",
+      "display_name": "0xkevin",
+      "bio": "Kevin の撸毛日记｜Airdrop thread",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Airdrop + Policy",
+      "category_color": "amber",
+      "kol_index": 70,
+      "metrics": {
+        "engagement_avg": 500,
+        "activity_score": 9,
+        "conviction_score": 7,
+        "tenure_years": 4
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "Tactical airdrop + SEC insider tracking",
+      "voice": "撸毛 alpha + 中美政策跨市场对照 + 美股 SEC insider tracking",
+      "style_tags": ["airdrop", "SEC-tracking", "cross-market", "policy"],
+      "recent_actions": [
+        "'zkSync 万字撸毛 guide' (3,300 likes, 1,300 RT)",
+        "'如何追踪美国政府合法老鼠仓？$MRVL' (947 likes)",
+        "'7月1日起境外投资必须先报备审批'"
+      ]
+    },
+    {
+      "handle": "lidangzzz",
+      "display_name": "lidang 立党",
+      "bio": "co-founder @HedgehogLabHQ | 劝人卖房/学CS/买SP500",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "AI + China Macro",
+      "category_color": "blue",
+      "kol_index": 73,
+      "metrics": {
+        "engagement_avg": 500,
+        "activity_score": 9,
+        "conviction_score": 9,
+        "tenure_years": 8
+      },
+      "sentiment_score": -0.2,
+      "sentiment_label": "Anti-mainstream, China property bear, AI bull",
+      "voice": "反主流 + AI 范式 + 中国宏观（房地产/教育/半导体）",
+      "style_tags": ["anti-mainstream", "AI", "China-macro", "education"],
+      "recent_actions": [
+        "'AI 自动编程机定义' (2,000 likes, 238 RT)",
+        "'高考 600 分以下最好出路是 EE — 半导体自主可控'",
+        "'AI 改变学习路径，大学已经彻底没用'"
+      ]
+    },
+    {
+      "handle": "bitfish",
+      "display_name": "DiscusFish",
+      "bio": "Co-founder F2Pool & Cobo | A risk manager, not a prophet",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "BTC Veteran",
+      "category_color": "orange",
+      "kol_index": 76,
+      "metrics": {
+        "engagement_avg": 150,
+        "activity_score": 6,
+        "conviction_score": 9,
+        "tenure_years": 12
+      },
+      "sentiment_score": 0.1,
+      "sentiment_label": "BTC-native, risk-first philosophy",
+      "voice": "BTC native + 风控哲学 + 存在主义思辨",
+      "style_tags": ["BTC", "F2Pool", "risk-management", "philosophy"],
+      "recent_actions": [
+        "BTC 仪表盘 iteration (fuckbtc.com)",
+        "'你赚的不是持有多久，是跳变之前站对位置'",
+        "Sartre 存在主义思辨 + 信念边界 (268 likes)"
+      ]
+    },
+    {
+      "handle": "dongbimao",
+      "display_name": "懂币猫",
+      "bio": "币安合约聪明钱，年度收益第一名",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Contract + US Stocks",
+      "category_color": "rose",
+      "kol_index": 68,
+      "metrics": {
+        "engagement_avg": 80,
+        "activity_score": 10,
+        "conviction_score": 8,
+        "tenure_years": 4
+      },
+      "sentiment_score": 0.2,
+      "sentiment_label": "BNB bull, MRVL multi-bagger thesis",
+      "voice": "合约交易 + 美股估值横向对比 + cycle survival",
+      "style_tags": ["contract", "US-stocks", "P/E-comparison", "Chinese"],
+      "recent_actions": [
+        "'$MRVL 800万了，继续拿' (375 likes, 公开仓位)",
+        "'NVDA P/E 21 vs INTC 112 — NVDA 比想象便宜'",
+        "'BNB 突破 4 个月震荡区间'"
+      ]
+    },
+    {
+      "handle": "thankUcrypto",
+      "display_name": "allincrypto 熬鹰资本",
+      "bio": "|PNL 120K—10M|",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Public Position",
+      "category_color": "purple",
+      "kol_index": 66,
+      "metrics": {
+        "engagement_avg": 150,
+        "activity_score": 10,
+        "conviction_score": 9,
+        "tenure_years": 4
+      },
+      "sentiment_score": -0.3,
+      "sentiment_label": "HYPE 顶部判断 (wrong so far), 反 narrative",
+      "voice": "公开仓位 + cycle calling + cross-asset (合约 + 美股 + memes)",
+      "style_tags": ["contract", "public-position", "cycle-calling", "Chinese"],
+      "recent_actions": [
+        "'HYPE 日线四根针 顶部初步形成' (5/28, wrong by +32% in 7d)",
+        "'BNB 起来了 / 开了 80wu' (公开仓位)",
+        "'2024 币安带单收益率 20000%'"
+      ]
+    },
+    {
+      "handle": "IamRamenPanda",
+      "display_name": "RamenPanda",
+      "bio": "Retweet ≠ Endorsement / 主页噪声多，信号少",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Contrarian (CN)",
+      "category_color": "red",
+      "kol_index": 65,
+      "metrics": {
+        "engagement_avg": 150,
+        "activity_score": 8,
+        "conviction_score": 10,
+        "tenure_years": 6
+      },
+      "sentiment_score": -0.4,
+      "sentiment_label": "Anti-BTC, anti-crypto narrative, ETH 补跌",
+      "voice": "反主流 + 反 narrative + 实地观察 + 粗口直怼",
+      "style_tags": ["contrarian", "anti-BTC", "AMD-bull", "Chinese"],
+      "recent_actions": [
+        "'持有加密浪费 5 年' (251 likes, 反共识)",
+        "'$AMD 三浪打完，盲信苏妈'",
+        "'BTC 经济模式就是后浪推前浪的旁氏'"
+      ]
+    },
+    {
+      "handle": "_FORAB",
+      "display_name": "AB Kuai.Dong",
+      "bio": "2016 入行 | 热爱研究、家庭、分享",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "News + Policy",
+      "category_color": "cyan",
+      "kol_index": 67,
+      "metrics": {
+        "engagement_avg": 250,
+        "activity_score": 10,
+        "conviction_score": 6,
+        "tenure_years": 10
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "Neutral reporting, regulatory focus",
+      "voice": "News 简评 + 跨美股 + 加密 + 中国监管政策第一手 reporting",
+      "style_tags": ["news", "cross-market", "China-regulation", "Chinese"],
+      "recent_actions": [
+        "'SpaceX IPO 募资 750 亿美元，每股 135 美元'",
+        "'6/12 之后券商对内地限制 IP + 检测 VPN'",
+        "'Wintermute 主管说 AI 泡沫崩盘人们才回到加密'"
+      ]
+    },
+    {
+      "handle": "ai_9684xtpa",
+      "display_name": "Ai 姨",
+      "bio": "链上小说家，关心天气、食物、还有故事",
+      "verified": true,
+      "language": "CN",
+      "followed": false,
+      "category": "Onchain Detective (CN)",
+      "category_color": "pink",
+      "kol_index": 62,
+      "metrics": {
+        "engagement_avg": 100,
+        "activity_score": 10,
+        "conviction_score": 7,
+        "tenure_years": 4
+      },
+      "sentiment_score": 0.1,
+      "sentiment_label": "Whale-tracking + 13F cross-asset insights",
+      "voice": "鲸鱼地址追踪 + 美股 13F 跨市场对照 + 故事化叙事",
+      "style_tags": ["onchain", "whales", "13F", "Chinese"],
+      "recent_actions": [
+        "'Fenbushi Capital 抛售 11101 ETH'",
+        "'Leopold Aschenbrenner 态势感知基金 13F'",
+        "'Strategy 误会解除' BTC 流转追踪"
+      ]
+    }
+  ]
+}
