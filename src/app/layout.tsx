@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
-import { SmoothScroll } from "@/components/ui/smooth-scroll";
 import "./globals.css";
 
 const inter = Inter({
@@ -16,24 +15,24 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Roddy Huang | 9\u26605\u2666",
+  title: "KOL Winrate · Roddy Huang",
   description:
-    "Quantitative researcher, philosopher, poker player. Finding alpha where others see noise.",
+    "Crypto KOL prediction accuracy tracker — Snowflake-decoded timestamps × CoinGecko historical prices.",
   metadataBase: new URL("https://roddy95o.com"),
   openGraph: {
-    title: "Roddy Huang | 9\u26605\u2666",
+    title: "KOL Winrate · Roddy Huang",
     description:
-      "Quantitative researcher, philosopher, poker player. Finding alpha where others see noise.",
+      "Crypto KOL prediction accuracy tracker — Snowflake-decoded timestamps × CoinGecko historical prices.",
     url: "https://roddy95o.com",
-    siteName: "Roddy Huang",
+    siteName: "KOL Winrate",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Roddy Huang | 9\u26605\u2666",
+    title: "KOL Winrate · Roddy Huang",
     description:
-      "Quantitative researcher, philosopher, poker player. Finding alpha where others see noise.",
+      "Crypto KOL prediction accuracy tracker — Snowflake-decoded timestamps × CoinGecko historical prices.",
   },
   robots: { index: true, follow: true },
   icons: { icon: "/favicon.svg" },
@@ -45,10 +44,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`dark ${inter.variable} ${jetbrainsMono.variable}`}>
-      <body className="antialiased">
-        <SmoothScroll>{children}</SmoothScroll>
-      </body>
+    <html
+      lang="en"
+      className={`dark ${inter.variable} ${jetbrainsMono.variable}`}
+    >
+      <body className="antialiased">{children}</body>
     </html>
   );
 }

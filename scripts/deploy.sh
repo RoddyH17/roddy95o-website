@@ -47,12 +47,6 @@ fi
 # --- Error handler ---
 trap 'echo "ERROR: Deploy failed at line $LINENO" >&2' ERR
 
-echo "→ Syncing heatmap data..."
-if [[ "$DRY_RUN" == "true" ]]; then
-  echo "[dry-run] Would run: npx tsx scripts/sync-obsidian.ts"
-else
-  npx tsx scripts/sync-obsidian.ts
-fi
 
 echo "→ Building..."
 if [[ "$DRY_RUN" == "true" ]]; then
