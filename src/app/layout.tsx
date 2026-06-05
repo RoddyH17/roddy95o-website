@@ -15,24 +15,24 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "KOL Winrate · Roddy Huang",
+  title: "KOL Tracking · Roddy Huang",
   description:
-    "Crypto KOL prediction accuracy tracker — Snowflake-decoded timestamps × CoinGecko historical prices.",
+    "Crypto KOL leaderboard — KOL Index + sentiment + style aggregation across 市场影响力 traders & analysts.",
   metadataBase: new URL("https://roddy95o.com"),
   openGraph: {
-    title: "KOL Winrate · Roddy Huang",
+    title: "KOL Tracking · Roddy Huang",
     description:
-      "Crypto KOL prediction accuracy tracker — Snowflake-decoded timestamps × CoinGecko historical prices.",
+      "Crypto KOL leaderboard — KOL Index + sentiment + style aggregation.",
     url: "https://roddy95o.com",
-    siteName: "KOL Winrate",
+    siteName: "KOL Tracking",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "KOL Winrate · Roddy Huang",
+    title: "KOL Tracking · Roddy Huang",
     description:
-      "Crypto KOL prediction accuracy tracker — Snowflake-decoded timestamps × CoinGecko historical prices.",
+      "Crypto KOL leaderboard — KOL Index + sentiment + style aggregation.",
   },
   robots: { index: true, follow: true },
   icons: { icon: "/favicon.svg" },
