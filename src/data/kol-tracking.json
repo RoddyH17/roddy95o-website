@@ -2568,34 +2568,42 @@
     },
     {
       "handle": "liangeyou",
-      "display_name": "liangeyou",
-      "bio": "Chinese crypto KOL",
+      "display_name": "离岸葛优",
+      "bio": "躺平院士 · 人口学&光学&AI&区块链 geek · 港美股交易狂魔 · 键政深度受害者",
       "verified": true,
       "language": "CN",
       "followed": true,
-      "category": "Trader",
-      "category_color": "orange",
+      "category": "反主流 + 港美股",
+      "category_color": "red",
       "tags": [
         "CN",
-        "trader"
+        "trader",
+        "analyst",
+        "stocks",
+        "macro"
       ],
-      "kol_index": 58,
+      "kol_index": 70,
       "winrate": null,
       "winrate_sample": 0,
       "metrics": {
-        "engagement_avg": 50,
-        "activity_score": 6,
-        "conviction_score": 7,
-        "tenure_years": 4
+        "engagement_avg": 120,
+        "activity_score": 9,
+        "conviction_score": 9,
+        "tenure_years": 5
       },
-      "sentiment_score": 0,
-      "sentiment_label": "中性",
-      "voice": "CN crypto KOL (待 v5 deeper scrape)",
+      "sentiment_score": -0.4,
+      "sentiment_label": "温和 Bear (反东大)",
+      "voice": "反主流 trader · 港美股交易狂魔 · 高认知人都往金融市场跑",
       "recent_actions": [
         {
           "date": "2026-06",
-          "action": "待 deeper scrape (v5)",
-          "stance": "neutral"
+          "action": "张小龙 (粉笔 CEO) 公开建议大学生炒美股 · 中国国家资本主义路线判断",
+          "stance": "bearish"
+        },
+        {
+          "date": "2026-06",
+          "action": "高认知的人都往金融市场跑 · 实体有天花板金融没有",
+          "stance": "bullish"
         }
       ]
     },
@@ -2634,35 +2642,42 @@
     },
     {
       "handle": "CryptoV_Alpha",
-      "display_name": "CryptoV Alpha",
-      "bio": "Chinese crypto alpha hunter",
+      "display_name": "CryptoV Global Markets",
+      "bio": "Trader Since 2019 · 加密+大宗+美股 · 助理 @Longtoria",
       "verified": true,
       "language": "CN",
       "followed": true,
-      "category": "Alpha Hunter",
+      "category": "Multi-Asset Trader",
       "category_color": "orange",
       "tags": [
         "CN",
         "trader",
-        "airdrop"
+        "macro",
+        "stocks",
+        "BTC-maxi"
       ],
-      "kol_index": 55,
+      "kol_index": 68,
       "winrate": null,
       "winrate_sample": 0,
       "metrics": {
-        "engagement_avg": 40,
-        "activity_score": 7,
-        "conviction_score": 6,
-        "tenure_years": 3
+        "engagement_avg": 9,
+        "activity_score": 9,
+        "conviction_score": 8,
+        "tenure_years": 6
       },
-      "sentiment_score": 0.1,
-      "sentiment_label": "中性",
-      "voice": "CN alpha hunter · 待 v5 deeper scrape",
+      "sentiment_score": -0.4,
+      "sentiment_label": "温和 Bear",
+      "voice": "加密+大宗+美股 三轨 trader · AMZN/INTC/NVDA 空点精准 · 三星 -8% / SK 海力士 -5% 半导体崩盘跟踪",
       "recent_actions": [
         {
           "date": "2026-06",
-          "action": "待 deeper scrape (v5)",
-          "stance": "neutral"
+          "action": "三星 -8% / SK 海力士 -5% 半导体崩盘点评",
+          "stance": "bearish"
+        },
+        {
+          "date": "2026-06",
+          "action": "AMZN/INTC/NVDA 关键空点精准提示",
+          "stance": "bearish"
         }
       ]
     },
@@ -2702,67 +2717,75 @@
     },
     {
       "handle": "chenreason",
-      "display_name": "chen reason",
-      "bio": "Chinese crypto / web3 thinker",
+      "display_name": "对冲积鲸Reason",
+      "bio": "专注美股+加密 · 投研宏观交易理财 · 小红书/公众号 同名",
       "verified": true,
       "language": "CN",
       "followed": true,
-      "category": "Analyst",
-      "category_color": "cyan",
+      "category": "美股 + 加密深度",
+      "category_color": "purple",
       "tags": [
         "CN",
-        "analyst"
+        "analyst",
+        "macro",
+        "stocks"
       ],
-      "kol_index": 58,
+      "kol_index": 76,
       "winrate": null,
       "winrate_sample": 0,
       "metrics": {
-        "engagement_avg": 60,
-        "activity_score": 6,
-        "conviction_score": 7,
-        "tenure_years": 4
+        "engagement_avg": 280,
+        "activity_score": 9,
+        "conviction_score": 9,
+        "tenure_years": 5
       },
       "sentiment_score": 0,
-      "sentiment_label": "中性",
-      "voice": "CN crypto analyst (待 v5 scrape)",
+      "sentiment_label": "中性 (谨慎)",
+      "voice": "美股+加密双线 · 5 月非农 17.2万 vs 预期 8万 stress · 完美风暴拆解派",
       "recent_actions": [
         {
           "date": "2026-06",
-          "action": "待 deeper scrape (v5)",
+          "action": "段永平 vs 方三文 访谈深度笔记 · 苹果等 10+ 公司逐一划重点",
           "stance": "neutral"
+        },
+        {
+          "date": "2026-06",
+          "action": "美股完美风暴: 纳斯达克 -2% · 非农+博通+Alphabet 三利空共振",
+          "stance": "bearish"
         }
       ]
     },
     {
       "handle": "0xRay518",
-      "display_name": "0xRay518",
-      "bio": "Chinese crypto trader",
+      "display_name": "Ray 睿",
+      "bio": "crypto trader · HL bull / BNB bear · 反 Hyperliquid 积分农",
       "verified": true,
       "language": "CN",
       "followed": true,
-      "category": "Trader",
+      "category": "HL Maxi Trader",
       "category_color": "orange",
       "tags": [
         "CN",
-        "trader"
+        "trader",
+        "contract"
       ],
-      "kol_index": 52,
+      "kol_index": 60,
       "winrate": null,
       "winrate_sample": 0,
       "metrics": {
-        "engagement_avg": 25,
-        "activity_score": 6,
-        "conviction_score": 6,
+        "engagement_avg": 60,
+        "activity_score": 8,
+        "conviction_score": 10,
         "tenure_years": 3
       },
-      "sentiment_score": 0,
-      "sentiment_label": "中性",
-      "voice": "CN crypto trader (待 v5 scrape)",
+      "sentiment_score": 0.5,
+      "sentiment_label": "强 Bull HL / 强 Bear BNB",
+      "voice": "高 conviction pair · long Hyperliquid short BNB 反复 3 次 · 反 HL 积分农",
       "recent_actions": [
         {
           "date": "2026-06",
-          "action": "待 deeper scrape (v5)",
-          "stance": "neutral"
+          "action": "long Hyperliquid short BNB pair trade 反复强调 (245 likes)",
+          "stance": "bullish"
         }
       ]
     },
@@ -2868,35 +2891,695 @@
     },
     {
       "handle": "thecryptoskanda",
-      "display_name": "thecryptoskanda",
-      "bio": "Crypto OG / Asia network",
+      "display_name": "加密韋馱 Skanda",
+      "bio": "Cooking @hertzflow_xyz · Volunteered Uncle @bnbchain · Preach crypto as speculation layer",
       "verified": true,
       "language": "CN",
       "followed": true,
-      "category": "OG Investor",
+      "category": "BNB OG / Builder",
       "category_color": "purple",
       "tags": [
         "CN",
-        "fund",
-        "VC",
+        "builder",
+        "analyst",
         "BTC-maxi"
       ],
-      "kol_index": 62,
+      "kol_index": 75,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 925,
+        "activity_score": 8,
+        "conviction_score": 9,
+        "tenure_years": 6
+      },
+      "sentiment_score": 0.2,
+      "sentiment_label": "温和 Bull",
+      "voice": "韋馱 · hertzflow 创始人 + BNBChain 老舅 · crypto = speculation layer of world · founder marketing 派",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "4400 likes 神帖",
+          "stance": "neutral"
+        },
+        {
+          "date": "2026-06",
+          "action": "币圈美股/RWA = 把价格引到链上 + 稳定币标价交易清结算",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "Zeneca",
+      "display_name": "Zeneca",
+      "bio": "follow me if you want to learn about AI · co-founder @yoshizenco",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "NFT OG / AI",
+      "category_color": "cyan",
+      "tags": [
+        "EN",
+        "analyst",
+        "builder",
+        "NFT",
+        "AI-x-crypto"
+      ],
+      "kol_index": 84,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 73,
+        "activity_score": 7,
+        "conviction_score": 9,
+        "tenure_years": 6
+      },
+      "sentiment_score": 0.3,
+      "sentiment_label": "温和 Bull",
+      "voice": "NFT OG (399k followers) · 现在 pivot AI · barbell framework: 2020 ETH+NFT / 2024 SOL+Memes / 2026 HYPE+TCGs",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "Barbell thesis: 2026-2027 = HYPE + TCGs?",
+          "stance": "bullish"
+        },
+        {
+          "date": "2026-06",
+          "action": "Some coins UP during enormous selloff = 隐藏强势信号",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "joyscompounding",
+      "display_name": "Joys of Compounding",
+      "bio": "A global community of lifelong learners",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "Investing Podcast",
+      "category_color": "cyan",
+      "tags": [
+        "EN",
+        "media",
+        "analyst",
+        "stocks"
+      ],
+      "kol_index": 72,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 7,
+        "activity_score": 6,
+        "conviction_score": 8,
+        "tenure_years": 5
+      },
+      "sentiment_score": 0.2,
+      "sentiment_label": "温和 Bull",
+      "voice": "Joys of Compounding podcast · Steve Mandel (Lone Pine) 等 legend 系列访谈",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "Steve Mandel (Lone Pine Capital) takeaways episode",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "Web3Feng",
+      "display_name": "Web3Feng",
+      "bio": "CN web3 lifestyle + crypto/SU7 cross",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Lifestyle + Crypto",
+      "category_color": "orange",
+      "tags": [
+        "CN",
+        "trader",
+        "media"
+      ],
+      "kol_index": 55,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 90,
+        "activity_score": 7,
+        "conviction_score": 6,
+        "tenure_years": 3
+      },
+      "sentiment_score": 0.1,
+      "sentiment_label": "中性",
+      "voice": "小米 SU7 美女车主梗 + crypto 跨界",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "lifestyle + crypto crossover",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "jay_azhang",
+      "display_name": "jay_azhang",
+      "bio": "CN crypto investor",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Investor",
+      "category_color": "purple",
+      "tags": [
+        "CN",
+        "trader",
+        "analyst"
+      ],
+      "kol_index": 60,
       "winrate": null,
       "winrate_sample": 0,
       "metrics": {
         "engagement_avg": 80,
         "activity_score": 6,
         "conviction_score": 7,
-        "tenure_years": 5
+        "tenure_years": 4
       },
-      "sentiment_score": 0.1,
+      "sentiment_score": 0,
       "sentiment_label": "中性",
-      "voice": "Asia crypto OG · 跟 nihaovand/Vand 大佬等的 network (待 v5 deeper scrape)",
+      "voice": "CN crypto investor (待 v6)",
       "recent_actions": [
         {
           "date": "2026-06",
-          "action": "韩国出差 + Asia crypto network 活跃",
+          "action": "待 deeper scrape",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "hexiecs",
+      "display_name": "hexiecs",
+      "bio": "CN trader",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Trader",
+      "category_color": "orange",
+      "tags": [
+        "CN",
+        "trader"
+      ],
+      "kol_index": 55,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 60,
+        "activity_score": 6,
+        "conviction_score": 6,
+        "tenure_years": 3
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "中性",
+      "voice": "CN trader (待 v6)",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "待 deeper scrape",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "fishkiller",
+      "display_name": "fishkiller",
+      "bio": "Crypto OG / niche",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "OG / Niche",
+      "category_color": "orange",
+      "tags": [
+        "EN",
+        "trader"
+      ],
+      "kol_index": 58,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 100,
+        "activity_score": 5,
+        "conviction_score": 7,
+        "tenure_years": 5
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "中性",
+      "voice": "Crypto OG niche (待 v6)",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "待 deeper scrape",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "WallStreet0Name",
+      "display_name": "WallStreet0Name",
+      "bio": "CN 美股 trader · Ru7Longcrypto 推荐",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "US Stock Trader",
+      "category_color": "cyan",
+      "tags": [
+        "CN",
+        "trader",
+        "stocks"
+      ],
+      "kol_index": 62,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 200,
+        "activity_score": 7,
+        "conviction_score": 7,
+        "tenure_years": 4
+      },
+      "sentiment_score": 0.1,
+      "sentiment_label": "中性",
+      "voice": "CN 美股 trader (待 v6)",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "待 deeper scrape",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "BlockBeatsAsia",
+      "display_name": "BlockBeats Asia",
+      "bio": "律动 BlockBeats Asia crypto news",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Crypto Media",
+      "category_color": "blue",
+      "tags": [
+        "CN",
+        "media",
+        "news"
+      ],
+      "kol_index": 72,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 150,
+        "activity_score": 10,
+        "conviction_score": 5,
+        "tenure_years": 6
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "中性",
+      "voice": "律动 BlockBeats · 亚洲 crypto news",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "Crypto news",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "MessariCrypto",
+      "display_name": "Messari Crypto",
+      "bio": "Crypto research + data platform",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "Research Platform",
+      "category_color": "blue",
+      "tags": [
+        "EN",
+        "media",
+        "analyst"
+      ],
+      "kol_index": 80,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 300,
+        "activity_score": 10,
+        "conviction_score": 8,
+        "tenure_years": 8
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "中性",
+      "voice": "Messari · Crypto research/data standard",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "Quarterly reports",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "TechFlowPost",
+      "display_name": "深潮 TechFlow",
+      "bio": "中文 crypto research + news",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Crypto Media",
+      "category_color": "blue",
+      "tags": [
+        "CN",
+        "media",
+        "news",
+        "analyst"
+      ],
+      "kol_index": 75,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 120,
+        "activity_score": 10,
+        "conviction_score": 6,
+        "tenure_years": 5
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "中性",
+      "voice": "深潮 TechFlow · 中文 crypto 深度内容",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "Sector research",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "ChainNewscom",
+      "display_name": "ChainNews",
+      "bio": "中文 crypto news 老牌",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Crypto Media",
+      "category_color": "blue",
+      "tags": [
+        "CN",
+        "media",
+        "news"
+      ],
+      "kol_index": 65,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 50,
+        "activity_score": 9,
+        "conviction_score": 5,
+        "tenure_years": 6
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "中性",
+      "voice": "ChainNews · 中文 crypto news",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "News outlet",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "PANews",
+      "display_name": "PANews Global",
+      "bio": "PANews global crypto news (English)",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "Crypto Media",
+      "category_color": "blue",
+      "tags": [
+        "EN",
+        "media",
+        "news"
+      ],
+      "kol_index": 70,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 80,
+        "activity_score": 10,
+        "conviction_score": 6,
+        "tenure_years": 7
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "中性",
+      "voice": "PANews global · Asia 视角 crypto news",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "Global crypto news",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "Bitwise",
+      "display_name": "Bitwise Asset Management",
+      "bio": "ETF issuer + crypto investment management",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "Asset Manager",
+      "category_color": "purple",
+      "tags": [
+        "EN",
+        "fund",
+        "analyst",
+        "media"
+      ],
+      "kol_index": 82,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 200,
+        "activity_score": 9,
+        "conviction_score": 8,
+        "tenure_years": 8
+      },
+      "sentiment_score": 0.4,
+      "sentiment_label": "温和 Bull (BTC ETF)",
+      "voice": "Bitwise · BTC ETF + Crypto Carry Fund + HYPE undervalued thesis",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "Crypto Carry Fund on Aave Horizon",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "Grayscale",
+      "display_name": "Grayscale Investments",
+      "bio": "老牌 crypto ETF + trust issuer",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "Asset Manager",
+      "category_color": "purple",
+      "tags": [
+        "EN",
+        "fund",
+        "media"
+      ],
+      "kol_index": 78,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 250,
+        "activity_score": 8,
+        "conviction_score": 8,
+        "tenure_years": 12
+      },
+      "sentiment_score": 0.3,
+      "sentiment_label": "温和 Bull",
+      "voice": "Grayscale · 加密 ETF + GBTC/ETHE",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "ETF flows + product launches",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "paradigm",
+      "display_name": "Paradigm",
+      "bio": "top-tier crypto VC (Monad/Uniswap/Solana lead)",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "VC",
+      "category_color": "purple",
+      "tags": [
+        "EN",
+        "VC",
+        "fund"
+      ],
+      "kol_index": 92,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 1500,
+        "activity_score": 6,
+        "conviction_score": 10,
+        "tenure_years": 8
+      },
+      "sentiment_score": 0.5,
+      "sentiment_label": "强 Bull (selective)",
+      "voice": "Paradigm · 顶级加密 VC · Monad/Uniswap/Optimism portfolio · Hasu/Charlie/Matt thesis",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "Portfolio updates + research",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "Delphi_Digital",
+      "display_name": "Delphi Digital",
+      "bio": "crypto research + advisory",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "Research Firm",
+      "category_color": "purple",
+      "tags": [
+        "EN",
+        "analyst",
+        "media",
+        "fund"
+      ],
+      "kol_index": 82,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 400,
+        "activity_score": 8,
+        "conviction_score": 9,
+        "tenure_years": 7
+      },
+      "sentiment_score": 0.2,
+      "sentiment_label": "温和 Bull",
+      "voice": "Delphi · institutional crypto research + advisory",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "Research reports + portfolio",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "dragonfly_xyz",
+      "display_name": "Dragonfly",
+      "bio": "crypto VC (hosseeb 是 MP)",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "VC",
+      "category_color": "purple",
+      "tags": [
+        "EN",
+        "VC",
+        "fund"
+      ],
+      "kol_index": 85,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 350,
+        "activity_score": 6,
+        "conviction_score": 9,
+        "tenure_years": 7
+      },
+      "sentiment_score": 0.3,
+      "sentiment_label": "温和 Bull",
+      "voice": "Dragonfly · hosseeb (MP) · global crypto investing",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "Portfolio + thought pieces",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "dba_xyz",
+      "display_name": "DBA",
+      "bio": "DBA Capital (Delphi spinoff) · jon_charb cofounder",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "VC",
+      "category_color": "purple",
+      "tags": [
+        "EN",
+        "VC",
+        "fund"
+      ],
+      "kol_index": 75,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 100,
+        "activity_score": 5,
+        "conviction_score": 9,
+        "tenure_years": 3
+      },
+      "sentiment_score": 0.2,
+      "sentiment_label": "温和 Bull",
+      "voice": "DBA (Delphi spinoff) · jon_charb 所属 · architecture critique",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "Portfolio + HL thesis push",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "wintermute_t",
+      "display_name": "Wintermute",
+      "bio": "top crypto market maker (Evgeny Gaevoy)",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "Market Maker",
+      "category_color": "orange",
+      "tags": [
+        "EN",
+        "fund",
+        "trader"
+      ],
+      "kol_index": 78,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 200,
+        "activity_score": 7,
+        "conviction_score": 9,
+        "tenure_years": 7
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "中性",
+      "voice": "Wintermute · 顶级 market maker · Evgeny Gaevoy",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "Market making data",
           "stance": "neutral"
         }
       ]
