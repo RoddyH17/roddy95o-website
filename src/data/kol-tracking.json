@@ -68,7 +68,15 @@
         "2026-06-04: Dumped entire $HYPE + $NEAR",
         "2026-05-06: $ZEC target 10% of BTC ($10k)",
         "Pumped $HYPE = $150 earlier (reversed)"
-      ]
+      ],
+      "identity": "投资人",
+      "skin_in_game": "公开仓位",
+      "signal_grade": "S",
+      "output_types": [
+        "推文",
+        "长文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "cobie",
@@ -102,7 +110,15 @@
         "':)' single emoji (6,600 likes — pure presence)",
         "'Reinstalling LoL if market gets worse'",
         "OpenClaw 50k invoices viral (25,000 likes)"
-      ]
+      ],
+      "identity": "OG",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "S",
+      "output_types": [
+        "推文",
+        "播客"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "hosseeb",
@@ -136,7 +152,15 @@
         "'Ethereum is the Microsoft of crypto'",
         "'OK guys, someone explain the $NEAR pump?'",
         "'Vibe investing is having a renaissance'"
-      ]
+      ],
+      "identity": "投资人",
+      "skin_in_game": "资管基金",
+      "signal_grade": "S",
+      "output_types": [
+        "长文",
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "ki_young_ju",
@@ -170,7 +194,15 @@
         "'Whales accumulated 270k BTC in 30 days'",
         "'BlackRock IBIT weekly inflows $983M'",
         "'US gov has seized 198k BTC, lost 0'"
-      ]
+      ],
+      "identity": "创业者",
+      "skin_in_game": "资管基金",
+      "signal_grade": "S",
+      "output_types": [
+        "推文",
+        "数据"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "HsakaTrades",
@@ -203,7 +235,14 @@
         "'CRV liquidations coming in hot'",
         "'SEC told spot ETH ETF issuers S-1 by Friday'",
         "'allowing vpn for deposits but not airdrop'"
-      ]
+      ],
+      "identity": "交易员",
+      "skin_in_game": "公开仓位",
+      "signal_grade": "A",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "DCinvestor",
@@ -237,7 +276,14 @@
         "'crypto is not over. happens every 4 years'",
         "'ETH comeback due to quantum'",
         "'looting everything they possibly can' (5,000 likes)"
-      ]
+      ],
+      "identity": "OG",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "A",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "DefiIgnas",
@@ -270,7 +316,15 @@
         "'Zcash $405M fees > ETH $329M > SOL $323M'",
         "Heavy MegaETH coverage (KPI unlock, degen apps)",
         "'Sui is the new Sol'"
-      ]
+      ],
+      "identity": "分析师",
+      "skin_in_game": "无仓位",
+      "signal_grade": "A",
+      "output_types": [
+        "推文",
+        "长文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "santiagoroel",
@@ -304,7 +358,15 @@
         "'WETH on Aave V3 Core, withdraw now' (1,300 alert)",
         "'There are no moats, just persistence'",
         "'Working capital most underestimated'"
-      ]
+      ],
+      "identity": "投资人",
+      "skin_in_game": "资管基金",
+      "signal_grade": "A",
+      "output_types": [
+        "推文",
+        "长文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "jon_charb",
@@ -338,7 +400,15 @@
         "'Most people still using FDV to value HYPE'",
         "'Coinbase should build perps via HL'",
         "'BTC-backed credit markets soon'"
-      ]
+      ],
+      "identity": "投资人",
+      "skin_in_game": "资管基金",
+      "signal_grade": "A",
+      "output_types": [
+        "推文",
+        "长文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "0xfoobar",
@@ -371,7 +441,15 @@
         "Google quantum AI breakthrough (5,900 likes)",
         "'hacks moving from onchain to offchain'",
         "'Formal verification or bust'"
-      ]
+      ],
+      "identity": "创业者",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "A",
+      "output_types": [
+        "推文",
+        "长文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "DefiSquared",
@@ -404,7 +482,15 @@
         "'WLFI unlocking 27 billion tokens'",
         "'AI agent infrastructure not priced in'",
         "'Virtual seller has run out of coins'"
-      ]
+      ],
+      "identity": "交易员",
+      "skin_in_game": "公开仓位",
+      "signal_grade": "A",
+      "output_types": [
+        "推文",
+        "数据"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "smyyguy",
@@ -437,7 +523,15 @@
         "'NEW: Now tracking @BNBCHAIN'",
         "'Geodnet 90% weekly burn rate'",
         "'NEW: Now tracking Jito'"
-      ]
+      ],
+      "identity": "分析师",
+      "skin_in_game": "资管基金",
+      "signal_grade": "A",
+      "output_types": [
+        "推文",
+        "数据"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "0xKevin00",
@@ -471,7 +565,15 @@
         "'zkSync 万字撸毛 guide' (3,300 likes)",
         "'追踪美国政府合法老鼠仓 $MRVL'",
         "'7月1日境外投资必须先报备审批'"
-      ]
+      ],
+      "identity": "博主",
+      "skin_in_game": "公开仓位",
+      "signal_grade": "A",
+      "output_types": [
+        "长文",
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "lidangzzz",
@@ -505,7 +607,15 @@
         "'AI 自动编程机定义' (2,000 likes)",
         "'高考 600 分以下出路是 EE'",
         "'AI 改变学习路径，大学没用'"
-      ]
+      ],
+      "identity": "创业者",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "A",
+      "output_types": [
+        "推文",
+        "长文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "bitfish",
@@ -538,7 +648,15 @@
         "BTC 仪表盘 fuckbtc.com",
         "'你赚的不是持有多久，是站对位置'",
         "Sartre 信念边界 (268 likes)"
-      ]
+      ],
+      "identity": "OG",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "A",
+      "output_types": [
+        "推文",
+        "长文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "dongbimao",
@@ -571,7 +689,14 @@
         "'$MRVL 800万了，继续拿'",
         "'NVDA P/E 21 vs INTC 112'",
         "'BNB 突破 4 个月震荡'"
-      ]
+      ],
+      "identity": "交易员",
+      "skin_in_game": "公开仓位",
+      "signal_grade": "A",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "thankUcrypto",
@@ -604,7 +729,14 @@
         "'HYPE 日线四根针 顶部初步形成' (wrong)",
         "'BNB 起来了 / 开了 80wu'",
         "'2024 币安带单收益率 20000%'"
-      ]
+      ],
+      "identity": "交易员",
+      "skin_in_game": "公开仓位",
+      "signal_grade": "A",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "IamRamenPanda",
@@ -637,7 +769,14 @@
         "'持有加密浪费 5 年' (251 likes)",
         "'$AMD 三浪打完，盲信苏妈'",
         "'BTC 经济模式是后浪推前浪的旁氏'"
-      ]
+      ],
+      "identity": "博主",
+      "skin_in_game": "无仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "_FORAB",
@@ -671,7 +810,14 @@
         "'SpaceX IPO 募资 750 亿美元'",
         "'6/12 后券商对内地限制 IP + 检测 VPN'",
         "'Wintermute 主管说 AI 泡沫崩盘'"
-      ]
+      ],
+      "identity": "博主",
+      "skin_in_game": "无仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "ai_9684xtpa",
@@ -704,7 +850,15 @@
         "'Fenbushi Capital 抛售 11101 ETH'",
         "'Leopold Aschenbrenner 13F 基金'",
         "'Strategy 误会解除 BTC 流转'"
-      ]
+      ],
+      "identity": "博主",
+      "skin_in_game": "无仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文",
+        "数据"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "jason_chen998",
@@ -737,7 +891,14 @@
         "'GPT/Gemini/Grok BTC 最低预测对照'",
         "'BTC 最低 52800 (币安 8 亿基金线)'",
         "'微策略 5% BTC 吓住所有人' 反诘"
-      ]
+      ],
+      "identity": "交易员",
+      "skin_in_game": "公开仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "UnicornBitcoin",
@@ -771,7 +932,14 @@
         "'比特币我放了 1000 万，美股不敢'",
         "'SpaceX 跌一半很正常 IPO 100 天'",
         "'超过一半流通 BTC 浮亏 = 熊市底信号'"
-      ]
+      ],
+      "identity": "交易员",
+      "skin_in_game": "公开仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "eastweb3eth",
@@ -805,7 +973,15 @@
         "'Serenity 白发女股神 Skill 合集' (1,100 likes)",
         "'短期看 Trump 长期看 黄仁勋'",
         "'Hermes Agent 橙皮书 中文版'"
-      ]
+      ],
+      "identity": "博主",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文",
+        "长文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "PaNewsCn",
@@ -838,7 +1014,14 @@
         "'江卓尔 $1645 买回全部 ETH 仓位'",
         "'Zcash AI 辅助审计找出严重漏洞'",
         "'Strategy 浮亏 110.7 亿 + Bitmine 95.8 亿'"
-      ]
+      ],
+      "identity": "媒体",
+      "skin_in_game": "无仓位",
+      "signal_grade": "C",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "Meta8Mate",
@@ -871,7 +1054,14 @@
         "'老黑 (Hayes) 喊 $WLD $10 自己清仓' (跟单 critique)",
         "'BTC 跌破 70K 多看少动'",
         "'微策略 32 BTC 卖出 = 心理操作'"
-      ]
+      ],
+      "identity": "交易员",
+      "skin_in_game": "公开仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "qingshui_eth",
@@ -904,7 +1094,14 @@
         "'BTC 星辰 5 天 225w 刀亏完 8 倍抄底'",
         "'高杠杆能生存万里挑一' 风控建议",
         "'CZ 奶 = 流动性不足时出货途径'"
-      ]
+      ],
+      "identity": "博主",
+      "skin_in_game": "无仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "Ethcoin3",
@@ -937,7 +1134,14 @@
         "'@Aster_DEX 详细空投教程' (138 likes)",
         "'又一个质押死了 腰斩 $MEGA'",
         "'OKB X Layer 开放交易所核心'"
-      ]
+      ],
+      "identity": "博主",
+      "skin_in_game": "公开仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "shafu0x",
@@ -970,7 +1174,14 @@
         "'90% of crypto is fake business' (220 likes)",
         "'AI + crypto finally make fucking sense' (467 likes)",
         "'7 fucking rounds of interviews vs pope picked in 2 days'"
-      ]
+      ],
+      "identity": "创业者",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "fundstrat",
@@ -1019,7 +1230,15 @@
           "action": "ETH RSI vs QQQ near record lows — accumulation zone",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "企业家",
+      "skin_in_game": "资管基金",
+      "signal_grade": "S",
+      "output_types": [
+        "推文",
+        "视频"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "moranweb3",
@@ -1065,7 +1284,15 @@
           "action": "Predict market 大户砸盘信号",
           "stance": "bearish"
         }
-      ]
+      ],
+      "identity": "博主",
+      "skin_in_game": "公开仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文",
+        "视频"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "TaoRay",
@@ -1098,7 +1325,14 @@
           "action": "反 critique 中国农村娃币安 KOL 几万到几亿故事 - 华尔街天神级收益怎么可能",
           "stance": "bearish"
         }
-      ]
+      ],
+      "identity": "博主",
+      "skin_in_game": "无仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "hibtc37",
@@ -1133,7 +1367,14 @@
           "action": "BTC 65-66k 逼空机会很肥，美股开盘前预判区间",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "交易员",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "369Serena",
@@ -1173,7 +1414,15 @@
           "action": "给 Codex 装上 Skills/AI 投研框架 - 拆产业链/读财报/看 chart",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "创业者",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文",
+        "长文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "agintender",
@@ -1207,7 +1456,14 @@
           "action": "心疼币安人生 LP - 量和价差距大",
           "stance": "bearish"
         }
-      ]
+      ],
+      "identity": "博主",
+      "skin_in_game": "无仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "Dragonhau66",
@@ -1241,7 +1497,14 @@
           "action": "麻吉大哥黄立成 HyperLiquid 巨亏 $7835万 仍加仓做多 ETH",
           "stance": "bearish"
         }
-      ]
+      ],
+      "identity": "博主",
+      "skin_in_game": "无仓位",
+      "signal_grade": "C",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "聚合"
     },
     {
       "handle": "aleabitoreddit",
@@ -1286,7 +1549,15 @@
           "action": "$AAOI 从 $28 一直加仓至今",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "分析师",
+      "skin_in_game": "公开仓位",
+      "signal_grade": "S",
+      "output_types": [
+        "长文",
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "qinbafrank",
@@ -1332,7 +1603,15 @@
           "action": "AI 货币流通速度大幅度提升 → 机器经济时代到来 (与 iamai 探讨)",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "分析师",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "A",
+      "output_types": [
+        "长文",
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "xiaomustock",
@@ -1367,7 +1646,14 @@
           "action": "优必选 U1 仿生机器人开售，男款 183cm/42kg，搭载情感大模型",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "分析师",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "sunlc_crypto",
@@ -1401,7 +1687,14 @@
           "action": "上周三晚上美股全清仓，下周准备半仓抄底 AVGO 350 区间",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "交易员",
+      "skin_in_game": "公开仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "0xDeMoo",
@@ -1436,7 +1729,14 @@
           "action": "17 年区块链只 2 个真用例: Hyperliquid + Polymarket - critique",
           "stance": "bearish"
         }
-      ]
+      ],
+      "identity": "OG",
+      "skin_in_game": "无仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "bitextr",
@@ -1470,7 +1770,14 @@
           "action": "BTC 跌至 6w 做多，跌破 6w 加仓 - 反向 crowd 操作",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "交易员",
+      "skin_in_game": "公开仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "LukeBitMarathon",
@@ -1504,7 +1811,14 @@
           "action": "麻吉大哥 HL 永续合约累计亏损 $8000 万 + 退圈传闻",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "博主",
+      "skin_in_game": "无仓位",
+      "signal_grade": "C",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "聚合"
     },
     {
       "handle": "SuperL9",
@@ -1538,7 +1852,14 @@
           "action": "币安人生 8 亿市值波澜不惊，新韭菜焦虑十几倍收益图 - 故事化讽刺",
           "stance": "bearish"
         }
-      ]
+      ],
+      "identity": "博主",
+      "skin_in_game": "无仓位",
+      "signal_grade": "C",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "CatChen",
@@ -1572,7 +1893,14 @@
           "action": "SpaceX IPO 不会按 IPO 价买，但情怀派会买一点星际殖民梦想",
           "stance": "bearish"
         }
-      ]
+      ],
+      "identity": "博主",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "C",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "yijiangren",
@@ -1613,7 +1941,15 @@
           "action": "下周大事件: 6/10 CPI + 6/11 数据 + 多线叙事撞车",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "分析师",
+      "skin_in_game": "无仓位",
+      "signal_grade": "A",
+      "output_types": [
+        "长文",
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "Rocky_Bitcoin",
@@ -1653,7 +1989,15 @@
           "action": "MLCC 全面涨价 10-70%，7/1 生效 - 华强北战报",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "交易员",
+      "skin_in_game": "公开仓位",
+      "signal_grade": "A",
+      "output_types": [
+        "推文",
+        "数据"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "Phoenixyin13",
@@ -1687,7 +2031,15 @@
           "action": "流传的 11万 NVIDIA GPU 协议拆解: 月租 9.2亿美元 = 商业史顶级阳谋",
           "stance": "bearish"
         }
-      ]
+      ],
+      "identity": "分析师",
+      "skin_in_game": "无仓位",
+      "signal_grade": "A",
+      "output_types": [
+        "长文",
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "nangongyuan",
@@ -1721,7 +2073,15 @@
           "action": "搜狐: 北京五道口+中关村不动产市价 $7亿+, 持有现金/短期投资量大 = 中国泡沫最小公司",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "分析师",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "A",
+      "output_types": [
+        "长文",
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "cyrilxuq",
@@ -1756,7 +2116,14 @@
           "action": "下周市场预期比大家好: 川普喊话+机构清多头给 SpaceX 留空间+黄仁勋内存短缺数年",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "分析师",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "Oscarccg3",
@@ -1790,7 +2157,15 @@
           "action": "经济下行 ≠ 加息根因 · 真正决定周期的是资本边际效率不是利率",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "分析师",
+      "skin_in_game": "无仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文",
+        "长文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "CryptoPainter",
@@ -1825,7 +2200,14 @@
           "action": "前高以来下跌结构 = 2023 早期牛市倒置 = 一个月横盘后画门反弹",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "分析师",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "LaurenceMister",
@@ -1860,7 +2242,14 @@
           "action": "美国总统直接喊单 - 市场 reaction tracking",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "博主",
+      "skin_in_game": "无仓位",
+      "signal_grade": "C",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "聚合"
     },
     {
       "handle": "y_cryptoanalyst",
@@ -1895,7 +2284,14 @@
           "action": "Hayes 6/4 清仓 HYPE 4 天后 6/8 链上买回 3.4w 枚 HYPE - 真小丑",
           "stance": "bearish"
         }
-      ]
+      ],
+      "identity": "分析师",
+      "skin_in_game": "无仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "EmberCN",
@@ -1930,7 +2326,15 @@
           "action": "币安人生 2 个月涨 20 倍可能由 Garrett Jin 操盘",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "分析师",
+      "skin_in_game": "无仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文",
+        "数据"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "Cointelegraph",
@@ -1964,7 +2368,15 @@
           "action": "$2.4B USDC left circulation in past 30 days",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "媒体",
+      "skin_in_game": "无仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文",
+        "长文"
+      ],
+      "originality": "平衡"
     },
     {
       "handle": "saylor",
@@ -2005,7 +2417,16 @@
           "action": "Capital markets fund AI ~$400B over 6 months. BTC ETFs scaled before AI surge (24k likes)",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "企业家",
+      "skin_in_game": "资管基金",
+      "signal_grade": "S+",
+      "output_types": [
+        "推文",
+        "长文",
+        "视频"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "VitalikButerin",
@@ -2051,7 +2472,15 @@
           "action": "\"Hardware nutrition labels\" 倡议 - 软硬件应有完整数据透明 (1.1k likes)",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "创业者",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "S+",
+      "output_types": [
+        "长文",
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "cz_binance",
@@ -2096,7 +2525,14 @@
           "action": "CMC Open Interest 显示标准化 - 解决跨交易所 OI 口径",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "企业家",
+      "skin_in_game": "资管基金",
+      "signal_grade": "S+",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "hasufl",
@@ -2137,7 +2573,15 @@
           "action": "Tokenized asset onchain 应可程序化结算 - 标准化 endpoint thesis",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "研究员",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "S",
+      "output_types": [
+        "长文",
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "Matt_Hougan",
@@ -2183,7 +2627,16 @@
           "action": "Hyperliquid pod 推荐: Hansel-level explainer of why HL matters",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "投资人",
+      "skin_in_game": "资管基金",
+      "signal_grade": "S",
+      "output_types": [
+        "推文",
+        "长文",
+        "视频"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "PhyrexNi",
@@ -2229,7 +2682,15 @@
           "action": "BTC 60k 周末徘徊 + 下周 CPI/PPI 双数据 + WTI 80 美元 = bullish trigger",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "分析师",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "A",
+      "output_types": [
+        "推文",
+        "数据"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "wublockchain12",
@@ -2274,7 +2735,15 @@
           "action": "识别 Web3 传销项目 lawyer 文章转载 - 节点激活费/算力共享等",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "媒体",
+      "skin_in_game": "无仓位",
+      "signal_grade": "A",
+      "output_types": [
+        "推文",
+        "长文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "AshCrypto",
@@ -2319,7 +2788,14 @@
           "action": "\"Wasted 5 years of my life for this shit\" - capitulation mood (3.1k likes)",
           "stance": "bearish"
         }
-      ]
+      ],
+      "identity": "媒体",
+      "skin_in_game": "无仓位",
+      "signal_grade": "C",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "聚合"
     },
     {
       "handle": "StaniKulechov",
@@ -2353,7 +2829,15 @@
           "action": "Aave V4 + buyback governance push (推断)",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "创业者",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "S+",
+      "output_types": [
+        "推文",
+        "长文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "richardcraib",
@@ -2388,7 +2872,14 @@
           "action": "Numerai ML tournament + AI tooling (推断)",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "创业者",
+      "skin_in_game": "资管基金",
+      "signal_grade": "B",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "amywumartin",
@@ -2422,7 +2913,14 @@
           "action": "AI x crypto thesis investments (推断)",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "投资人",
+      "skin_in_game": "资管基金",
+      "signal_grade": "A",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "machibigbrother",
@@ -2462,7 +2960,14 @@
           "action": "退圈传闻 vs 持续加仓行为 contradiction",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "交易员",
+      "skin_in_game": "公开仓位",
+      "signal_grade": "C",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "DegenerateNews",
@@ -2496,7 +3001,14 @@
           "action": "Crypto news + memes aggregator (推断)",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "媒体",
+      "skin_in_game": "无仓位",
+      "signal_grade": "C",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "聚合"
     },
     {
       "handle": "KaitoAI",
@@ -2530,7 +3042,15 @@
           "action": "KaitoAI yapper rankings + KOL ranking (推断)",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "创业者",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文",
+        "数据"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "richardkingxyz",
@@ -2564,7 +3084,14 @@
           "action": "Crypto investing (待 v5 scrape)",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "投资人",
+      "skin_in_game": "资管基金",
+      "signal_grade": "B",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "liangeyou",
@@ -2605,7 +3132,15 @@
           "action": "高认知的人都往金融市场跑 · 实体有天花板金融没有",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "交易员",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "A",
+      "output_types": [
+        "推文",
+        "长文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "Longtoria",
@@ -2638,7 +3173,14 @@
           "action": "待 deeper scrape (v5)",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "博主",
+      "skin_in_game": "无仓位",
+      "signal_grade": "C",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "CryptoV_Alpha",
@@ -2679,7 +3221,14 @@
           "action": "AMZN/INTC/NVDA 关键空点精准提示",
           "stance": "bearish"
         }
-      ]
+      ],
+      "identity": "交易员",
+      "skin_in_game": "公开仓位",
+      "signal_grade": "A",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "xmayeth",
@@ -2713,7 +3262,14 @@
           "action": "待 deeper scrape (v5)",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "博主",
+      "skin_in_game": "无仓位",
+      "signal_grade": "C",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "chenreason",
@@ -2753,7 +3309,15 @@
           "action": "美股完美风暴: 纳斯达克 -2% · 非农+博通+Alphabet 三利空共振",
           "stance": "bearish"
         }
-      ]
+      ],
+      "identity": "分析师",
+      "skin_in_game": "无仓位",
+      "signal_grade": "A",
+      "output_types": [
+        "长文",
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "0xRay518",
@@ -2787,7 +3351,14 @@
           "action": "long Hyperliquid short BNB pair trade 反复强调 (245 likes)",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "交易员",
+      "skin_in_game": "公开仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "web3luo",
@@ -2821,7 +3392,14 @@
           "action": "待 deeper scrape (v5)",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "博主",
+      "skin_in_game": "无仓位",
+      "signal_grade": "C",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "DanaBuidl",
@@ -2854,7 +3432,14 @@
           "action": "待 deeper scrape (v5)",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "创业者",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "C",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "cryptonerdcn",
@@ -2887,7 +3472,14 @@
           "action": "待 deeper scrape (v5)",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "分析师",
+      "skin_in_game": "无仓位",
+      "signal_grade": "C",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "thecryptoskanda",
@@ -2927,7 +3519,15 @@
           "action": "币圈美股/RWA = 把价格引到链上 + 稳定币标价交易清结算",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "创业者",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "A",
+      "output_types": [
+        "推文",
+        "长文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "Zeneca",
@@ -2968,7 +3568,15 @@
           "action": "Some coins UP during enormous selloff = 隐藏强势信号",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "OG",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "A",
+      "output_types": [
+        "推文",
+        "长文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "joyscompounding",
@@ -3003,7 +3611,14 @@
           "action": "Steve Mandel (Lone Pine Capital) takeaways episode",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "博主",
+      "skin_in_game": "无仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "播客"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "Web3Feng",
@@ -3037,7 +3652,14 @@
           "action": "lifestyle + crypto crossover",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "博主",
+      "skin_in_game": "无仓位",
+      "signal_grade": "C",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "jay_azhang",
@@ -3071,7 +3693,14 @@
           "action": "待 deeper scrape",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "投资人",
+      "skin_in_game": "资管基金",
+      "signal_grade": "C",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "hexiecs",
@@ -3104,7 +3733,14 @@
           "action": "待 deeper scrape",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "交易员",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "C",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "fishkiller",
@@ -3137,7 +3773,14 @@
           "action": "待 deeper scrape",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "OG",
+      "skin_in_game": "隐含仓位",
+      "signal_grade": "C",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "WallStreet0Name",
@@ -3171,7 +3814,14 @@
           "action": "待 deeper scrape",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "交易员",
+      "skin_in_game": "公开仓位",
+      "signal_grade": "C",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "BlockBeatsAsia",
@@ -3205,7 +3855,15 @@
           "action": "Crypto news",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "媒体",
+      "skin_in_game": "无仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文",
+        "长文"
+      ],
+      "originality": "平衡"
     },
     {
       "handle": "MessariCrypto",
@@ -3239,7 +3897,15 @@
           "action": "Quarterly reports",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "媒体",
+      "skin_in_game": "无仓位",
+      "signal_grade": "A",
+      "output_types": [
+        "长文",
+        "数据"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "TechFlowPost",
@@ -3274,7 +3940,15 @@
           "action": "Sector research",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "媒体",
+      "skin_in_game": "无仓位",
+      "signal_grade": "B",
+      "output_types": [
+        "推文",
+        "长文"
+      ],
+      "originality": "平衡"
     },
     {
       "handle": "ChainNewscom",
@@ -3308,7 +3982,14 @@
           "action": "News outlet",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "媒体",
+      "skin_in_game": "无仓位",
+      "signal_grade": "C",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "转发为主"
     },
     {
       "handle": "PANews",
@@ -3342,7 +4023,14 @@
           "action": "Global crypto news",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "媒体",
+      "skin_in_game": "无仓位",
+      "signal_grade": "C",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "转发为主"
     },
     {
       "handle": "Bitwise",
@@ -3377,7 +4065,16 @@
           "action": "Crypto Carry Fund on Aave Horizon",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "投资人",
+      "skin_in_game": "资管基金",
+      "signal_grade": "A",
+      "output_types": [
+        "长文",
+        "推文",
+        "数据"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "Grayscale",
@@ -3411,7 +4108,15 @@
           "action": "ETF flows + product launches",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "投资人",
+      "skin_in_game": "资管基金",
+      "signal_grade": "B",
+      "output_types": [
+        "长文",
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "paradigm",
@@ -3445,7 +4150,15 @@
           "action": "Portfolio updates + research",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "投资人",
+      "skin_in_game": "资管基金",
+      "signal_grade": "S",
+      "output_types": [
+        "长文",
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "Delphi_Digital",
@@ -3480,7 +4193,15 @@
           "action": "Research reports + portfolio",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "投资人",
+      "skin_in_game": "资管基金",
+      "signal_grade": "A",
+      "output_types": [
+        "长文",
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "dragonfly_xyz",
@@ -3514,7 +4235,15 @@
           "action": "Portfolio + thought pieces",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "投资人",
+      "skin_in_game": "资管基金",
+      "signal_grade": "A",
+      "output_types": [
+        "推文",
+        "长文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "dba_xyz",
@@ -3548,7 +4277,14 @@
           "action": "Portfolio + HL thesis push",
           "stance": "bullish"
         }
-      ]
+      ],
+      "identity": "投资人",
+      "skin_in_game": "资管基金",
+      "signal_grade": "B",
+      "output_types": [
+        "推文"
+      ],
+      "originality": "原创"
     },
     {
       "handle": "wintermute_t",
@@ -3582,7 +4318,15 @@
           "action": "Market making data",
           "stance": "neutral"
         }
-      ]
+      ],
+      "identity": "投资人",
+      "skin_in_game": "资管基金",
+      "signal_grade": "B",
+      "output_types": [
+        "推文",
+        "数据"
+      ],
+      "originality": "原创"
     }
   ]
 }

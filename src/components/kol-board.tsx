@@ -25,7 +25,40 @@ export interface KOL {
   sentiment_label: string;
   voice: string;
   recent_actions: string[];
+  identity?: string;
+  skin_in_game?: string;
+  signal_grade?: string;
+  output_types?: string[];
+  originality?: string;
 }
+
+const SIGNAL_GRADE_ORDER: Record<string, number> = {
+  "S+": 5,
+  S: 4,
+  A: 3,
+  B: 2,
+  C: 1,
+};
+
+const SIGNAL_GRADE_COLORS: Record<string, string> = {
+  "S+": "border-emerald-400/50 bg-emerald-400/15 text-emerald-300",
+  S: "border-blue-400/50 bg-blue-400/15 text-blue-300",
+  A: "border-cyan-400/40 bg-cyan-400/10 text-cyan-300",
+  B: "border-neutral-500/40 bg-neutral-500/10 text-neutral-300",
+  C: "border-orange-500/40 bg-orange-500/10 text-orange-400",
+};
+
+const IDENTITY_COLORS: Record<string, string> = {
+  企业家: "border-purple-400/40 bg-purple-400/10 text-purple-200",
+  创业者: "border-cyan-400/40 bg-cyan-400/10 text-cyan-200",
+  投资人: "border-blue-400/40 bg-blue-400/10 text-blue-200",
+  交易员: "border-orange-400/40 bg-orange-400/10 text-orange-200",
+  分析师: "border-teal-400/40 bg-teal-400/10 text-teal-200",
+  博主: "border-rose-400/40 bg-rose-400/10 text-rose-200",
+  媒体: "border-indigo-400/40 bg-indigo-400/10 text-indigo-200",
+  OG: "border-amber-400/40 bg-amber-400/10 text-amber-200",
+  研究员: "border-emerald-400/40 bg-emerald-400/10 text-emerald-200",
+};
 
 type SortKey =
   | "kol_index"
@@ -49,10 +82,6 @@ const SORT_OPTIONS: { key: SortKey; label: string }[] = [
 const TAG_GROUPS = [
   { label: "语言", tags: ["EN", "CN"] },
   {
-    label: "角色",
-    tags: ["trader", "fund", "VC", "analyst", "builder", "media", "news"],
-  },
-  {
     label: "赛道",
     tags: [
       "macro",
@@ -66,6 +95,30 @@ const TAG_GROUPS = [
       "stocks",
       "NFT",
     ],
+  },
+];
+
+// New noise-signal classification filters (orthogonal to tags)
+const NOISE_FILTER_GROUPS = [
+  {
+    field: "identity" as const,
+    label: "身份",
+    options: ["企业家", "创业者", "投资人", "交易员", "分析师", "博主", "媒体", "OG", "研究员"],
+  },
+  {
+    field: "skin_in_game" as const,
+    label: "利益绑定",
+    options: ["公开仓位", "隐含仓位", "资管基金", "无仓位"],
+  },
+  {
+    field: "signal_grade" as const,
+    label: "信号等级",
+    options: ["S+", "S", "A", "B", "C"],
+  },
+  {
+    field: "originality" as const,
+    label: "原创度",
+    options: ["原创", "平衡", "聚合", "转发为主"],
   },
 ];
 
@@ -143,6 +196,10 @@ interface KOLBoardProps {
 export function KOLBoard({ kols, generatedDate }: KOLBoardProps) {
   const [search, setSearch] = useState("");
   const [activeTags, setActiveTags] = useState<Set<string>>(new Set());
+  const [activeNoiseFilters, setActiveNoiseFilters] = useState<
+    Record<string, Set<string>>
+  >({ identity: new Set(), skin_in_game: new Set(), signal_grade: new Set(), originality: new Set() });
+  const [hideNoise, setHideNoise] = useState(false);
   const [sortKey, setSortKey] = useState<SortKey>("kol_index");
   const [sortDesc, setSortDesc] = useState(true);
   const [expandedHandle, setExpandedHandle] = useState<string | null>(null);
@@ -156,6 +213,30 @@ export function KOLBoard({ kols, generatedDate }: KOLBoardProps) {
     });
   };
 
+  const toggleNoiseFilter = (field: string, option: string) => {
+    setActiveNoiseFilters((prev) => {
+      const next = { ...prev };
+      const set = new Set(next[field]);
+      if (set.has(option)) set.delete(option);
+      else set.add(option);
+      next[field] = set;
+      return next;
+    });
+  };
+
+  const clearAllFilters = () => {
+    setActiveTags(new Set());
+    setActiveNoiseFilters({
+      identity: new Set(), skin_in_game: new Set(), signal_grade: new Set(), originality: new Set()
+    });
+    setHideNoise(false);
+  };
+
+  const totalActiveFilters =
+    activeTags.size +
+    Object.values(activeNoiseFilters).reduce((a, s) => a + s.size, 0) +
+    (hideNoise ? 1 : 0);
+
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
     return kols.filter((k) => {
@@ -168,9 +249,20 @@ export function KOLBoard({ kols, generatedDate }: KOLBoardProps) {
           if (!k.tags.includes(t)) return false;
         }
       }
+      // Noise filter: hide grades C (and below)
+      if (hideNoise) {
+        const g = (k.signal_grade ?? "C");
+        if (SIGNAL_GRADE_ORDER[g] < SIGNAL_GRADE_ORDER.A) return false;
+      }
+      // New orthogonal filters
+      for (const [field, set] of Object.entries(activeNoiseFilters)) {
+        if (set.size === 0) continue;
+        const val = (k as unknown as Record<string, string | undefined>)[field];
+        if (!val || !set.has(val)) return false;
+      }
       return true;
     });
-  }, [kols, search, activeTags]);
+  }, [kols, search, activeTags, hideNoise, activeNoiseFilters]);
 
   const sorted = useMemo(() => {
     const arr = [...filtered];
@@ -232,6 +324,18 @@ export function KOLBoard({ kols, generatedDate }: KOLBoardProps) {
             className="flex-1 min-w-[200px] rounded-md border border-white/10 bg-zinc-900 px-3 py-1.5 text-sm text-neutral-200 placeholder:text-neutral-600 focus:border-blue-500/50 focus:outline-none"
           />
           <div className="flex items-center gap-2 text-xs">
+            <button
+              type="button"
+              onClick={() => setHideNoise((v) => !v)}
+              className={`rounded-md border px-2 py-1 font-semibold transition ${
+                hideNoise
+                  ? "border-emerald-400/50 bg-emerald-400/15 text-emerald-300"
+                  : "border-white/10 bg-zinc-900 text-neutral-400 hover:bg-zinc-800 hover:text-neutral-200"
+              }`}
+              title="只显示信号 ≥ A 级的 KOL"
+            >
+              {hideNoise ? "✓" : "○"} Hide Noise (≥A)
+            </button>
             <span className="text-neutral-500">Sort:</span>
             <select
               value={sortKey}
@@ -279,13 +383,40 @@ export function KOLBoard({ kols, generatedDate }: KOLBoardProps) {
               })}
             </div>
           ))}
-          {activeTags.size > 0 && (
+          {NOISE_FILTER_GROUPS.map((group) => (
+            <div key={group.label} className="flex flex-wrap items-center gap-1.5">
+              <span className="mr-1 w-10 text-[10px] uppercase tracking-wider text-neutral-600">
+                {group.label}
+              </span>
+              {group.options.map((opt) => {
+                const active = activeNoiseFilters[group.field]?.has(opt);
+                const isSignalGrade = group.field === "signal_grade";
+                return (
+                  <button
+                    key={opt}
+                    type="button"
+                    onClick={() => toggleNoiseFilter(group.field, opt)}
+                    className={`rounded-full border px-2 py-0.5 text-[11px] transition ${
+                      active
+                        ? isSignalGrade
+                          ? SIGNAL_GRADE_COLORS[opt] || "border-blue-500/40 bg-blue-500/20 text-blue-200"
+                          : "border-purple-500/40 bg-purple-500/20 text-purple-200"
+                        : "border-white/10 bg-zinc-900 text-neutral-400 hover:border-white/20 hover:text-neutral-200"
+                    }`}
+                  >
+                    {opt}
+                  </button>
+                );
+              })}
+            </div>
+          ))}
+          {totalActiveFilters > 0 && (
             <button
               type="button"
-              onClick={() => setActiveTags(new Set())}
+              onClick={clearAllFilters}
               className="mt-1 text-xs text-neutral-500 hover:text-neutral-300"
             >
-              clear filters ({activeTags.size})
+              clear all filters ({totalActiveFilters})
             </button>
           )}
         </div>
@@ -358,6 +489,27 @@ export function KOLBoard({ kols, generatedDate }: KOLBoardProps) {
                     </a>
                     <div className="text-xs text-neutral-500">@{k.handle}</div>
                     <div className="mt-0.5 flex flex-wrap items-center gap-1">
+                      {k.signal_grade && (
+                        <span
+                          className={`rounded-full border px-1.5 py-0.5 text-[10px] font-bold ${
+                            SIGNAL_GRADE_COLORS[k.signal_grade] ||
+                            "border-neutral-500/40 bg-neutral-500/10 text-neutral-300"
+                          }`}
+                          title={`信号等级 ${k.signal_grade}`}
+                        >
+                          {k.signal_grade}
+                        </span>
+                      )}
+                      {k.identity && (
+                        <span
+                          className={`rounded-full border px-1.5 py-0.5 text-[9px] font-medium ${
+                            IDENTITY_COLORS[k.identity] ||
+                            "border-neutral-500/30 bg-neutral-500/10 text-neutral-300"
+                          }`}
+                        >
+                          {k.identity}
+                        </span>
+                      )}
                       <span
                         className={`rounded-full border px-1.5 py-0.5 text-[9px] font-medium ${categoryBadge(
                           k.category_color,
