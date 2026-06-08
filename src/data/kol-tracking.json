@@ -1861,6 +1861,110 @@
           "stance": "neutral"
         }
       ]
+    },
+    {
+      "handle": "y_cryptoanalyst",
+      "display_name": "y_cryptoanalyst",
+      "bio": "Onchain position monitoring · KOL behavior tracking + critique · Hayes wallet reverse-engineering",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Position Tracker",
+      "category_color": "red",
+      "tags": [
+        "CN",
+        "analyst",
+        "onchain",
+        "contract"
+      ],
+      "kol_index": 62,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 25,
+        "activity_score": 8,
+        "conviction_score": 9,
+        "tenure_years": 3
+      },
+      "sentiment_score": -0.4,
+      "sentiment_label": "温和 Bear (critique)",
+      "voice": "KOL 仓位 contradictions 追踪 · 老黑 Hayes 4 天前清仓 HYPE / 4 天后买回 3.4w 枚",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "Hayes 6/4 清仓 HYPE 4 天后 6/8 链上买回 3.4w 枚 HYPE - 真小丑",
+          "stance": "bearish"
+        }
+      ]
+    },
+    {
+      "handle": "EmberCN",
+      "display_name": "EmberCN",
+      "bio": "Onchain wallet detective · Whale behavior analyst",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Onchain Detective",
+      "category_color": "blue",
+      "tags": [
+        "CN",
+        "analyst",
+        "onchain",
+        "DeFi"
+      ],
+      "kol_index": 70,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 180,
+        "activity_score": 9,
+        "conviction_score": 8,
+        "tenure_years": 5
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "中性",
+      "voice": "链上 wallet 行为侦探 · Garrett Jin 几万 BTC 换 90w ETH + HL 操盘事件 reverse",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "币安人生 2 个月涨 20 倍可能由 Garrett Jin 操盘",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "Cointelegraph",
+      "display_name": "Cointelegraph",
+      "bio": "Mainstream crypto news outlet (English)",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "Crypto News",
+      "category_color": "blue",
+      "tags": [
+        "EN",
+        "media",
+        "news"
+      ],
+      "kol_index": 78,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 300,
+        "activity_score": 10,
+        "conviction_score": 6,
+        "tenure_years": 10
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "中性",
+      "voice": "Mainstream crypto news · USDC circulation flows + market data",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "$2.4B USDC left circulation in past 30 days",
+          "stance": "neutral"
+        }
+      ]
     }
   ]
 }
