@@ -1242,6 +1242,625 @@
           "stance": "bearish"
         }
       ]
+    },
+    {
+      "handle": "aleabitoreddit",
+      "display_name": "Serenity 白毛股神",
+      "bio": "AI/Semi Supply Chain Analyst (70w+ followers) · ex RISC-V FDN + AI researcher · trading unknown bottlenecks",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "US Stock Analyst",
+      "category_color": "cyan",
+      "tags": [
+        "EN",
+        "analyst",
+        "stocks",
+        "AI-x-crypto"
+      ],
+      "kol_index": 92,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 1850,
+        "activity_score": 8,
+        "conviction_score": 10,
+        "tenure_years": 5
+      },
+      "sentiment_score": 0.5,
+      "sentiment_label": "强 Bull (半导体)",
+      "voice": "美股三幻神 · AI/半导体 supply chain 深度分析 · 长期 $AAOI $SIVE $XFAB $POET 等冷门光通信/光电 alpha",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "粉丝突破 70w，中文社区贡献巨大",
+          "stance": "neutral"
+        },
+        {
+          "date": "2026-06",
+          "action": "$XFAB 可能成为下一个大票，$SIVE 是其最爱的 CPO/photonics 股",
+          "stance": "bullish"
+        },
+        {
+          "date": "2026-06",
+          "action": "$AAOI 从 $28 一直加仓至今",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "qinbafrank",
+      "display_name": "qinbafrank",
+      "bio": "Investor in AI/Crypto/TMT · 14w followers · 宏观政经观察 + 周期趋势投资 · Runner",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "AI x Crypto x Macro",
+      "category_color": "purple",
+      "tags": [
+        "CN",
+        "analyst",
+        "macro",
+        "AI-x-crypto",
+        "stocks"
+      ],
+      "kol_index": 86,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 160,
+        "activity_score": 9,
+        "conviction_score": 8,
+        "tenure_years": 7
+      },
+      "sentiment_score": -0.2,
+      "sentiment_label": "温和 Bear (调整期)",
+      "voice": "美股三幻神 · AI+Crypto+宏观+周期 多线追踪 · Space 直播分析 · NVDA 韩国行/SemiAnalysis 报道 等深度跟进",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "AI/半导体短期涨幅过大 + FOMO 过强 - 警告调整风险",
+          "stance": "bearish"
+        },
+        {
+          "date": "2026-06",
+          "action": "NVDA Rubin NVL72 砍 DRAM 引发 SOCAMM 产业链震动 - 深度复盘",
+          "stance": "neutral"
+        },
+        {
+          "date": "2026-06",
+          "action": "AI 货币流通速度大幅度提升 → 机器经济时代到来 (与 iamai 探讨)",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "xiaomustock",
+      "display_name": "xiaomustock",
+      "bio": "美股三幻神 #3 · 优必选机器人 + AI 硬件 + 港美股",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "US Stock Analyst",
+      "category_color": "cyan",
+      "tags": [
+        "CN",
+        "analyst",
+        "stocks",
+        "AI-x-crypto"
+      ],
+      "kol_index": 75,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 55,
+        "activity_score": 8,
+        "conviction_score": 7,
+        "tenure_years": 4
+      },
+      "sentiment_score": 0.3,
+      "sentiment_label": "温和 Bull",
+      "voice": "美股三幻神 · AI 硬件 + 机器人 + 港美股新品深度 · 优必选 U1 仿生机器人开售点评",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "优必选 U1 仿生机器人开售，男款 183cm/42kg，搭载情感大模型",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "sunlc_crypto",
+      "display_name": "sunlc_crypto",
+      "bio": "US Stock + Crypto trader · 仓位管理 + 抄底策略",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "US Stock Trader",
+      "category_color": "cyan",
+      "tags": [
+        "CN",
+        "trader",
+        "stocks"
+      ],
+      "kol_index": 65,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 200,
+        "activity_score": 8,
+        "conviction_score": 9,
+        "tenure_years": 5
+      },
+      "sentiment_score": 0.3,
+      "sentiment_label": "温和 Bull (抄底)",
+      "voice": "美股仓位管理派 · 上周三全部清仓 + 下周一二建半仓 $AVGO 抄底，明确价格区间",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "上周三晚上美股全清仓，下周准备半仓抄底 AVGO 350 区间",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "0xDeMoo",
+      "display_name": "0xDeMoo",
+      "bio": "Crypto 17 年 OG · 智能合约 11 年 · 只承认 2 个真用例",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Crypto OG Critic",
+      "category_color": "red",
+      "tags": [
+        "CN",
+        "analyst",
+        "DeFi",
+        "contract"
+      ],
+      "kol_index": 60,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 50,
+        "activity_score": 6,
+        "conviction_score": 9,
+        "tenure_years": 17
+      },
+      "sentiment_score": -0.3,
+      "sentiment_label": "温和 Bear",
+      "voice": "17 年 crypto OG critique · 只认 Hyperliquid (合约) + Polymarket (预测) 两个真用例 · 其余时间 narrative + 投机",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "17 年区块链只 2 个真用例: Hyperliquid + Polymarket - critique",
+          "stance": "bearish"
+        }
+      ]
+    },
+    {
+      "handle": "bitextr",
+      "display_name": "bitextr",
+      "bio": "BTC trader · 高仓位左侧抄底派",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Trader",
+      "category_color": "orange",
+      "tags": [
+        "CN",
+        "trader",
+        "BTC-maxi"
+      ],
+      "kol_index": 50,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 25,
+        "activity_score": 7,
+        "conviction_score": 9,
+        "tenure_years": 5
+      },
+      "sentiment_score": 0.6,
+      "sentiment_label": "强 Bull (左侧)",
+      "voice": "左侧抄底派 · BTC 6w 做多 + 跌破加仓 · \"勇敢的人永远先吃肉\" mentality",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "BTC 跌至 6w 做多，跌破 6w 加仓 - 反向 crowd 操作",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "LukeBitMarathon",
+      "display_name": "LukeBitMarathon",
+      "bio": "crypto 事件追踪 · 麻吉大哥黄立成 HL 仓位监控",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "News + 事件",
+      "category_color": "blue",
+      "tags": [
+        "CN",
+        "media",
+        "news"
+      ],
+      "kol_index": 48,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 50,
+        "activity_score": 6,
+        "conviction_score": 6,
+        "tenure_years": 3
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "中性",
+      "voice": "麻吉大哥 Hyperliquid 永续合约累计亏损 $8000 万 + 退圈传闻追踪",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "麻吉大哥 HL 永续合约累计亏损 $8000 万 + 退圈传闻",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "SuperL9",
+      "display_name": "SuperL9",
+      "bio": "币圈文学 · BNB / 币安人生 narrative",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Trader + 文学",
+      "category_color": "orange",
+      "tags": [
+        "CN",
+        "trader",
+        "media"
+      ],
+      "kol_index": 52,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 30,
+        "activity_score": 7,
+        "conviction_score": 7,
+        "tenure_years": 4
+      },
+      "sentiment_score": -0.1,
+      "sentiment_label": "中性",
+      "voice": "币安文学派 · BNB 8 亿市值散户焦虑 + 韭菜心理白描 · 故事化 macro",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "币安人生 8 亿市值波澜不惊，新韭菜焦虑十几倍收益图 - 故事化讽刺",
+          "stance": "bearish"
+        }
+      ]
+    },
+    {
+      "handle": "CatChen",
+      "display_name": "CatChen",
+      "bio": "investor + tech analyst · SpaceX IPO 情怀 vs valuation 视角",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Tech Analyst",
+      "category_color": "cyan",
+      "tags": [
+        "CN",
+        "analyst",
+        "stocks"
+      ],
+      "kol_index": 55,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 40,
+        "activity_score": 5,
+        "conviction_score": 7,
+        "tenure_years": 6
+      },
+      "sentiment_score": -0.1,
+      "sentiment_label": "中性",
+      "voice": "tech IPO + 情怀 vs 估值 framework · SpaceX IPO 不会按 IPO 价买，但承认情怀派会买",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "SpaceX IPO 不会按 IPO 价买，但情怀派会买一点星际殖民梦想",
+          "stance": "bearish"
+        }
+      ]
+    },
+    {
+      "handle": "yijiangren",
+      "display_name": "yijiangren",
+      "bio": "美股板块 + macro 分析 · AI 物理世界叙事 + 下周大事件追踪",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "US Macro Analyst",
+      "category_color": "cyan",
+      "tags": [
+        "CN",
+        "analyst",
+        "macro",
+        "stocks",
+        "AI-x-crypto"
+      ],
+      "kol_index": 78,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 245,
+        "activity_score": 8,
+        "conviction_score": 9,
+        "tenure_years": 5
+      },
+      "sentiment_score": 0.3,
+      "sentiment_label": "温和 Bull",
+      "voice": "美股下一阶段三板块视角 · 存储/光子学涨完，AI 从软件叙事进入物理世界 · 下周事件清单（CPI/数据/财报）",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "美股 next phase: 存储+光子学涨完，AI 进入物理世界 (机器人+硬件)",
+          "stance": "bullish"
+        },
+        {
+          "date": "2026-06",
+          "action": "下周大事件: 6/10 CPI + 6/11 数据 + 多线叙事撞车",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "Rocky_Bitcoin",
+      "display_name": "Rocky_Bitcoin",
+      "bio": "美股 + crypto bridge · HyperliquidX 盘前 + MLCC 产业链 + 华强北一线战报",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "US Stock + Crypto Bridge",
+      "category_color": "orange",
+      "tags": [
+        "CN",
+        "trader",
+        "stocks",
+        "AI-x-crypto"
+      ],
+      "kol_index": 68,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 300,
+        "activity_score": 9,
+        "conviction_score": 8,
+        "tenure_years": 4
+      },
+      "sentiment_score": 0.4,
+      "sentiment_label": "温和 Bull",
+      "voice": "HyperliquidX 美股盘前 monitor · MLCC/MU/MRVL/CRWV/CBRS 价格追踪 · 华强北一线战报",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "HyperliquidX 美股盘前: #MU 1.73% / #MRVL 7.47% / #CRWV 5.17% 全线上涨",
+          "stance": "bullish"
+        },
+        {
+          "date": "2026-06",
+          "action": "MLCC 全面涨价 10-70%，7/1 生效 - 华强北战报",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "Phoenixyin13",
+      "display_name": "Phoenixyin13",
+      "bio": "tech + biz deal analysis · 协议条款拆解专家",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Deep Analyst",
+      "category_color": "purple",
+      "tags": [
+        "CN",
+        "analyst",
+        "AI-x-crypto"
+      ],
+      "kol_index": 72,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 650,
+        "activity_score": 7,
+        "conviction_score": 9,
+        "tenure_years": 6
+      },
+      "sentiment_score": -0.2,
+      "sentiment_label": "温和 Bear",
+      "voice": "协议账目拆解派 · 11 万 NVIDIA GPU 协议 9.2亿/月 = 商业史明抢 critique · 高 conviction analysis",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "流传的 11万 NVIDIA GPU 协议拆解: 月租 9.2亿美元 = 商业史顶级阳谋",
+          "stance": "bearish"
+        }
+      ]
+    },
+    {
+      "handle": "nangongyuan",
+      "display_name": "nangongyuan",
+      "bio": "value investing · NAV 视角看中国互联网股 · 搜狐/价值股 deep dive",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Value Investor",
+      "category_color": "cyan",
+      "tags": [
+        "CN",
+        "analyst",
+        "stocks"
+      ],
+      "kol_index": 72,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 850,
+        "activity_score": 6,
+        "conviction_score": 9,
+        "tenure_years": 10
+      },
+      "sentiment_score": 0.5,
+      "sentiment_label": "强 Bull (价值)",
+      "voice": "价值投资派 · NAV (不动产+现金+股权) 分析 · 搜狐: 7亿+ 美元不动产 + 大量现金等价物 = 全中国泡沫最小公司",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "搜狐: 北京五道口+中关村不动产市价 $7亿+, 持有现金/短期投资量大 = 中国泡沫最小公司",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "cyrilxuq",
+      "display_name": "cyrilxuq",
+      "bio": "short-term macro + 美股周末展望 · 川普政策影响监测",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Short-term Macro",
+      "category_color": "cyan",
+      "tags": [
+        "CN",
+        "analyst",
+        "macro",
+        "stocks"
+      ],
+      "kol_index": 64,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 250,
+        "activity_score": 8,
+        "conviction_score": 7,
+        "tenure_years": 4
+      },
+      "sentiment_score": 0.3,
+      "sentiment_label": "温和 Bull (下周)",
+      "voice": "短期 macro + 川普操纵视角 · 机构周末清多头给 SpaceX 留定价空间 · 半导体内存短缺 narrative 延续",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "下周市场预期比大家好: 川普喊话+机构清多头给 SpaceX 留空间+黄仁勋内存短缺数年",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "Oscarccg3",
+      "display_name": "Oscarccg3",
+      "bio": "macro 理论派 · 加息周期 vs 资本边际效率分析",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Macro Theorist",
+      "category_color": "purple",
+      "tags": [
+        "CN",
+        "analyst",
+        "macro"
+      ],
+      "kol_index": 60,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 30,
+        "activity_score": 6,
+        "conviction_score": 8,
+        "tenure_years": 5
+      },
+      "sentiment_score": 0.1,
+      "sentiment_label": "中性",
+      "voice": "加息 ≠ 经济下行根因 · 周期决定于资本边际效率 · 历史上加息周期里美股持续上涨 case 多",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "经济下行 ≠ 加息根因 · 真正决定周期的是资本边际效率不是利率",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "CryptoPainter",
+      "display_name": "CryptoPainter",
+      "bio": "BTC 技术分析 · K 线对称结构 + iPhone 安全 tips",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Technical Analyst",
+      "category_color": "orange",
+      "tags": [
+        "CN",
+        "analyst",
+        "trader",
+        "BTC-maxi"
+      ],
+      "kol_index": 56,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 22,
+        "activity_score": 6,
+        "conviction_score": 7,
+        "tenure_years": 5
+      },
+      "sentiment_score": 0.2,
+      "sentiment_label": "温和 Bull",
+      "voice": "技术 cycle 对称结构派 · 自前高以来下跌结构 = 2023 牛市早期上涨结构倒置 · 预测一个月横盘 + 画门反弹",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "前高以来下跌结构 = 2023 早期牛市倒置 = 一个月横盘后画门反弹",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "LaurenceMister",
+      "display_name": "LaurenceMister",
+      "bio": "美国政治 / 川普喊话 commentator",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Politics + Market",
+      "category_color": "blue",
+      "tags": [
+        "CN",
+        "media",
+        "macro",
+        "stocks"
+      ],
+      "kol_index": 56,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 450,
+        "activity_score": 7,
+        "conviction_score": 6,
+        "tenure_years": 4
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "中性",
+      "voice": "美国总统喊单 / 政治事件 → 市场 monitor",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "美国总统直接喊单 - 市场 reaction tracking",
+          "stance": "neutral"
+        }
+      ]
     }
   ]
 }
