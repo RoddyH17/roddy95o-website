@@ -1,10 +1,8 @@
 import data from "@/data/kol-tracking.json";
 import { KOLBoard, type KOL } from "@/components/kol-board";
 import { ScrollingAvatars } from "@/components/scrolling-avatars";
-import { Methodology } from "@/components/methodology";
 
 const kols = data.kols as KOL[];
-const winrateCovered = kols.filter((k) => k.winrate !== null).length;
 
 // Pre-sort avatars by KOL Index desc so marquee leads with most influential
 const avatarKols = [...kols]
@@ -38,8 +36,6 @@ export default function Home() {
         <ScrollingAvatars kols={avatarKols} />
 
         <KOLBoard kols={kols} generatedDate={data.meta.generated} />
-
-        <Methodology kolCount={kols.length} winrateCovered={winrateCovered} />
 
         <footer className="mt-8 border-t border-white/[0.06] pt-6 text-center text-xs text-neutral-500">
           <p>

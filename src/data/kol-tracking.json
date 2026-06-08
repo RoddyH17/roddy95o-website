@@ -13,7 +13,26 @@
       "-0.1 to -0.5": "温和 Bear",
       "-0.5 to -1": "强 Bear"
     },
-    "available_tags": ["EN", "CN", "trader", "fund", "VC", "analyst", "builder", "macro", "onchain", "DeFi", "contract", "media", "BTC-maxi", "ETH-maxi", "airdrop", "news", "AI-x-crypto", "stocks"]
+    "available_tags": [
+      "EN",
+      "CN",
+      "trader",
+      "fund",
+      "VC",
+      "analyst",
+      "builder",
+      "macro",
+      "onchain",
+      "DeFi",
+      "contract",
+      "media",
+      "BTC-maxi",
+      "ETH-maxi",
+      "airdrop",
+      "news",
+      "AI-x-crypto",
+      "stocks"
+    ]
   },
   "kols": [
     {
@@ -25,7 +44,14 @@
       "followed": false,
       "category": "Macro Trader",
       "category_color": "purple",
-      "tags": ["EN", "trader", "fund", "macro", "BTC", "essays"],
+      "tags": [
+        "EN",
+        "trader",
+        "fund",
+        "macro",
+        "BTC",
+        "essays"
+      ],
       "kol_index": 95,
       "winrate": 100,
       "winrate_sample": 4,
@@ -53,7 +79,13 @@
       "followed": false,
       "category": "Cycle Vibe",
       "category_color": "blue",
-      "tags": ["EN", "fund", "macro", "meme", "builder"],
+      "tags": [
+        "EN",
+        "fund",
+        "macro",
+        "meme",
+        "builder"
+      ],
       "kol_index": 91,
       "winrate": null,
       "winrate_sample": 0,
@@ -81,7 +113,13 @@
       "followed": false,
       "category": "VC Thesis",
       "category_color": "indigo",
-      "tags": ["EN", "fund", "VC", "analyst", "macro"],
+      "tags": [
+        "EN",
+        "fund",
+        "VC",
+        "analyst",
+        "macro"
+      ],
       "kol_index": 89,
       "winrate": null,
       "winrate_sample": 0,
@@ -109,7 +147,13 @@
       "followed": false,
       "category": "Onchain Data",
       "category_color": "cyan",
-      "tags": ["EN", "analyst", "onchain", "BTC", "macro"],
+      "tags": [
+        "EN",
+        "analyst",
+        "onchain",
+        "BTC",
+        "macro"
+      ],
       "kol_index": 87,
       "winrate": null,
       "winrate_sample": 0,
@@ -137,7 +181,12 @@
       "followed": false,
       "category": "Active Trader",
       "category_color": "rose",
-      "tags": ["EN", "trader", "onchain", "macro"],
+      "tags": [
+        "EN",
+        "trader",
+        "onchain",
+        "macro"
+      ],
       "kol_index": 84,
       "winrate": null,
       "winrate_sample": 0,
@@ -165,7 +214,13 @@
       "followed": false,
       "category": "Cycle Veteran (ETH)",
       "category_color": "emerald",
-      "tags": ["EN", "analyst", "ETH-maxi", "macro", "NFT"],
+      "tags": [
+        "EN",
+        "analyst",
+        "ETH-maxi",
+        "macro",
+        "NFT"
+      ],
       "kol_index": 83,
       "winrate": null,
       "winrate_sample": 0,
@@ -193,7 +248,12 @@
       "followed": false,
       "category": "Protocol Analyst",
       "category_color": "amber",
-      "tags": ["EN", "analyst", "DeFi", "onchain"],
+      "tags": [
+        "EN",
+        "analyst",
+        "DeFi",
+        "onchain"
+      ],
       "kol_index": 79,
       "winrate": 0,
       "winrate_sample": 4,
@@ -221,7 +281,13 @@
       "followed": false,
       "category": "First Principles",
       "category_color": "teal",
-      "tags": ["EN", "fund", "VC", "builder", "analyst"],
+      "tags": [
+        "EN",
+        "fund",
+        "VC",
+        "builder",
+        "analyst"
+      ],
       "kol_index": 78,
       "winrate": null,
       "winrate_sample": 0,
@@ -249,7 +315,13 @@
       "followed": false,
       "category": "Architecture Critic",
       "category_color": "orange",
-      "tags": ["EN", "fund", "VC", "analyst", "DeFi"],
+      "tags": [
+        "EN",
+        "fund",
+        "VC",
+        "analyst",
+        "DeFi"
+      ],
       "kol_index": 76,
       "winrate": 0,
       "winrate_sample": 2,
@@ -277,7 +349,12 @@
       "followed": false,
       "category": "Tech Depth",
       "category_color": "violet",
-      "tags": ["EN", "builder", "analyst", "AI-x-crypto"],
+      "tags": [
+        "EN",
+        "builder",
+        "analyst",
+        "AI-x-crypto"
+      ],
       "kol_index": 75,
       "winrate": null,
       "winrate_sample": 0,
@@ -305,7 +382,12 @@
       "followed": false,
       "category": "Whale-Trader",
       "category_color": "fuchsia",
-      "tags": ["EN", "trader", "AI-x-crypto", "onchain"],
+      "tags": [
+        "EN",
+        "trader",
+        "AI-x-crypto",
+        "onchain"
+      ],
       "kol_index": 74,
       "winrate": null,
       "winrate_sample": 0,
@@ -333,7 +415,12 @@
       "followed": false,
       "category": "Systematic Data",
       "category_color": "lime",
-      "tags": ["EN", "analyst", "DeFi", "media"],
+      "tags": [
+        "EN",
+        "analyst",
+        "DeFi",
+        "media"
+      ],
       "kol_index": 71,
       "winrate": null,
       "winrate_sample": 0,
@@ -361,7 +448,13 @@
       "followed": true,
       "category": "Airdrop + Policy",
       "category_color": "amber",
-      "tags": ["CN", "trader", "airdrop", "stocks", "news"],
+      "tags": [
+        "CN",
+        "trader",
+        "airdrop",
+        "stocks",
+        "news"
+      ],
       "kol_index": 70,
       "winrate": null,
       "winrate_sample": 0,
@@ -389,7 +482,13 @@
       "followed": true,
       "category": "AI + China Macro",
       "category_color": "blue",
-      "tags": ["CN", "analyst", "AI-x-crypto", "macro", "stocks"],
+      "tags": [
+        "CN",
+        "analyst",
+        "AI-x-crypto",
+        "macro",
+        "stocks"
+      ],
       "kol_index": 73,
       "winrate": null,
       "winrate_sample": 0,
@@ -417,7 +516,12 @@
       "followed": true,
       "category": "BTC Veteran",
       "category_color": "orange",
-      "tags": ["CN", "builder", "BTC-maxi", "analyst"],
+      "tags": [
+        "CN",
+        "builder",
+        "BTC-maxi",
+        "analyst"
+      ],
       "kol_index": 76,
       "winrate": null,
       "winrate_sample": 0,
@@ -445,7 +549,12 @@
       "followed": true,
       "category": "Contract + US Stocks",
       "category_color": "rose",
-      "tags": ["CN", "trader", "contract", "stocks"],
+      "tags": [
+        "CN",
+        "trader",
+        "contract",
+        "stocks"
+      ],
       "kol_index": 68,
       "winrate": null,
       "winrate_sample": 0,
@@ -473,7 +582,12 @@
       "followed": true,
       "category": "Public Position",
       "category_color": "purple",
-      "tags": ["CN", "trader", "contract", "macro"],
+      "tags": [
+        "CN",
+        "trader",
+        "contract",
+        "macro"
+      ],
       "kol_index": 66,
       "winrate": 0,
       "winrate_sample": 1,
@@ -501,7 +615,12 @@
       "followed": true,
       "category": "Contrarian (CN)",
       "category_color": "red",
-      "tags": ["CN", "analyst", "macro", "stocks"],
+      "tags": [
+        "CN",
+        "analyst",
+        "macro",
+        "stocks"
+      ],
       "kol_index": 65,
       "winrate": null,
       "winrate_sample": 0,
@@ -529,7 +648,13 @@
       "followed": true,
       "category": "News + Policy",
       "category_color": "cyan",
-      "tags": ["CN", "news", "media", "macro", "stocks"],
+      "tags": [
+        "CN",
+        "news",
+        "media",
+        "macro",
+        "stocks"
+      ],
       "kol_index": 67,
       "winrate": null,
       "winrate_sample": 0,
@@ -557,7 +682,12 @@
       "followed": false,
       "category": "Onchain Detective (CN)",
       "category_color": "pink",
-      "tags": ["CN", "analyst", "onchain", "stocks"],
+      "tags": [
+        "CN",
+        "analyst",
+        "onchain",
+        "stocks"
+      ],
       "kol_index": 62,
       "winrate": null,
       "winrate_sample": 0,
@@ -585,7 +715,12 @@
       "followed": true,
       "category": "Contrarian Trader",
       "category_color": "red",
-      "tags": ["CN", "trader", "analyst", "macro"],
+      "tags": [
+        "CN",
+        "trader",
+        "analyst",
+        "macro"
+      ],
       "kol_index": 64,
       "winrate": null,
       "winrate_sample": 0,
@@ -613,7 +748,13 @@
       "followed": true,
       "category": "BTC Maxi (CN)",
       "category_color": "orange",
-      "tags": ["CN", "trader", "BTC-maxi", "stocks", "macro"],
+      "tags": [
+        "CN",
+        "trader",
+        "BTC-maxi",
+        "stocks",
+        "macro"
+      ],
       "kol_index": 66,
       "winrate": null,
       "winrate_sample": 0,
@@ -641,7 +782,13 @@
       "followed": true,
       "category": "US Stocks Bridge",
       "category_color": "indigo",
-      "tags": ["CN", "analyst", "stocks", "AI-x-crypto", "NFT"],
+      "tags": [
+        "CN",
+        "analyst",
+        "stocks",
+        "AI-x-crypto",
+        "NFT"
+      ],
       "kol_index": 62,
       "winrate": null,
       "winrate_sample": 0,
@@ -669,7 +816,12 @@
       "followed": true,
       "category": "Crypto News",
       "category_color": "lime",
-      "tags": ["CN", "news", "media", "onchain"],
+      "tags": [
+        "CN",
+        "news",
+        "media",
+        "onchain"
+      ],
       "kol_index": 60,
       "winrate": null,
       "winrate_sample": 0,
@@ -697,7 +849,12 @@
       "followed": true,
       "category": "Veteran Trader (CN)",
       "category_color": "purple",
-      "tags": ["CN", "trader", "contract", "macro"],
+      "tags": [
+        "CN",
+        "trader",
+        "contract",
+        "macro"
+      ],
       "kol_index": 65,
       "winrate": null,
       "winrate_sample": 0,
@@ -725,7 +882,12 @@
       "followed": true,
       "category": "Risk Story Aggregator",
       "category_color": "amber",
-      "tags": ["CN", "trader", "contract", "macro"],
+      "tags": [
+        "CN",
+        "trader",
+        "contract",
+        "macro"
+      ],
       "kol_index": 55,
       "winrate": null,
       "winrate_sample": 0,
@@ -753,7 +915,12 @@
       "followed": true,
       "category": "Airdrop + Solana",
       "category_color": "violet",
-      "tags": ["CN", "builder", "airdrop", "DeFi"],
+      "tags": [
+        "CN",
+        "builder",
+        "airdrop",
+        "DeFi"
+      ],
       "kol_index": 58,
       "winrate": null,
       "winrate_sample": 0,
@@ -781,7 +948,12 @@
       "followed": false,
       "category": "Builder + AI Agent",
       "category_color": "fuchsia",
-      "tags": ["EN", "builder", "AI-x-crypto", "analyst"],
+      "tags": [
+        "EN",
+        "builder",
+        "AI-x-crypto",
+        "analyst"
+      ],
       "kol_index": 62,
       "winrate": null,
       "winrate_sample": 0,
@@ -798,6 +970,277 @@
         "'90% of crypto is fake business' (220 likes)",
         "'AI + crypto finally make fucking sense' (467 likes)",
         "'7 fucking rounds of interviews vs pope picked in 2 days'"
+      ]
+    },
+    {
+      "handle": "fundstrat",
+      "display_name": "Tom Lee",
+      "bio": "CIO Fundstrat Capital | Research Head FundstratDirect | CNBC Contributor | Chairman BitMine $BMNR",
+      "verified": true,
+      "language": "EN",
+      "followed": false,
+      "category": "Macro Trader",
+      "category_color": "purple",
+      "tags": [
+        "EN",
+        "trader",
+        "fund",
+        "analyst",
+        "media",
+        "macro",
+        "ETH-maxi",
+        "stocks"
+      ],
+      "kol_index": 94,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 950,
+        "activity_score": 9,
+        "conviction_score": 10,
+        "tenure_years": 15
+      },
+      "sentiment_score": 0.6,
+      "sentiment_label": "强 Bull (ETH)",
+      "voice": "TV-anchor 派 macro thesis · ETH 估值多次喊话 · BitMine treasury chairman",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "ETH vastly undervalued: stablecoins, DeFi TVL, transactions all leading",
+          "stance": "bullish"
+        },
+        {
+          "date": "2026-06",
+          "action": "Standard Chartered: ETH = Amazon during 2001 dot-com bubble burst",
+          "stance": "bullish"
+        },
+        {
+          "date": "2026-06",
+          "action": "ETH RSI vs QQQ near record lows — accumulation zone",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "moranweb3",
+      "display_name": "墨染",
+      "bio": "币圈老油条｜投研 · 撸毛 · YouTuber · INTP · @predictdotfun + @42space ambassador",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Trader + 撸毛",
+      "category_color": "orange",
+      "tags": [
+        "CN",
+        "trader",
+        "analyst",
+        "airdrop",
+        "DeFi"
+      ],
+      "kol_index": 64,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 8,
+        "activity_score": 8,
+        "conviction_score": 7,
+        "tenure_years": 6
+      },
+      "sentiment_score": -0.2,
+      "sentiment_label": "温和 Bear",
+      "voice": "币圈老油条 · 投研 + 撸毛 + predict market 实战 · ZEC 增发 critique",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "ZEC 隐私协议偷偷增发 - 密码学上无法证明漏洞修复前是否被利用",
+          "stance": "bearish"
+        },
+        {
+          "date": "2026-06",
+          "action": "BTC 跌穿因 Strategy 卖 32 BTC，象征意义太强",
+          "stance": "bearish"
+        },
+        {
+          "date": "2026-06",
+          "action": "Predict market 大户砸盘信号",
+          "stance": "bearish"
+        }
+      ]
+    },
+    {
+      "handle": "TaoRay",
+      "display_name": "TaoRay",
+      "bio": "币圈 critique voice · 反 KOL 喊单",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Contrarian",
+      "category_color": "red",
+      "tags": [
+        "CN",
+        "analyst"
+      ],
+      "kol_index": 58,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 500,
+        "activity_score": 5,
+        "conviction_score": 8,
+        "tenure_years": 4
+      },
+      "sentiment_score": -0.3,
+      "sentiment_label": "温和 Bear",
+      "voice": "反 KOL 喊单 · 质疑 \"币安 KOL 几万到几亿\" 类暴富叙事 · 用华尔街标准 calibration",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "反 critique 中国农村娃币安 KOL 几万到几亿故事 - 华尔街天神级收益怎么可能",
+          "stance": "bearish"
+        }
+      ]
+    },
+    {
+      "handle": "hibtc37",
+      "display_name": "hibtc37",
+      "bio": "BTC trader · 区间预判",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Trader",
+      "category_color": "orange",
+      "tags": [
+        "CN",
+        "trader",
+        "BTC-maxi",
+        "macro"
+      ],
+      "kol_index": 52,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 25,
+        "activity_score": 9,
+        "conviction_score": 8,
+        "tenure_years": 4
+      },
+      "sentiment_score": 0.1,
+      "sentiment_label": "中性",
+      "voice": "BTC 区间技术派 trader · 美股开盘时点预判 · 与其他 trader 跟单对照",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "BTC 65-66k 逼空机会很肥，美股开盘前预判区间",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "369Serena",
+      "display_name": "369Serena",
+      "bio": "Skills / Codex AI tools · web3 → 美股 AI 投研框架 · Serenity 受益方",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "AI Tools Builder",
+      "category_color": "cyan",
+      "tags": [
+        "CN",
+        "builder",
+        "AI-x-crypto",
+        "stocks"
+      ],
+      "kol_index": 68,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 700,
+        "activity_score": 9,
+        "conviction_score": 8,
+        "tenure_years": 3
+      },
+      "sentiment_score": 0.4,
+      "sentiment_label": "温和 Bull",
+      "voice": "Skills / Codex AI tools maker · 把 Codex 改造为股票投研助手 · web3 + 美股 AI 桥",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "Skills 闲鱼小红书已经有人转卖 - 信息差+行动力变现",
+          "stance": "bullish"
+        },
+        {
+          "date": "2026-06",
+          "action": "给 Codex 装上 Skills/AI 投研框架 - 拆产业链/读财报/看 chart",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "agintender",
+      "display_name": "agintender",
+      "bio": "crypto LP / project observer · 关注 launch dynamics",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Trader",
+      "category_color": "orange",
+      "tags": [
+        "CN",
+        "trader",
+        "DeFi"
+      ],
+      "kol_index": 50,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 30,
+        "activity_score": 5,
+        "conviction_score": 6,
+        "tenure_years": 3
+      },
+      "sentiment_score": -0.2,
+      "sentiment_label": "温和 Bear",
+      "voice": "币安人生类项目 LP 观察 · 项目量价异常情绪",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "心疼币安人生 LP - 量和价差距大",
+          "stance": "bearish"
+        }
+      ]
+    },
+    {
+      "handle": "Dragonhau66",
+      "display_name": "Dragonhau66",
+      "bio": "crypto 八卦/事件 commentator",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "News + 八卦",
+      "category_color": "blue",
+      "tags": [
+        "CN",
+        "media",
+        "news"
+      ],
+      "kol_index": 48,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 10,
+        "activity_score": 7,
+        "conviction_score": 5,
+        "tenure_years": 3
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "中性",
+      "voice": "币圈事件 commentator · 跟踪 macro 人物（如黄立成）行为",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "麻吉大哥黄立成 HyperLiquid 巨亏 $7835万 仍加仓做多 ETH",
+          "stance": "bearish"
+        }
       ]
     }
   ]
