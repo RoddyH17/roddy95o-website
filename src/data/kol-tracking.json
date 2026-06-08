@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-06-05",
+    "generated": "2026-06-08",
     "version": "v3",
     "scope": "Crypto KOL leaderboard with KOL Index + sentiment + style + tags + (partial) win rate",
     "kol_count": 28,
@@ -1962,6 +1962,941 @@
         {
           "date": "2026-06",
           "action": "$2.4B USDC left circulation in past 30 days",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "saylor",
+      "display_name": "Michael Saylor",
+      "bio": "Strategy Founder & Chairman · $BTC Hodler · http://Hope.com",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "BTC Maxi / Corporate",
+      "category_color": "orange",
+      "tags": [
+        "EN",
+        "fund",
+        "trader",
+        "BTC-maxi",
+        "stocks"
+      ],
+      "kol_index": 96,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 9800,
+        "activity_score": 9,
+        "conviction_score": 10,
+        "tenure_years": 14
+      },
+      "sentiment_score": 0.9,
+      "sentiment_label": "强 Bull (BTC)",
+      "voice": "BTC corporate treasury 教父 · Strategy 增持/卖出每动作即市场事件 · 4 ideologies (Maximalists/Capitalists/Builders/Educators) framework",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "\"32?\" - 神秘单字推回应 Strategy 卖 32 BTC 引发市场猜测 (15k likes)",
+          "stance": "neutral"
+        },
+        {
+          "date": "2026-06",
+          "action": "Capital markets fund AI ~$400B over 6 months. BTC ETFs scaled before AI surge (24k likes)",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "VitalikButerin",
+      "display_name": "vitalik.eth",
+      "bio": "ETH co-founder · I choose balance · slatestarcodex.com/2018/09/12/in-the-balance",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "L1 Founder",
+      "category_color": "purple",
+      "tags": [
+        "EN",
+        "builder",
+        "analyst",
+        "ETH-maxi",
+        "AI-x-crypto"
+      ],
+      "kol_index": 98,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 1700,
+        "activity_score": 8,
+        "conviction_score": 10,
+        "tenure_years": 13
+      },
+      "sentiment_score": 0.4,
+      "sentiment_label": "温和 Bull (ETH)",
+      "voice": "ETH 创始人 · 哲学+技术深度派 · quantum/AI/hardware nutrition labels 跨议题",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "Google Quantum AI 论文解读 - 量子时代来临的 implications (6.1k likes)",
+          "stance": "neutral"
+        },
+        {
+          "date": "2026-06",
+          "action": "Prediction market 默认 sports markets 现象 critique",
+          "stance": "neutral"
+        },
+        {
+          "date": "2026-06",
+          "action": "\"Hardware nutrition labels\" 倡议 - 软硬件应有完整数据透明 (1.1k likes)",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "cz_binance",
+      "display_name": "CZ BNB",
+      "bio": "Binance founder · BNB chain · YZi Labs · Giggle Academy",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "CEX Founder / OG",
+      "category_color": "orange",
+      "tags": [
+        "EN",
+        "fund",
+        "builder",
+        "BTC-maxi"
+      ],
+      "kol_index": 95,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 2000,
+        "activity_score": 10,
+        "conviction_score": 9,
+        "tenure_years": 10
+      },
+      "sentiment_score": 0.7,
+      "sentiment_label": "强 Bull",
+      "voice": "Binance 创始人 · BNB chain narrative · 何一/Heyi \"Heyi is a light source\" 内部人事 hype",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "\"何一是光源\" - 内部人事 hype (1.8k likes 409 RT)",
+          "stance": "bullish"
+        },
+        {
+          "date": "2026-06",
+          "action": "Genius CZ 鼓励 propAMM 在 BNB 上 keep building",
+          "stance": "bullish"
+        },
+        {
+          "date": "2026-06",
+          "action": "CMC Open Interest 显示标准化 - 解决跨交易所 OI 口径",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "hasufl",
+      "display_name": "Hasu",
+      "bio": "strategy steward @ flashbots · advisor @ lido, steakhouse · JUST joined Anthropic",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "OG Researcher (Crypto→AI)",
+      "category_color": "purple",
+      "tags": [
+        "EN",
+        "builder",
+        "analyst",
+        "DeFi",
+        "AI-x-crypto"
+      ],
+      "kol_index": 91,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 30700,
+        "activity_score": 6,
+        "conviction_score": 10,
+        "tenure_years": 8
+      },
+      "sentiment_score": 0.2,
+      "sentiment_label": "温和 Bull",
+      "voice": "Flashbots strategy steward + Lido/Steakhouse advisor · 刚 joined Anthropic = crypto → AI 大佬转身",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "\"Personal update: I joined Anthropic. Next few years at LLM frontier exceptional\" (150k likes 18k RT)",
+          "stance": "bullish"
+        },
+        {
+          "date": "2026-06",
+          "action": "Tokenized asset onchain 应可程序化结算 - 标准化 endpoint thesis",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "Matt_Hougan",
+      "display_name": "Matt Hougan",
+      "bio": "CIO @Bitwise · Co-founder @FutureProof_HQ · ex-CEO @ETFcom",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "Institutional Analyst",
+      "category_color": "purple",
+      "tags": [
+        "EN",
+        "fund",
+        "analyst",
+        "macro",
+        "BTC-maxi"
+      ],
+      "kol_index": 88,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 240,
+        "activity_score": 7,
+        "conviction_score": 9,
+        "tenure_years": 12
+      },
+      "sentiment_score": 0.5,
+      "sentiment_label": "强 Bull (HYPE+BTC)",
+      "voice": "Bitwise CIO institutional voice · ETF supply shock thesis · HYPE 是 most undervalued asset 公开 thesis · Aave Horizon $120m+ Bitwise Crypto Carry Fund",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "Bitwise: HYPE 是 crypto 最被低估资产之一 - revenue/cash flow vs market cap (543 likes)",
+          "stance": "bullish"
+        },
+        {
+          "date": "2026-06",
+          "action": "Bitwise Crypto Carry Fund $120m+ 上 Aave Horizon - institutional 入场",
+          "stance": "bullish"
+        },
+        {
+          "date": "2026-06",
+          "action": "Hyperliquid pod 推荐: Hansel-level explainer of why HL matters",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "PhyrexNi",
+      "display_name": "Phyrex",
+      "bio": "只是个搬砖的 · GlassNode 重度使用者 · 偶尔恰饭 不奢求 不浪费",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Onchain Data Analyst",
+      "category_color": "blue",
+      "tags": [
+        "CN",
+        "analyst",
+        "onchain",
+        "macro",
+        "BTC-maxi"
+      ],
+      "kol_index": 78,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 72,
+        "activity_score": 9,
+        "conviction_score": 8,
+        "tenure_years": 7
+      },
+      "sentiment_score": 0.1,
+      "sentiment_label": "中性",
+      "voice": "GlassNode 深度用户 · 跨美股 macro + CPI/PPI/油价 + 加密价位关联派 · WLFI/HTX/Justin Sun 等 神仙打架追踪",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "5 月 CPI + 美伊霍尔木兹海峡协议 + Fed 加息概率 macro setup",
+          "stance": "bearish"
+        },
+        {
+          "date": "2026-06",
+          "action": "WLFI 冻结 HTX 地址 $WLFI, HTX 反制下架 USD1 - 神仙打架",
+          "stance": "neutral"
+        },
+        {
+          "date": "2026-06",
+          "action": "BTC 60k 周末徘徊 + 下周 CPI/PPI 双数据 + WTI 80 美元 = bullish trigger",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "wublockchain12",
+      "display_name": "吴说区块链 (Colin Wu)",
+      "bio": "吴说中文推特：接近真相，更可信赖 · 专业可信的区块链行业新闻 · TG: colinwu1989",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Crypto News",
+      "category_color": "blue",
+      "tags": [
+        "CN",
+        "media",
+        "news",
+        "macro"
+      ],
+      "kol_index": 85,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 80,
+        "activity_score": 10,
+        "conviction_score": 7,
+        "tenure_years": 7
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "中性",
+      "voice": "吴说区块链 · 中文圈最权威 crypto news 渠道 · TGA $1tn 流动性追踪 + Web3 传销 critique + Strategy 优先股 stress 报道",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "TGA 月底 $9000 亿 + 月底 $1 万亿 - 流动性抽离 + RRP 已耗尽 macro risk",
+          "stance": "bearish"
+        },
+        {
+          "date": "2026-06",
+          "action": "JPMorgan: Strategy 美元储备仅能支撑优先股股息 1 年内 - 卖 BTC 担忧",
+          "stance": "bearish"
+        },
+        {
+          "date": "2026-06",
+          "action": "识别 Web3 传销项目 lawyer 文章转载 - 节点激活费/算力共享等",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "AshCrypto",
+      "display_name": "Ash Crypto",
+      "bio": "News · Memes · Charts · Hopium · Market analysis · Telegram AshCryptoTG",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "News + Meme",
+      "category_color": "blue",
+      "tags": [
+        "EN",
+        "media",
+        "news",
+        "trader"
+      ],
+      "kol_index": 82,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 1390,
+        "activity_score": 10,
+        "conviction_score": 6,
+        "tenure_years": 5
+      },
+      "sentiment_score": -0.3,
+      "sentiment_label": "温和 Bear (capitulation)",
+      "voice": "高 volume crypto news + memes + market hopium · BTC $59k 年内新低 $300B wiped 报道 + $70B 杠杆 liquidations 自 10/10",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "BTC hit yearly low $59,127 wiping out $300B in past week",
+          "stance": "bearish"
+        },
+        {
+          "date": "2026-06",
+          "action": "Garrett Jin closed position with $11.24M profit (open right before Zcash exploit)",
+          "stance": "neutral"
+        },
+        {
+          "date": "2026-06",
+          "action": "\"Wasted 5 years of my life for this shit\" - capitulation mood (3.1k likes)",
+          "stance": "bearish"
+        }
+      ]
+    },
+    {
+      "handle": "StaniKulechov",
+      "display_name": "Stani Kulechov",
+      "bio": "Founder & CEO @Aave · DeFi lending pioneer",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "DeFi Founder",
+      "category_color": "purple",
+      "tags": [
+        "EN",
+        "builder",
+        "DeFi"
+      ],
+      "kol_index": 87,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 500,
+        "activity_score": 7,
+        "conviction_score": 9,
+        "tenure_years": 9
+      },
+      "sentiment_score": 0.4,
+      "sentiment_label": "温和 Bull (DeFi)",
+      "voice": "Aave 创始人 · DeFi 借贷 narrative spokesperson · Aave V4 + buyback 治理推动者",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "Aave V4 + buyback governance push (推断)",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "richardcraib",
+      "display_name": "Richard Craib",
+      "bio": "Founder @Numerai · ML hedge fund · data scientist tournament",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "Quant Fund Founder",
+      "category_color": "cyan",
+      "tags": [
+        "EN",
+        "fund",
+        "builder",
+        "AI-x-crypto"
+      ],
+      "kol_index": 75,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 200,
+        "activity_score": 5,
+        "conviction_score": 8,
+        "tenure_years": 9
+      },
+      "sentiment_score": 0.3,
+      "sentiment_label": "温和 Bull",
+      "voice": "Numerai 创始人 · ML tournament + crypto incentive 结合 · NMR token + data science 派",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "Numerai ML tournament + AI tooling (推断)",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "amywumartin",
+      "display_name": "Amy Wu Martin",
+      "bio": "Partner @MenloVentures (formerly Lightspeed Web3, FTX Ventures)",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "VC Partner",
+      "category_color": "purple",
+      "tags": [
+        "EN",
+        "VC",
+        "fund"
+      ],
+      "kol_index": 82,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 350,
+        "activity_score": 6,
+        "conviction_score": 8,
+        "tenure_years": 8
+      },
+      "sentiment_score": 0.2,
+      "sentiment_label": "温和 Bull",
+      "voice": "Menlo Ventures crypto/AI partner (ex-Lightspeed, ex-FTX Ventures) · thesis-driven",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "AI x crypto thesis investments (推断)",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "machibigbrother",
+      "display_name": "麻吉大哥 Machi Big Brother",
+      "bio": "Crypto whale · HyperLiquid trader · NFT/cycle veteran",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "Whale Trader",
+      "category_color": "orange",
+      "tags": [
+        "EN",
+        "trader",
+        "contract",
+        "NFT"
+      ],
+      "kol_index": 73,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 800,
+        "activity_score": 9,
+        "conviction_score": 8,
+        "tenure_years": 9
+      },
+      "sentiment_score": -0.5,
+      "sentiment_label": "强 Bear (持续亏损)",
+      "voice": "麻吉大哥 · HyperLiquid 上累计亏 $7835万 仍加仓做多 ETH · 25x 杠杆持续被清算 = 公开式 cycle 学习样本",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "HL ETH 25x 多单累计亏 $8000万, 再存 $250k USDC 加仓",
+          "stance": "bullish"
+        },
+        {
+          "date": "2026-06",
+          "action": "退圈传闻 vs 持续加仓行为 contradiction",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "DegenerateNews",
+      "display_name": "Degenerate News",
+      "bio": "Crypto news + meme aggregator · degen culture",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "News + Meme",
+      "category_color": "blue",
+      "tags": [
+        "EN",
+        "media",
+        "news"
+      ],
+      "kol_index": 70,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 600,
+        "activity_score": 10,
+        "conviction_score": 5,
+        "tenure_years": 4
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "中性",
+      "voice": "Crypto news + meme · 高频 aggregator · degen 文化代表",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "Crypto news + memes aggregator (推断)",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "KaitoAI",
+      "display_name": "KaitoAI",
+      "bio": "AI-powered crypto research & info network",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "AI Tools Builder",
+      "category_color": "cyan",
+      "tags": [
+        "EN",
+        "builder",
+        "AI-x-crypto"
+      ],
+      "kol_index": 72,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 400,
+        "activity_score": 8,
+        "conviction_score": 7,
+        "tenure_years": 3
+      },
+      "sentiment_score": 0.3,
+      "sentiment_label": "温和 Bull",
+      "voice": "KaitoAI · AI 驱动 crypto research / info aggregation 平台 · KOL ranking + yapper 系统",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "KaitoAI yapper rankings + KOL ranking (推断)",
+          "stance": "bullish"
+        }
+      ]
+    },
+    {
+      "handle": "richardkingxyz",
+      "display_name": "richardkingxyz",
+      "bio": "Crypto investor / fund",
+      "verified": true,
+      "language": "EN",
+      "followed": true,
+      "category": "VC / Investor",
+      "category_color": "purple",
+      "tags": [
+        "EN",
+        "VC",
+        "fund"
+      ],
+      "kol_index": 68,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 250,
+        "activity_score": 6,
+        "conviction_score": 7,
+        "tenure_years": 6
+      },
+      "sentiment_score": 0.1,
+      "sentiment_label": "中性",
+      "voice": "Crypto investor (待 deeper scrape)",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "Crypto investing (待 v5 scrape)",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "liangeyou",
+      "display_name": "liangeyou",
+      "bio": "Chinese crypto KOL",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Trader",
+      "category_color": "orange",
+      "tags": [
+        "CN",
+        "trader"
+      ],
+      "kol_index": 58,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 50,
+        "activity_score": 6,
+        "conviction_score": 7,
+        "tenure_years": 4
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "中性",
+      "voice": "CN crypto KOL (待 v5 deeper scrape)",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "待 deeper scrape (v5)",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "Longtoria",
+      "display_name": "Longtoria",
+      "bio": "Chinese crypto trader",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Trader",
+      "category_color": "orange",
+      "tags": [
+        "CN",
+        "trader"
+      ],
+      "kol_index": 55,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 30,
+        "activity_score": 5,
+        "conviction_score": 6,
+        "tenure_years": 3
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "中性",
+      "voice": "CN crypto trader (待 v5 deeper scrape)",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "待 deeper scrape (v5)",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "CryptoV_Alpha",
+      "display_name": "CryptoV Alpha",
+      "bio": "Chinese crypto alpha hunter",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Alpha Hunter",
+      "category_color": "orange",
+      "tags": [
+        "CN",
+        "trader",
+        "airdrop"
+      ],
+      "kol_index": 55,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 40,
+        "activity_score": 7,
+        "conviction_score": 6,
+        "tenure_years": 3
+      },
+      "sentiment_score": 0.1,
+      "sentiment_label": "中性",
+      "voice": "CN alpha hunter · 待 v5 deeper scrape",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "待 deeper scrape (v5)",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "xmayeth",
+      "display_name": "xmayeth",
+      "bio": "Chinese ETH / crypto KOL",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Trader",
+      "category_color": "orange",
+      "tags": [
+        "CN",
+        "trader",
+        "ETH-maxi"
+      ],
+      "kol_index": 56,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 35,
+        "activity_score": 6,
+        "conviction_score": 6,
+        "tenure_years": 3
+      },
+      "sentiment_score": 0.1,
+      "sentiment_label": "中性",
+      "voice": "CN ETH trader · 待 v5 scrape",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "待 deeper scrape (v5)",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "chenreason",
+      "display_name": "chen reason",
+      "bio": "Chinese crypto / web3 thinker",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Analyst",
+      "category_color": "cyan",
+      "tags": [
+        "CN",
+        "analyst"
+      ],
+      "kol_index": 58,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 60,
+        "activity_score": 6,
+        "conviction_score": 7,
+        "tenure_years": 4
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "中性",
+      "voice": "CN crypto analyst (待 v5 scrape)",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "待 deeper scrape (v5)",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "0xRay518",
+      "display_name": "0xRay518",
+      "bio": "Chinese crypto trader",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Trader",
+      "category_color": "orange",
+      "tags": [
+        "CN",
+        "trader"
+      ],
+      "kol_index": 52,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 25,
+        "activity_score": 6,
+        "conviction_score": 6,
+        "tenure_years": 3
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "中性",
+      "voice": "CN crypto trader (待 v5 scrape)",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "待 deeper scrape (v5)",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "web3luo",
+      "display_name": "web3luo",
+      "bio": "Chinese web3 KOL",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Analyst",
+      "category_color": "cyan",
+      "tags": [
+        "CN",
+        "analyst",
+        "DeFi"
+      ],
+      "kol_index": 56,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 50,
+        "activity_score": 6,
+        "conviction_score": 6,
+        "tenure_years": 4
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "中性",
+      "voice": "CN web3 KOL (待 v5 scrape)",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "待 deeper scrape (v5)",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "DanaBuidl",
+      "display_name": "DanaBuidl",
+      "bio": "Chinese web3 builder / KOL",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Builder",
+      "category_color": "cyan",
+      "tags": [
+        "CN",
+        "builder"
+      ],
+      "kol_index": 55,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 40,
+        "activity_score": 6,
+        "conviction_score": 6,
+        "tenure_years": 3
+      },
+      "sentiment_score": 0.1,
+      "sentiment_label": "中性",
+      "voice": "CN web3 builder (待 v5 scrape)",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "待 deeper scrape (v5)",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "cryptonerdcn",
+      "display_name": "cryptonerdcn",
+      "bio": "Chinese crypto nerd / researcher",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "Analyst",
+      "category_color": "cyan",
+      "tags": [
+        "CN",
+        "analyst"
+      ],
+      "kol_index": 54,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 35,
+        "activity_score": 5,
+        "conviction_score": 6,
+        "tenure_years": 3
+      },
+      "sentiment_score": 0,
+      "sentiment_label": "中性",
+      "voice": "CN crypto researcher (待 v5 scrape)",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "待 deeper scrape (v5)",
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "handle": "thecryptoskanda",
+      "display_name": "thecryptoskanda",
+      "bio": "Crypto OG / Asia network",
+      "verified": true,
+      "language": "CN",
+      "followed": true,
+      "category": "OG Investor",
+      "category_color": "purple",
+      "tags": [
+        "CN",
+        "fund",
+        "VC",
+        "BTC-maxi"
+      ],
+      "kol_index": 62,
+      "winrate": null,
+      "winrate_sample": 0,
+      "metrics": {
+        "engagement_avg": 80,
+        "activity_score": 6,
+        "conviction_score": 7,
+        "tenure_years": 5
+      },
+      "sentiment_score": 0.1,
+      "sentiment_label": "中性",
+      "voice": "Asia crypto OG · 跟 nihaovand/Vand 大佬等的 network (待 v5 deeper scrape)",
+      "recent_actions": [
+        {
+          "date": "2026-06",
+          "action": "韩国出差 + Asia crypto network 活跃",
           "stance": "neutral"
         }
       ]
